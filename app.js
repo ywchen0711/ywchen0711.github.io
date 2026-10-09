@@ -16,7 +16,7 @@
       brand: '像素遊樂場', search: '搜尋遊戲…', lang: 'EN', recent: '繼續玩', favorites: '我的最愛', all: '所有遊戲', nothing: '找不到遊戲 😢',
       footer: '由 ywchen0711 製作的瀏覽器遊戲', howto: '怎麼玩：', play: '開始玩', newtab: '在新分頁開啟', back: '回到大廳',
       reload: '重新載入', fullscreen: '全螢幕', yourName: '你的名字', save: '好了！', guest: '玩家', isNew: '新遊戲！',
-      featured: '精選遊戲', played: '玩過 {n} 次', never: '還沒玩過', lastPlayed: '上次玩：{d}', players: '{n} 人',
+      featured: '精選遊戲', lab: '小遊戲實驗室', labNote: '早期的小實驗，簡單但好玩！', played: '玩過 {n} 次', never: '還沒玩過', lastPlayed: '上次玩：{d}', players: '{n} 人',
       today: '今天', daysAgo: '{n} 天前', touch: '手機可玩', keyboard: '鍵盤', resultsFor: '「{q}」的搜尋結果', everything: '全部',
       genre: { rpg: 'RPG', platformer: '平台跳躍', action: '動作', horror: '恐怖', puzzle: '解謎', strategy: '策略', sports: '運動' },
       hi: '嗨，{name}！'
@@ -25,7 +25,7 @@
       brand: 'Pixel Playground', search: 'Search games…', lang: '中文', recent: 'Continue playing', favorites: 'Favorites', all: 'All games', nothing: 'No games found 😢',
       footer: 'Browser games made by ywchen0711', howto: 'How to play:', play: 'Play', newtab: 'Open in new tab', back: 'Lobby',
       reload: 'Reload', fullscreen: 'Fullscreen', yourName: 'Your name', save: 'Done!', guest: 'Player', isNew: 'NEW!',
-      featured: 'Featured', played: 'Played {n}×', never: 'Not played yet', lastPlayed: 'Last played: {d}', players: '{n} players',
+      featured: 'Featured', lab: 'Mini-Game Lab', labNote: 'Early little experiments. Simple, but fun!', played: 'Played {n}×', never: 'Not played yet', lastPlayed: 'Last played: {d}', players: '{n} players',
       today: 'today', daysAgo: '{n} days ago', touch: 'Touch OK', keyboard: 'Keyboard', resultsFor: 'Results for "{q}"', everything: 'All',
       genre: { rpg: 'RPG', platformer: 'Platformer', action: 'Action', horror: 'Horror', puzzle: 'Puzzle', strategy: 'Strategy', sports: 'Sports' },
       hi: 'Hi, {name}!'
@@ -62,12 +62,16 @@
   function card(g) {
     var fav = state.favs.indexOf(g.id) >= 0, n = state.plays[g.id] || 0;
     return '<article class="card" tabindex="0" data-open="' + g.id + '" style="--c:' + g.color + '">' +
-      '<div class="thumb"><img src="' + g.thumb + '" alt="" loading="lazy"><div class="go"><span></span></div>' +
+      '<div class="thumb">' + art(g) + '<div class="go"><span></span></div>' +
       (isNew(g) ? '<span class="new">' + t('isNew') + '</span>' : '') +
       '<button class="heart' + (fav ? ' on' : '') + '" data-fav="' + g.id + '" aria-label="favorite" type="button">' + (fav ? '♥' : '♡') + '</button></div>' +
       '<div class="meta"><h4>' + esc(L(g.title)) + '</h4><div class="line">' +
       g.genres.slice(0, 2).map(function (x) { return '<span class="tag" style="--c:' + GENRE_COLOR[x] + '">' + t('genre.' + x) + '</span>'; }).join('') +
       '<span>' + (n ? t('played', { n: n }) : '') + '</span></div></div></article>';
+  }
+  // a picture, or for lab games a colorful tile with a big icon
+  function art(g) {
+    return g.thumb ? '<img src="' + g.thumb + '" alt="" loading="lazy">' : '<div class="icon-art" style="--c:' + g.color + '"><span>' + g.icon + '</span></div>';
   }
   function matches(g) {
     if (state.genre !== 'all' && g.genres.indexOf(state.genre) < 0) return false;
@@ -92,9 +96,11 @@
     }).join('');
   }
   function renderRows() {
-    var list = GAMES.filter(matches);
-    $('grid').innerHTML = list.map(card).join('');
+    var list = GAMES.filter(matches), main = state.q ? list : list.filter(function (g) { return !g.lab; }), lab = list.filter(function (g) { return g.lab; });
+    $('grid').innerHTML = main.map(card).join('');
     $('empty').hidden = list.length > 0;
+    $('row-lab').hidden = !lab.length || !!state.q;
+    $('lab').innerHTML = lab.map(card).join('');
     $('all-title').textContent = state.q ? t('resultsFor', { q: state.q }) : state.genre === 'all' ? t('all') : t('genre.' + state.genre);
     var recent = state.recent.map(function (r) { return byId(r.id); }).filter(Boolean);
     $('row-recent').hidden = !recent.length || !!state.q;
@@ -107,7 +113,7 @@
   // featured banner: the newest games take turns
   var heroIdx = 0, heroTimer = null;
   function renderHero() {
-    var list = GAMES.slice().sort(function (a, b) { return (b.added || '').localeCompare(a.added || ''); }).slice(0, 4);
+    var list = GAMES.filter(function (g) { return !g.lab; }).sort(function (a, b) { return (b.added || '').localeCompare(a.added || ''); }).slice(0, 4);
     $('hero').innerHTML = list.map(function (g, i) {
       return '<div class="slide' + (i === heroIdx ? ' on' : '') + '" style="--c:' + g.color + '"><div class="art"><img src="' + g.thumb + '" alt=""></div>' +
         '<div class="info"><span class="badge">' + (isNew(g) ? t('isNew') : t('featured')) + '</span><h1>' + esc(L(g.title)) + '</h1><p>' + esc(L(g.tagline)) + '</p>' +
@@ -125,7 +131,8 @@
 
   // ---------- details ----------
   function openDetails(g) {
-    $('m-art').style.backgroundImage = 'url(' + g.thumb + ')';
+    $('m-art').style.backgroundImage = g.thumb ? 'url(' + g.thumb + ')' : 'none';
+    $('m-art').innerHTML = g.thumb ? '' : art(g);
     $('m-title').textContent = L(g.title);
     $('m-tags').innerHTML = g.genres.map(function (x) { return '<span class="tag" style="--c:' + GENRE_COLOR[x] + '">' + t('genre.' + x) + '</span>'; }).join('') +
       '<span class="tag">' + t('players', { n: g.players }) + '</span>' +

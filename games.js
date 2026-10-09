@@ -7,6 +7,7 @@
  *   players   e.g. '1' or '1-2'
  *   added     'YYYY-MM-DD' — games added in the last 7 days get a NEW badge
  *   title / tagline / about / controls — { zh: '...', en: '...' }
+ *   lab: true + icon: '🎮'  — a small experiment: shown in the "Mini-Game Lab" row with a colorful icon instead of a picture
  */
 window.GAMES = [
   {
@@ -83,5 +84,39 @@ window.GAMES = [
     about:    { zh: '每位球員都有自己的能力值，比賽一球一球模擬，有文字轉播、比賽數據和球員名單。可以調整速度或直接模擬到結束。',
                 en: 'Every player has their own ratings and every pitch is simulated, with play-by-play, box scores and rosters. Change the speed or sim straight to the end.' },
     controls: { zh: '滑鼠點選「開始比賽」', en: 'Click "Start game"' }
+  },
+
+  // ---------- mini-game lab: small experiments ----------
+  {
+    id: 'dash', lab: true, icon: '🟦', url: '/game/geometry_dash.html', color: '#3b82f6',
+    genres: ['action'], devices: ['keyboard'], players: '1', added: '2026-08-01',
+    title:    { zh: '方塊衝刺', en: 'Geometry Dash' },
+    tagline:  { zh: '按空白鍵跳過障礙！', en: 'Press Space to jump over the obstacles!' },
+    about:    { zh: '一個小小的方塊一直往前衝，抓好時機跳起來。', en: 'A little square keeps running. Time your jumps.' },
+    controls: { zh: '空白鍵 跳', en: 'Space jump' }
+  },
+  {
+    id: 'mario', lab: true, icon: '🍄', url: '/game/mario.html', color: '#ef4444',
+    genres: ['platformer'], devices: ['keyboard'], players: '1', added: '2026-08-01',
+    title:    { zh: '炸彈與金幣', en: 'Bombs & Coins' },
+    tagline:  { zh: '在平台上跳來跳去，撿金幣、躲炸彈。', en: 'Hop across platforms, grab coins, dodge bombs.' },
+    about:    { zh: '最早的平台跳躍小實驗。', en: 'The very first platformer experiment.' },
+    controls: { zh: '← → 移動 · 空白鍵 跳', en: '← → move · Space jump' }
+  },
+  {
+    id: 'math', lab: true, icon: '➕', url: '/game/math.html', color: '#10b981',
+    genres: ['puzzle'], devices: ['keyboard', 'touch'], players: '1', added: '2026-08-01',
+    title:    { zh: '心算大挑戰', en: 'Math Quiz' },
+    tagline:  { zh: '60 秒內能答對幾題？', en: 'How many can you answer in 60 seconds?' },
+    about:    { zh: '加法心算計時挑戰。', en: 'A timed addition challenge.' },
+    controls: { zh: '輸入答案 · Enter 送出', en: 'Type the answer · Enter to submit' }
+  },
+  {
+    id: 'godzilla', lab: true, icon: '🦖', url: '/game/test2.html', color: '#8b5cf6',
+    genres: ['action'], devices: ['touch'], players: '1', added: '2026-08-01',
+    title:    { zh: '哥吉拉射擊', en: 'Godzilla Shooter' },
+    tagline:  { zh: '用手指拖著哥吉拉射擊！（手機、平板）', en: 'Drag Godzilla around and shoot! (phones and tablets)' },
+    about:    { zh: '觸控射擊小實驗，需要觸控螢幕。', en: 'A touch shooting experiment. Needs a touch screen.' },
+    controls: { zh: '手指拖動', en: 'Drag with your finger' }
   }
 ];
