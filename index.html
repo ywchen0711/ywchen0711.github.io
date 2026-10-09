@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>像素遊樂場 Pixel Playground</title>
+  <meta name="description" content="ywchen0711 的瀏覽器遊戲大廳：RPG、平台跳躍、恐怖、三國戰略、職棒模擬。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='4' width='14' height='9' rx='3' fill='%235b5bd6'/%3E%3Crect x='3' y='7' width='4' height='1.5' fill='white'/%3E%3Crect x='4.25' y='5.75' width='1.5' height='4' fill='white'/%3E%3Ccircle cx='11' cy='7' r='1' fill='%23ffd34d'/%3E%3Ccircle cx='12.5' cy='9' r='1' fill='%23ff6b8b'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#" data-home>
+      <span class="logo-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="logo-text" data-t="brand"></span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <input id="q" type="search" autocomplete="off">
+    </label>
+    <button class="pill" id="lang" type="button"></button>
+    <button class="me" id="me" type="button"><span class="avatar" id="avatar"></span><span id="myname"></span></button>
+  </header>
+
+  <main id="lobby">
+    <section class="hero" id="hero"></section>
+    <nav class="chips" id="chips"></nav>
+    <section class="row" id="row-recent" hidden><h2 data-t="recent"></h2><div class="scroller" id="recent"></div></section>
+    <section class="row" id="row-fav" hidden><h2 data-t="favorites"></h2><div class="scroller" id="favs"></div></section>
+    <section class="row"><h2 id="all-title" data-t="all"></h2><div class="grid" id="grid"></div><p class="empty" id="empty" data-t="nothing" hidden></p></section>
+    <footer><span data-t="footer"></span> · <a href="https://github.com/ywchen0711" target="_blank" rel="noopener">GitHub</a></footer>
+  </main>
+
+  <!-- game details -->
+  <div class="modal" id="modal" hidden>
+    <div class="sheet" role="dialog" aria-modal="true">
+      <button class="x" id="modal-x" type="button" aria-label="close">×</button>
+      <div class="sheet-art" id="m-art"></div>
+      <div class="sheet-body">
+        <h3 id="m-title"></h3>
+        <div class="tags" id="m-tags"></div>
+        <p id="m-about"></p>
+        <p class="controls"><b data-t="howto"></b> <span id="m-controls"></span></p>
+        <div class="actions">
+          <button class="play big" id="m-play" type="button"></button>
+          <button class="heart" id="m-fav" type="button"></button>
+          <a class="pill" id="m-tab" target="_blank" rel="noopener" data-t="newtab"></a>
+        </div>
+        <p class="stat" id="m-stat"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- playing a game -->
+  <div class="player" id="player" hidden>
+    <div class="bar">
+      <button class="back" id="back" type="button"><span aria-hidden="true">←</span> <span data-t="back"></span></button>
+      <span class="now" id="now"></span>
+      <span class="spacer"></span>
+      <button class="tool" id="reload" type="button" data-title="reload">⟳</button>
+      <button class="tool" id="full" type="button" data-title="fullscreen">⛶</button>
+    </div>
+    <div class="stage"><iframe id="frame" title="game" allow="fullscreen; autoplay; gamepad" allowfullscreen></iframe></div>
+  </div>
+
+  <!-- your name -->
+  <div class="modal" id="namebox" hidden>
+    <form class="sheet small" id="nameform">
+      <h3 data-t="yourName"></h3>
+      <input id="nameinput" maxlength="16" autocomplete="off">
+      <div class="colors" id="colors"></div>
+      <div class="actions"><button class="play" type="submit" data-t="save"></button></div>
+    </form>
+  </div>
+
+  <script src="games.js?v=1"></script>
+  <script src="app.js?v=1"></script>
+</body>
+</html>
