@@ -7,8 +7,8 @@
   'use strict';
   var GAMES = window.GAMES || [];
   var SITE = 'https://ywchen0711.github.io';
-  var GENRES = ['rpg', 'platformer', 'action', 'horror', 'puzzle', 'strategy', 'sports', 'learning'];
-  var GENRE_COLOR = { rpg: '#5b5bd6', platformer: '#e8913a', action: '#e0565b', horror: '#7a6a8a', puzzle: '#2aa3a3', strategy: '#c0533a', sports: '#2e9a3e', learning: '#2f6fde' };
+  var GENRES = ['rpg', 'platformer', 'action', 'racing', 'horror', 'puzzle', 'strategy', 'sports', 'learning'];
+  var GENRE_COLOR = { racing: '#e02828', rpg: '#5b5bd6', platformer: '#e8913a', action: '#e0565b', horror: '#7a6a8a', puzzle: '#2aa3a3', strategy: '#c0533a', sports: '#2e9a3e', learning: '#2f6fde' };
   var AVATAR_COLORS = ['#5b5bd6', '#12b76a', '#ff5c86', '#f59e0b', '#06b6d4', '#8b5cf6', '#ef4444', '#64748b'];
 
   var TEXT = {
@@ -18,7 +18,7 @@
       reload: '重新載入', fullscreen: '全螢幕', yourName: '你的名字', save: '好了！', guest: '玩家', isNew: '新遊戲！',
       featured: '精選遊戲', lab: '小遊戲實驗室', labNote: '早期的小實驗，簡單但好玩！', played: '玩過 {n} 次', never: '還沒玩過', lastPlayed: '上次玩：{d}', players: '{n} 人',
       today: '今天', daysAgo: '{n} 天前', touch: '手機可玩', keyboard: '鍵盤', resultsFor: '「{q}」的搜尋結果', everything: '全部',
-      genre: { rpg: 'RPG', platformer: '平台跳躍', action: '動作', horror: '恐怖', puzzle: '解謎', strategy: '策略', sports: '運動', learning: '學習' },
+      genre: { racing: '競速', rpg: 'RPG', platformer: '平台跳躍', action: '動作', horror: '恐怖', puzzle: '解謎', strategy: '策略', sports: '運動', learning: '學習' },
       hi: '嗨，{name}！'
     },
     en: {
@@ -27,7 +27,7 @@
       reload: 'Reload', fullscreen: 'Fullscreen', yourName: 'Your name', save: 'Done!', guest: 'Player', isNew: 'NEW!',
       featured: 'Featured', lab: 'Mini-Game Lab', labNote: 'Early little experiments. Simple, but fun!', played: 'Played {n}×', never: 'Not played yet', lastPlayed: 'Last played: {d}', players: '{n} players',
       today: 'today', daysAgo: '{n} days ago', touch: 'Touch OK', keyboard: 'Keyboard', resultsFor: 'Results for "{q}"', everything: 'All',
-      genre: { rpg: 'RPG', platformer: 'Platformer', action: 'Action', horror: 'Horror', puzzle: 'Puzzle', strategy: 'Strategy', sports: 'Sports', learning: 'Learning' },
+      genre: { racing: 'Racing', rpg: 'RPG', platformer: 'Platformer', action: 'Action', horror: 'Horror', puzzle: 'Puzzle', strategy: 'Strategy', sports: 'Sports', learning: 'Learning' },
       hi: 'Hi, {name}!'
     }
   };

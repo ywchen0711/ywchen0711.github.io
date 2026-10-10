@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'moto',
+    url: '/moto-rush/',
+    thumb: 'thumbs/moto.jpg?v=1',
+    color: '#e02828',
+    genres: ['racing', 'sports'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: 'Moto Rush 像素機車大賽', en: 'Moto Rush' },
+    tagline:  { zh: '公路賽和越野賽的像素機車競速：壓車過彎、氮氣加速、飛越跳台做特技。', en: 'Pixel motorbike racing: lean into bends on superbikes, fly off motocross jumps and pull tricks.' },
+    about:    { zh: '六條賽道：夕陽海岸、阿爾卑斯山道、霓虹城市（公路賽），峽谷沙塵、泥濘森林、火山稜線（越野賽，有跳台和空中特技）。選 Josh、Jasper、Jeff 或 Erin，和其他 7 位車手比賽；有單場比賽、三站積分的錦標賽和計時賽。急彎會把你往外甩，要記得煞車；緊跟在別人後面可以吸尾流補氮氣。',
+                en: 'Six tracks: Sunset Coast, Alpine Pass and Neon City for superbikes; Canyon Dust, Muddy Woods and Volcano Ridge for motocross, with jumps and mid-air tricks. Ride as Josh, Jasper, Jeff or Erin against seven rivals in a single race, a three-race championship or a time trial. Sharp bends throw you outwards, so brake in time; tuck in behind a rival to slipstream and refill your nitro.' },
+    controls: { zh: '↑ 油門 · ↓ 煞車 · ← → 轉向 · 空白鍵 氮氣／空中特技 · 手機有按鈕 · 支援手把', en: '↑ throttle · ↓ brake · ← → steer · Space nitro / mid-air trick · touch buttons on phones · gamepads work' }
+  },
+  {
     id: 'amc8',
     url: '/amc8-practice/',
     thumb: 'thumbs/amc8.jpg',
