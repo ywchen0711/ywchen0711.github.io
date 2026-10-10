@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'fruits',
+    url: '/find-the-fruits/',
+    thumb: 'thumbs/find-the-fruits.jpg?v=1',
+    color: '#ff5a7a',
+    genres: ['platformer', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: '尋找水果！', en: 'Find the Fruits!' },
+    tagline:  { zh: '像 Roblox 的尋寶遊戲：在五個 3D 世界找出 40 顆藏起來的水果，每顆都有徽章。', en: 'A Roblox-style treasure hunt: find 40 hidden fruits across five 3D worlds and earn a badge for each.' },
+    about:    { zh: '從水果廣場出發，穿過傳送門到熱帶島嶼、冰雪山峰、糖果廚房和天空神殿。有的水果就在眼前，有的要爬梯子、跑酷（岩漿、會消失的方塊、移動平台、旋轉棒、滑溜的冰），有的要解謎：找鑰匙、破解密碼、按對按鈕順序、趕在限時的門關上前衝進去，或發現假牆和看不見的路。難度從簡單到不可能，圖鑑裡每顆水果都有提示，進度會自動存檔。可以選 Josh、Jasper、Jeff、Erin 或 Noob 當角色。',
+                en: 'Start in Fruit Plaza and take the portals to Tropical Island, Frosty Peaks, Candy Kitchen and Sky Temple. Some fruits sit in plain sight; others need climbing and parkour (lava, vanishing blocks, moving platforms, spinning bars, slippery ice) or a puzzle: a key, a secret code, a colour sequence, a timed door, fake walls and invisible paths. Difficulty runs from Easy to Impossible, the Fruit Book has a hint for every fruit, and progress saves automatically. Play as Josh, Jasper, Jeff, Erin or a Noob.' },
+    controls: { zh: 'WASD / 方向鍵移動 · 空白鍵跳 · 拖曳滑鼠轉視角 · B 圖鑑 · 手機：搖桿 + 跳躍鍵', en: 'WASD / arrows to move · Space to jump · drag to look · B for the book · phone: stick + jump button' }
+  },
+  {
     id: 'soccer',
     url: '/pixel-soccer/',
     thumb: 'thumbs/soccer.jpg?v=1',
