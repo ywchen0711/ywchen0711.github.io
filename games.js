@@ -21,8 +21,8 @@ window.GAMES = [
     added: '2026-10-09',
     title:    { zh: 'AMC 8 數學練習', en: 'AMC 8 Practice' },
     tagline:  { zh: '計時作答 AMC 8 風格的數學題，做完看詳解學方法。', en: 'Timed AMC 8-style math problems with step-by-step solutions.' },
-    about:    { zh: '一次一題、邊做邊計時：完整模擬考（25 題 40 分鐘）、快速練習、單元練習和錯題複習。做完會告訴你正確答案、解題關鍵和一步一步的解說。英文為主，也有中文版。',
-                en: 'One problem at a time against the clock: a full mock test (25 problems in 40 minutes), quick practice, topic practice and a mistakes review. At the end you see the right answer, the key idea and a step-by-step explanation. English first, with a Chinese version.' },
+    about:    { zh: '一次一題、邊做邊計時：完整模擬考（25 題 40 分鐘）、快速 1 題、快速 10 題、單元練習和錯題複習。題目每次都隨機產生新的數字，永遠做不完。做完會告訴你正確答案、解題關鍵和一步一步的解說。英文為主，也有中文版。',
+                en: 'One problem at a time against the clock: a full mock test (25 problems in 40 minutes), Quick 1, Quick 10, topic practice and a mistakes review. Problems are generated with new numbers every time, so you never run out. At the end you see the right answer, the key idea and a step-by-step explanation. English first, with a Chinese version.' },
     controls: { zh: '點選答案或按 A–E · Enter 下一題', en: 'Click an answer or press A–E · Enter for the next problem' }
   },
   {
