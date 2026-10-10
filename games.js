@@ -88,7 +88,7 @@ window.GAMES = [
   {
     id: 'hoops',
     url: '/pixel-hoops/',
-    thumb: 'thumbs/hoops.jpg',
+    thumb: 'thumbs/hoops.jpg?v=2',
     color: '#e8742a',
     genres: ['sports', 'strategy'],
     devices: ['keyboard', 'touch'],
