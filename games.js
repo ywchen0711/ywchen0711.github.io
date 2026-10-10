@@ -86,6 +86,21 @@ window.GAMES = [
     controls: { zh: '滑鼠點選 · 戰鬥中用按鈕下指令', en: 'Click to play · use the buttons to give orders in battle' }
   },
   {
+    id: 'hoops',
+    url: '/pixel-hoops/',
+    thumb: 'thumbs/hoops.jpg',
+    color: '#e8742a',
+    genres: ['sports', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-09',
+    title:    { zh: '像素籃球', en: 'Pixel Hoops' },
+    tagline:  { zh: 'NBA 規則的全自動籃球模擬，看球員一回合一回合打下去。', en: 'An automatic basketball sim with NBA rules, played out possession by possession.' },
+    about:    { zh: '每隊 5 人上場、13 人名單，四節 12 分鐘、24 秒進攻、犯規加罰、六犯畢業和延長賽。每位球員都有內線、三分、傳球、防守、籃板等能力，會累也會換人。Josh Chen、Jasper Chen、Jeff Chen、Erin Lai 四位超級球員每場都在，隨機分到不同球隊和位置。',
+                en: '5 on the court, 13-man rosters, four 12-minute quarters, a 24-second shot clock, the bonus, foul-outs and overtime. Every player has ratings for inside scoring, threes, passing, defense, rebounding and more, gets tired and gets subbed. Josh Chen, Jasper Chen, Jeff Chen and Erin Lai are in every game on random teams and positions.' },
+    controls: { zh: '點「開始比賽」· 空白鍵暫停 · 可調速度或直接模擬到結束', en: 'Click "Tip off" · Space to pause · change the speed or sim to the end' }
+  },
+  {
     id: 'baseball',
     url: '/game/',
     thumb: 'thumbs/baseball.jpg',

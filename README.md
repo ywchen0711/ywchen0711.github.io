@@ -13,6 +13,7 @@ Chinese and English, light and dark mode, works on phones.
 | HUSH (horror) | /hush/ |
 | 三國志 霸王之路 (strategy) | /Sango/ |
 | 像素職棒模擬 (baseball sim) | /game/ |
+| 像素籃球 Pixel Hoops (basketball sim) | /pixel-hoops/ |
 | AMC 8 數學練習 (learning) | /amc8-practice/ |
 
 ## Adding a game
