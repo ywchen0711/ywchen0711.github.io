@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'sdtycoon',
+    url: '/sd-tycoon/',
+    thumb: 'thumbs/sdtycoon.jpg?v=1',
+    color: '#ff8a3a',
+    genres: ['board', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '2-4',
+    added: '2026-10-10',
+    title:    { zh: '聖地牙哥大亨', en: 'San Diego Tycoon' },
+    tagline:  { zh: '以聖地牙哥為主題的地產大亨桌遊：買下拉霍亞、在煤氣燈街區蓋旅館！', en: 'A property-trading board game around San Diego: buy La Jolla and build hotels in the Gaslamp!' },
+    about:    { zh: '40 格的聖地牙哥地圖：22 個社區分成 8 個顏色組，還有電車、海岸通勤列車、太平洋衝浪者號和機場，加上衝浪卡、塔可卡和「5 號公路塞車」。買地收租、湊齊整組蓋房子和旅館、抵押、拍賣、交易，一直玩到只剩一個人（或 20、40 回合）。2–4 人，每位都可以是真人或電腦。',
+                en: 'A 40-space San Diego board: 22 neighborhoods in 8 color groups, the Trolley, Coaster, Pacific Surfliner and the Airport, Surf and Taco cards, and I-5 traffic. Buy, collect rent, complete color groups to build houses and hotels, mortgage, auction and trade until one player is left (or after 20 or 40 rounds). 2–4 players, each a person or the computer.' },
+    controls: { zh: '滑鼠或觸控：點按鈕擲骰子、買地、結束回合 · 點格子看地契、蓋房子', en: 'Mouse or touch: buttons to roll, buy and end your turn · click a space for its deed and to build' }
+  },
+  {
     id: 'moto',
     url: '/moto-rush/',
     thumb: 'thumbs/moto.jpg?v=1',
