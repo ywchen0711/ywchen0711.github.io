@@ -54,7 +54,8 @@
   function isNew(g) { return g.added && (Date.now() - Date.parse(g.added)) / 864e5 < 7; }
   function gameUrl(g) {                                // on the real site paths work as-is; elsewhere (testing) point at the site
     if (/^https?:/.test(g.url)) return g.url;
-    return location.hostname === 'ywchen0711.github.io' ? g.url : SITE + g.url;
+    var u = location.hostname === 'ywchen0711.github.io' ? g.url : SITE + g.url;
+    return u + (u.indexOf('?') < 0 ? '?' : '&') + '_=' + Date.now();   // skip the browser's cached page so updates show at once
   }
   function ago(ts) { var d = Math.floor((Date.now() - ts) / 864e5); return d < 1 ? t('today') : t('daysAgo', { n: d }); }
 
