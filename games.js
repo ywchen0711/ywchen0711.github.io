@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'starsquad',
     url: '/star-squad/',
-    thumb: 'thumbs/starsquad.jpg?v=1',
+    thumb: 'thumbs/starsquad.jpg?v=2',
     color: '#3a8aff',
     genres: ['action'],
     devices: ['keyboard', 'touch'],
