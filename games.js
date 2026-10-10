@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'soccer',
+    url: '/pixel-soccer/',
+    thumb: 'thumbs/soccer.jpg?v=1',
+    color: '#2e9a3e',
+    genres: ['sports', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: '像素足球', en: 'Pixel Soccer' },
+    tagline:  { zh: '全自動足球模擬：11 人制，也有小朋友的 9、7、6、5 人制，每波進攻都畫出戰術。', en: 'An automatic soccer sim: 11v11 plus youth 9v9, 7v7, 6v6 and 5v5, with every attack’s tactic drawn out.' },
+    about:    { zh: '依球員能力一波一波模擬比賽：11 人制有越位、黃紅牌和傷停補時；兒童賽制有建構線、不能頭球、小球門和輪流上場。每次進攻都會跑一套戰術（短傳推進、邊路傳中、直塞、撞牆、反擊、轉移、個人突破、角球……），畫在戰術板上，還有兩隊的陣型。Josh Chen、Jasper Chen、Jeff Chen、Erin Lai 四位超級球員每場都在，隨機分到不同球隊和位置。',
+                en: 'Matches are simulated attack by attack from player ratings: 11v11 has offside, cards and stoppage time; the youth formats have the build-out line, no heading, small goals and rolling subs. Every attack runs a tactic (build-up, wing play, through ball, one-two, counter, switch, solo dribble, corners…) drawn on the playbook with both formations. Josh Chen, Jasper Chen, Jeff Chen and Erin Lai play in every match on random teams and positions.' },
+    controls: { zh: '選賽制 · 點「開球」· 空白鍵暫停 · 可調速度或直接模擬到結束', en: 'Pick a format · click "Kick off" · Space to pause · change the speed or sim to the end' }
+  },
+  {
     id: 'sdtycoon',
     url: '/sd-tycoon/',
     thumb: 'thumbs/sdtycoon.jpg?v=1',
