@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'starsquad',
+    url: '/star-squad/',
+    thumb: 'thumbs/starsquad.jpg?v=1',
+    color: '#3a8aff',
+    genres: ['action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: '星際小隊', en: 'Star Squad' },
+    tagline:  { zh: '直向捲軸射擊：四位駕駛員各有武器和技能，闖過五個星際關卡，打倒每關的 Boss，奪回星之心！', en: 'A vertical shooter: four pilots with their own weapons and skills fight through five stages and their bosses to win back the Star Heart!' },
+    about:    { zh: '虛空艦隊和零號將軍偷走了供應所有殖民星能源的「星之心」。Josh（散射、超光速衝刺）、Jasper（追蹤飛彈、飛彈風暴）、Jeff（雷射、鏡面護盾）、Erin（僚機、時間減速、浴火重生）組成星際小隊出擊。五個關卡：廢棄礦石帶、霓虹星港、水晶星雲、太陽熔爐、核心母艦，每關都有會變換攻擊的 Boss 和完整的劇情對話。打倒敵人收集能量幣，回機庫永久升級機體、購買炸彈和護盾等補給。',
+                en: 'The Void Armada and Admiral Null have stolen the Star Heart that powers every colony. Josh (spread shot, Hyper Dash), Jasper (homing missiles, Missile Storm), Jeff (laser, Mirror Shield) and Erin (drones, Time Warp, Phoenix Rebirth) launch as Star Squad. Five stages (Asteroid Belt, Neon Orbital Station, Crystal Nebula, Solar Forge, Dreadnought Core), each with a shape-shifting boss and full story dialogue. Collect credits to upgrade your ship for good and buy bombs, shields and other supplies.' },
+    controls: { zh: '方向鍵 / WASD 移動 · 自動射擊 · 空白鍵技能 · B 炸彈 · 手機：拖曳畫面移動', en: 'Arrows / WASD to move · auto-fire · Space skill · B bomb · phone: drag to fly' }
+  },
+  {
     id: 'coaster',
     url: '/coaster-builder/',
     thumb: 'thumbs/coaster.jpg?v=1',
