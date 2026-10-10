@@ -2,7 +2,7 @@
  * The game list. To add a game: add an entry here and put a 16:9 picture in thumbs/ (960x540 is nice).
  *   id        short name, used in the address (#play/id) and for favorites / recently played
  *   url       where the game lives (a path on this site, like /my-game/, or a full https:// address)
- *   genres    any of: rpg, platformer, horror, strategy, sports, action, puzzle (see GENRES in app.js)
+ *   genres    any of: rpg, platformer, horror, strategy, sports, action, puzzle, learning (see GENRES in app.js)
  *   devices   'keyboard' and/or 'touch'
  *   players   e.g. '1' or '1-2'
  *   added     'YYYY-MM-DD' — games added in the last 7 days get a NEW badge
@@ -10,6 +10,21 @@
  *   lab: true + icon: '🎮'  — a small experiment: shown in the "Mini-Game Lab" row with a colorful icon instead of a picture
  */
 window.GAMES = [
+  {
+    id: 'amc8',
+    url: '/amc8-practice/',
+    thumb: 'thumbs/amc8.jpg',
+    color: '#2f6fde',
+    genres: ['learning', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-09',
+    title:    { zh: 'AMC 8 數學練習', en: 'AMC 8 Practice' },
+    tagline:  { zh: '計時作答 AMC 8 風格的數學題，做完看詳解學方法。', en: 'Timed AMC 8-style math problems with step-by-step solutions.' },
+    about:    { zh: '一次一題、邊做邊計時：完整模擬考（25 題 40 分鐘）、快速練習、單元練習和錯題複習。做完會告訴你正確答案、解題關鍵和一步一步的解說。英文為主，也有中文版。',
+                en: 'One problem at a time against the clock: a full mock test (25 problems in 40 minutes), quick practice, topic practice and a mistakes review. At the end you see the right answer, the key idea and a step-by-step explanation. English first, with a Chinese version.' },
+    controls: { zh: '點選答案或按 A–E · Enter 下一題', en: 'Click an answer or press A–E · Enter for the next problem' }
+  },
   {
     id: 'rpg',
     url: '/josh-jasper-rpg/',
