@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'coaster',
+    url: '/coaster-builder/',
+    thumb: 'thumbs/coaster.jpg?v=1',
+    color: '#3a7aff',
+    genres: ['sim', 'learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: '雲霄飛車設計師', en: 'Coaster Builder' },
+    tagline:  { zh: '一段一段蓋出自己的 3D 雲霄飛車，再坐上去試乘：迴圈、失重、G 力都照物理算。', en: 'Build your own 3D roller coaster piece by piece, then ride it: loops, airtime and G-forces follow real physics.' },
+    about:    { zh: '從車站出發，用直線、上下坡、彎道、迴圈、加速器、煞車和鏈條爬坡蓋軌道，最後接回車站（也可以按「自動接回車站」）。試乘時車子照能量和摩擦力跑，爬不上去就會卡住；可以切換車頭視角。結束後會算出刺激度、強度、噁心度，坐在前面的四位超級玩家 Josh Chen（愛速度）、Jasper Chen（愛翻轉）、Jeff Chen（愛失重）、Erin Lai（愛舒服）會大叫、給星星和評語，完成他們的挑戰還能拿徽章。',
+                en: 'Start at the station and lay straights, slopes, turns, loops, boosters, brakes and chain lifts, then connect back to the station (or press Auto-finish). The test ride runs on energy and friction, so a train can get stuck on a hill; try the front-seat view. Afterwards you get excitement, intensity and nausea, and the four super users in the front cars, Josh Chen (speed), Jasper Chen (loops), Jeff Chen (airtime) and Erin Lai (smooth rides), shout, give stars and comments. Beat their challenges for badges.' },
+    controls: { zh: '點軌道按鈕蓋軌道 · 拖曳轉視角、滾輪縮放 · Backspace 拆掉上一段 · Enter 試乘', en: 'Click the track buttons to build · drag to look, wheel to zoom · Backspace removes the last piece · Enter rides' }
+  },
+  {
     id: 'fruits',
     url: '/find-the-fruits/',
     thumb: 'thumbs/find-the-fruits.jpg?v=1',
