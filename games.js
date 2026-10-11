@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'littleheroes',
+    url: '/little-heroes-brawl/',
+    thumb: 'thumbs/littleheroes.jpg?v=1',
+    color: '#e8402a',
+    genres: ['action', 'rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1-2',
+    added: '2026-10-10',
+    title:    { zh: '小英雄齊打交', en: 'Little Heroes Brawl' },
+    tagline:  { zh: '像小朋友齊打交的 2.5D 格鬥：打架得到經驗值升級、學技能升技能，用金幣買裝備和道具。', en: 'A 2.5D brawler like the classic: fighting earns EXP, level up to learn and upgrade moves, and spend gold on gear and items.' },
+    about:    { zh: '8 位原創小英雄（火、冰、雷、武術、弓箭、忍者、治療、大地），每人 6 招必殺技，用「防禦→方向→攻擊/跳」放招。打架得到經驗值，升級拿技能點學新招、把招式升到 5 級；打倒敵人掉金幣，可以買拳套、衣服、鞋子、護身符和牛奶、便當、炸彈等道具。有 5 關闖關模式（每關都有魔王）、無限生存模式、和電腦英雄對戰，場上還能撿球棒、石頭、木箱來丟。可以 1 人或 2 人同一台一起玩。',
+                en: '8 original little heroes (fire, ice, lightning, martial arts, archer, ninja, healer, earth), each with 6 special moves cast with Defend, direction, Attack/Jump. Fighting earns EXP; levels give skill points to learn moves and upgrade them to level 5. Beaten foes drop gold for gloves, clothes, shoes, charms and items like milk, bento and bombs. Five story stages with bosses, endless survival, and VS against CPU heroes, plus bats, stones and crates to pick up and throw. 1 or 2 players on one device.' },
+    controls: { zh: '方向鍵 移動 · Z 攻擊 · X 跳 · C 防禦 · 1–6 技能 · Q/W/E 道具 · 2 人：WASD+FGH / 方向鍵+JKL · 支援搖桿與手機', en: 'Arrows move · Z attack · X jump · C defend · 1–6 skills · Q/W/E items · 2P: WASD+FGH / arrows+JKL · gamepads and phones too' }
+  },
+  {
     id: 'moonshadow',
     url: '/moonshadow-castle/',
     thumb: 'thumbs/moonshadow.jpg?v=1',
