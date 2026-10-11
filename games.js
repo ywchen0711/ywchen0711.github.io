@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'holdem',
+    url: '/holdem-night/',
+    thumb: 'thumbs/holdem.jpg?v=1',
+    color: '#d8304a',
+    genres: ['board', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1-8',
+    added: '2026-10-10',
+    title:    { zh: '德州撲克之夜', en: "Hold'em Night" },
+    tagline:  { zh: '和朋友連線打德州撲克：建立房間、傳連結，最多 8 人，也能加電腦。只用遊戲籌碼。', en: "Online Texas Hold'em with friends: create a room, share the link, up to 8 players plus bots. Play chips only." },
+    about:    { zh: '一個人建立房間，把 6 個字的房間代碼或連結傳給朋友就能一起打牌。不需要帳號或伺服器，瀏覽器之間直接連線，房主的瀏覽器負責發牌，每個人只會收到自己的底牌。完整的無限注德州撲克規則：盲注、四輪下注、加注、全下和邊池、攤牌比牌、平分彩池。有思考時間、補充籌碼、斷線重連、聊天和表情。也可以單獨和電腦練習。',
+                en: "One player creates a room and shares the 6-letter code or link, and everyone sits down together. No accounts or servers: the browsers connect directly, the host's browser deals and each player only receives their own hole cards. Full no-limit Hold'em: blinds, four betting rounds, raises, all-ins with side pots, showdowns and split pots. Turn timer, rebuys, reconnecting, chat and emoji. You can also practise alone against bots." },
+    controls: { zh: '點按操作 · 棄牌 / 過牌 / 跟注 / 加注（滑桿或 ½ 池、⅔ 池、底池、全下）', en: 'Tap / click · fold / check / call / raise (slider or ½ pot, ⅔ pot, pot, all-in)' }
+  },
+  {
     id: 'monsters',
     url: '/monster-masters/',
     thumb: 'thumbs/monsters.jpg?v=2',
