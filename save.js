@@ -43,7 +43,7 @@ async function rest(path, opt = {}) {
 // pull: true when the server copy was newer and has been written into localStorage (the game should reload it)
 export async function pull(game, localKey, timeoutMs = 4000) {
   try {
-    const r = await Promise.race([rest(`saves?game=eq.${encodeURIComponent(game)}&select=data,updated_at`), new Promise((_, no) => setTimeout(() => no(new Error('timeout')), timeoutMs))]);
+    const r = await Promise.race([rest(`game_saves?game=eq.${encodeURIComponent(game)}&select=data,updated_at`), new Promise((_, no) => setTimeout(() => no(new Error('timeout')), timeoutMs))]);
     if (!r.ok) throw new Error('pull ' + r.status);
     const rows = await r.json(), row = rows[0];
     const localT = Number(ls.get(tKey(localKey)) || 0), local = ls.get(localKey);
@@ -67,7 +67,7 @@ async function upload(game, localKey, keepalive = false) {
   const t = Number(ls.get(tKey(localKey)) || Date.now());
   const s = keepalive ? session : await getSession(); if (!s) return;
   const body = JSON.stringify({ user_id: s.user.id, game, data: JSON.parse(raw), updated_at: new Date(t).toISOString() });
-  const r = await fetch(SB_URL + '/rest/v1/saves?on_conflict=user_id,game', { method: 'POST', keepalive, body,
+  const r = await fetch(SB_URL + '/rest/v1/game_saves?on_conflict=user_id,game', { method: 'POST', keepalive, body,
     headers: { apikey: SB_KEY, Authorization: 'Bearer ' + s.access_token, 'Content-Type': 'application/json', Prefer: 'resolution=merge-duplicates,return=minimal' } });
   if (!r.ok) throw new Error('push ' + r.status);
   setState('synced');
