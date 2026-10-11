@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'monsters',
     url: '/monster-masters/',
-    thumb: 'thumbs/monsters.jpg?v=1',
+    thumb: 'thumbs/monsters.jpg?v=2',
     color: '#ff7a3a',
     genres: ['rpg', 'strategy'],
     devices: ['keyboard', 'touch'],
