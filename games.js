@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'moonshadow',
+    url: '/moonshadow-castle/',
+    thumb: 'thumbs/moonshadow.jpg?v=1',
+    color: '#6a2ab0',
+    genres: ['action', 'rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: '月影城：夜之狂想曲', en: 'Moonshadow Castle' },
+    tagline:  { zh: '像月下狂想曲一樣的古堡探索動作 RPG：收集聖遺物打開新路線，擊敗五個魔王，救出妹妹。', en: 'A gothic castle-exploration action RPG like Symphony of the Night: find relics to open new paths, beat five bosses, save your sister.' },
+    about:    { zh: '每隔一百年，月亮會在月影城上空變黑，吸血鬼伯爵沃拉斯擄走了月之巫女艾莉絲。扮演她的哥哥──銀髮劍士路西安，自由探索相連的 37 個房間：城門大廳、地下墓穴、漫長圖書館、鐘樓與王座之塔。找到躍石（二段跳）、影之披風（滑鏟）、蝙蝠之翼（變身蝙蝠飛行）才能前往新的區域。有等級與能力值、武器防具飾品、藥水、副武器（飛刀、斧頭、聖水、十字架）、圖書館員的商店、存檔點、地圖與探索度，以及 9 種敵人和 5 個各有招式的魔王。',
+                en: 'Once every hundred years the moon turns black over Moonshadow Castle, and Count Vorlath has taken Elise, the last moon priestess. Play as her brother Lucien and freely explore 37 connected rooms: the Entrance Hall, Catacombs, Long Library, Clock Tower and Keep. Find the Leap Stone (double jump), Shadow Cloak (slide) and Bat Wing (fly as a bat) to reach new areas. Levels and stats, weapons, armour and rings, potions, sub-weapons (dagger, axe, holy water, cross), the librarian\'s shop, save rooms, a map with exploration %, 9 enemy types and 5 bosses with their own attacks.' },
+    controls: { zh: '←→ 移動 · ↓ 蹲 · Z 跳 · X 攻擊 · ↑+X / C 副武器 · A 後跳 · S 蝙蝠 · Enter 選單 · M 地圖 · 手機有虛擬搖桿與按鈕', en: '←→ move · ↓ crouch · Z jump · X attack · ↑+X / C sub-weapon · A backdash · S bat · Enter menu · M map · on-screen stick and buttons on phones' }
+  },
+  {
     id: 'holdem',
     url: '/holdem-night/',
     thumb: 'thumbs/holdem.jpg?v=1',
