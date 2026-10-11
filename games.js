@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'monsters',
+    url: '/monster-masters/',
+    thumb: 'thumbs/monsters.jpg?v=1',
+    color: '#ff7a3a',
+    genres: ['rpg', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-10',
+    title:    { zh: '怪物大師', en: 'Monster Masters' },
+    tagline:  { zh: '像寶可夢加勇者鬥惡龍怪物仙境：抓怪、養成、合成 150 種怪物，還有隱藏的彩虹色！', en: 'Like Pokémon meets Dragon Quest Monsters: catch, raise and fuse 150 monsters, and hunt for hidden rainbow colours!' },
+    about:    { zh: '150 種怪物、15 種屬性和完整的屬性相剋、200 個技能。每隻怪物有 4 種隨機顏色，還有 1/128 機率出現的隱藏彩虹色。10 個區域一開始就能自由進出，一直打怪、抓怪，挑戰各區的怪物使，也會遇到流浪的怪物使。在城鎮的合成研究所把兩隻怪物合成更高階的怪物，繼承技能、累積 +值。',
+                en: '150 monsters, 15 types with a full type chart and 200 skills. Every monster comes in 4 random colours plus a hidden rainbow colour (1 in 128). All 10 areas are open from the start: battle and catch monsters, challenge each area\'s tamers and meet wandering ones. In town, the Fusion Lab combines two monsters into a stronger one that inherits skills and a plus bonus.' },
+    controls: { zh: '點按操作 · 戰鬥選招式、換怪、背包、收服、逃跑', en: 'Tap / click · in battle pick a skill, switch, bag, catch or run' }
+  },
+  {
     id: 'starsquad',
     url: '/star-squad/',
     thumb: 'thumbs/starsquad.jpg?v=2',
