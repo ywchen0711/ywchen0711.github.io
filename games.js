@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'littleheroes',
     url: '/little-heroes-brawl/',
-    thumb: 'thumbs/littleheroes.jpg?v=2',
+    thumb: 'thumbs/littleheroes.jpg?v=3',
     color: '#e8402a',
     genres: ['action', 'rpg'],
     devices: ['keyboard', 'touch'],
