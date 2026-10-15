@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'familycards',
+    url: '/family-sanity-showdown/',
+    thumb: 'thumbs/familycards.jpg?v=1',
+    color: '#d8407a',
+    genres: ['strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1-2',
+    added: '2026-10-15',
+    title:    { zh: '家庭理智大作戰', en: 'Family Sanity Showdown' },
+    tagline:  { zh: 'Jeff、Erin、Josh、Jasper 的家庭卡牌對決：花能量出牌，把對手的理智值打到 0！', en: 'A family card battle with Jeff, Erin, Josh and Jasper: spend energy on cards and drive your opponent\'s sanity to 0!' },
+    about:    { zh: '180 張卡牌：20 張角色、70 張行動、50 張道具、40 張場地。四位家人各有理智值和被動技能：Jeff 冷笑話傷害 +1、Erin 回復更多、Josh 手牌少時多抽、Jasper 可愛臉擋傷害。每回合能量 +1，抽牌、出牌、放道具、請朋友來幫忙、換場地改規則。可以對戰電腦（簡單／普通），也可以兩人用同一台輪流玩。', en: '180 cards: 20 characters, 70 actions, 50 items and 40 locations. Each family member has their own sanity and a passive: Jeff\'s dad jokes hit harder, Erin heals more, Josh draws extra when low on cards, and Jasper\'s cute face softens big hits. Energy grows every turn; draw, play actions, set up items, invite visitors and change the location to bend the rules. Play the computer (easy / normal) or a friend on the same device.' },
+    controls: { zh: '點卡牌查看並打出 · 結束回合按鈕 · 手機和電腦都可以玩', en: 'Tap a card to see it and play it · End Turn button · works on phones and computers' }
+  },
+  {
     id: 'littleheroes',
     url: '/little-heroes-brawl/',
     thumb: 'thumbs/littleheroes.jpg?v=3',
