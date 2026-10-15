@@ -154,3 +154,23 @@ footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: 1
 .sheet-art .icon-art span { font-size: 110px; }
 .grid.lab { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
 .note { margin: -6px 0 12px; color: var(--muted); font-size: 14px; }
+
+/* ---------- account ---------- */
+.acct { white-space: nowrap; max-width: 180px; overflow: hidden; text-overflow: ellipsis; }
+.acct.in { background: color-mix(in srgb, var(--play) 14%, var(--panel)); }
+.acctsheet { position: relative; display: flex; flex-direction: column; gap: 10px; }
+.acctsheet h3 { margin: 0 30px 2px 0; }
+.af { display: flex; flex-direction: column; gap: 4px; font-weight: 800; font-size: 14px; }
+.af input { font-size: 17px; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--bg); }
+.anote { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
+.acct-id { margin: 0; font-size: 16px; word-break: break-all; }
+.alinks { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+.alink { border: 0; background: none; color: var(--brand); font-weight: 800; padding: 4px 0; font-size: 14px; }
+.acol { display: flex; flex-direction: column; gap: 8px; }
+.acol .pill { text-align: left; }
+.pill.danger { color: #e0405b; }
+.amsg { margin: 0; padding: 8px 12px; border-radius: 10px; font-weight: 800; font-size: 14px; }
+.amsg.ok { background: color-mix(in srgb, var(--play) 16%, transparent); }
+.amsg.bad { background: color-mix(in srgb, #ff5c86 18%, transparent); color: #c0284a; }
+.acctsheet .play { width: 100%; }
+@media (max-width: 560px) { .acct { max-width: 110px; } }
