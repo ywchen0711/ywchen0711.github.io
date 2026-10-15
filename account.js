@@ -111,10 +111,11 @@ form.addEventListener('submit', (e) => {
   if (form.elements.email && !okEmail(email)) return bad('badEmail');
   if (form.elements.pw && v('pw').length < 6) return bad('short');
   if (form.elements.pw2 && v('pw') !== v('pw2')) return bad('mismatch');
-  if (view === 'login') run(async () => { const a = await cloud.logIn(email, v('pw')); view = 'account'; msg = { ok: true, text: T('welcome', { e: a.email }) }; });
-  else if (view === 'signup') run(async () => { const a = await cloud.signUp(email, v('pw')); view = 'account'; msg = { ok: true, text: T('created', { e: a.email }) }; });
+  const pw = v('pw');                      // read now: run() redraws the form (and its inputs) before the request
+  if (view === 'login') run(async () => { const a = await cloud.logIn(email, pw); view = 'account'; msg = { ok: true, text: T('welcome', { e: a.email }) }; });
+  else if (view === 'signup') run(async () => { const a = await cloud.signUp(email, pw); view = 'account'; msg = { ok: true, text: T('created', { e: a.email }) }; });
   else if (view === 'forgot') run(async () => { await cloud.resetPassword(email, location.origin + location.pathname); msg = { ok: true, text: T('sent', { e: email }) }; });
-  else if (view === 'newpw') run(async () => { await cloud.setPassword(v('pw')); view = 'account'; msg = { ok: true, text: T('pwDone') }; });
+  else if (view === 'newpw') run(async () => { await cloud.setPassword(pw); view = 'account'; msg = { ok: true, text: T('pwDone') }; });
 });
 form.addEventListener('click', (e) => {
   const b = e.target.closest('button'); if (!b || busy) return;
