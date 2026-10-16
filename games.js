@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'eightfold',
+    url: '/eightfold-saga/',
+    thumb: 'thumbs/eightfold.jpg?v=1',
+    color: '#5a3a9a',
+    genres: ['rpg', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-16',
+    title:    { zh: '八星傳說：邪神復甦', en: 'Eightfold Saga' },
+    tagline:  { zh: '像復活邪神一樣的自由劇本 RPG：八位主角任選，戰鬥中「閃現」新招式，15 種武器、8 種相剋魔法，收集命運之石打倒邪神。', en: 'A Romancing SaGa-style free-scenario RPG: pick one of eight heroes, glimmer new techniques mid-battle, 15 weapon types and 8 opposed schools of magic, gather the Fate Stones to face the evil god.' },
+    about:    { zh: '千年前，八位英雄用十顆命運之石封印了邪神索拉克斯；如今四使徒甦醒，石頭散落各地。從傑夫、艾琳、喬許、賈斯柏、莉亞、葛雷斯、千鶴、莫羅之中選一位主角，各有自己的家鄉與序章，其他人可以在旅途中結識、加入隊伍，還能在公會雇用十位夥伴。沒有等級：戰鬥後 HP、能力、武器與魔法熟練度會成長；招式不用買，攻擊時會隨機「閃現」，越強的敵人越能領悟高級技（15 種武器各 10 招，共 150 招）。8 種魔法兩兩相剋（火↔水、風↔地、光↔闇、星↔靈），64 種術也能在施法時閃現。HP 戰後全滿，但 LP、WP、JP 只能在旅店恢復；戰鬥越多「戰鬥等級」越高，怪物也越強。15 個城鎮、29 座地城（137 層隨機生成的樓層）、30 個頭目、酒館傳聞、支線任務、四使徒與十顆命運之石，石頭越多邪神越弱。設計遊玩時間約 35–40 小時，通關後也能繼續冒險。',
+                en: 'A thousand years ago eight heroes sealed the evil god Sorrax with ten Fate Stones; now his four apostles have woken and the stones are scattered. Choose Jeff, Erin, Josh, Jasper, Lyra, Gareth, Chizuru or Morrow, each with their own home and prologue; meet and recruit the others on your journey, or hire ten companions at guilds. There are no levels: HP, stats and weapon and magic proficiency grow after battles. Techniques are never bought: they glimmer at random when you attack, and stronger enemies teach harder ones (15 weapon types with 10 techniques each). Eight schools of magic oppose each other in pairs, and their 64 spells glimmer too. HP refills after each battle, but LP, WP and JP only come back at inns, and the battle rank makes monsters stronger the more you fight. 15 towns, 29 dungeons (137 generated floors), 30 bosses, pub rumours, side quests, four apostles and ten Fate Stones: the more you hold, the weaker the god. Designed for about 35–40 hours, and you can keep playing after the ending.' },
+    controls: { zh: '方向鍵/WASD 在地城移動 · Enter/Z 下一句 · M/Esc 選單 · X 返回 · 手機有方向鍵與按鈕', en: 'Arrows/WASD move in dungeons · Enter/Z next line · M/Esc menu · X back · touch d-pad and buttons on phones' },
+  },
+  {
     id: 'canyonkids',
     url: '/canyon-kids-comic/',
     thumb: 'thumbs/canyonkids.jpg?v=2',
