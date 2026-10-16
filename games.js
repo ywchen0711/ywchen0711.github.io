@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'canyonkids',
     url: '/canyon-kids-comic/',
-    thumb: 'thumbs/canyonkids.jpg?v=1',
+    thumb: 'thumbs/canyonkids.jpg?v=2',
     color: '#ffcf3a',
     genres: ['story', 'learning'],
     devices: ['keyboard', 'touch'],
