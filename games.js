@@ -2,7 +2,7 @@
  * The game list. To add a game: add an entry here and put a 16:9 picture in thumbs/ (960x540 is nice).
  *   id        short name, used in the address (#play/id) and for favorites / recently played
  *   url       where the game lives (a path on this site, like /my-game/, or a full https:// address)
- *   genres    any of: rpg, platformer, horror, strategy, sports, action, puzzle, learning (see GENRES in app.js)
+ *   genres    any of: rpg, story, platformer, horror, strategy, sports, action, puzzle, learning (see GENRES in app.js)
  *   devices   'keyboard' and/or 'touch'
  *   players   e.g. '1' or '1-2'
  *   added     'YYYY-MM-DD' — games added in the last 7 days get a NEW badge
@@ -10,6 +10,20 @@
  *   lab: true + icon: '🎮'  — a small experiment: shown in the "Mini-Game Lab" row with a colorful icon instead of a picture
  */
 window.GAMES = [
+  {
+    id: 'canyonkids',
+    url: '/canyon-kids-comic/',
+    thumb: 'thumbs/canyonkids.jpg?v=1',
+    color: '#ffcf3a',
+    genres: ['story', 'learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-15',
+    title:    { zh: '峽谷小英雄：Josh & Jasper 的加州日記', en: 'Canyon Kids: The Josh & Jasper Diaries' },
+    tagline:  { zh: '互動漫畫：住在聖地牙哥的 Josh、Jasper 和爸爸 Jeff、媽媽 Erin，有溫馨、有驚悚、也有熱血的冒險。由你決定故事怎麼走！', en: 'An interactive comic about Josh, Jasper, Dad Jeff and Mom Erin in San Diego — heartwarming, spooky and full of adventure. You choose how the story goes!' },
+    about:    { zh: '四年級的 Josh 和二年級的 Jasper 住在聖地牙哥的峽谷旁，爸爸 Jeff 是第一代移民的電腦工程師，媽媽 Erin 是全家的定心丸。四個章節：開學第一天的水餃午餐（溫馨）、停電夜裡峽谷中的藍光與郊狼（驚悚）、在車庫打造機器人參加比賽（熱血）、聖塔安娜風帶來的野火疏散（冒險）。一格一格點開漫畫，在關鍵時刻替角色做選擇，還要用手電筒找東西、接電線修機器人、收拾緊急背包。每章都有不同結局，中英文都可以讀。虛構故事。', en: "Fourth-grader Josh and second-grader Jasper live by a canyon in San Diego with Dad Jeff, a first-generation immigrant software engineer, and Mom Erin, the family's calm center. Four chapters: a first-day dumpling lunch (heartwarming), blue lights and a coyote in the canyon during a blackout (spooky), a garage-built robot in a big competition (action), and a wildfire evacuation in the Santa Ana wind (adventure). Tap through the panels, make choices at key moments, search the dark with a flashlight, rewire a robot and pack a go-bag. Every chapter has multiple endings, in Chinese and English. A work of fiction." },
+    controls: { zh: '點畫面或按空白鍵 / → 看下一格 · ← 上一頁 · 點選項做決定', en: 'Tap or press Space / → for the next panel · ← previous page · tap an option to choose' }
+  },
   {
     id: 'familycards',
     url: '/family-sanity-showdown/',
