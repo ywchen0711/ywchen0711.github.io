@@ -317,11 +317,11 @@ window.GAMES = [
     devices: ['keyboard', 'touch'],
     players: '1',
     added: '2026-09-01',
-    title:    { zh: '像素職棒模擬', en: 'Pixel Baseball Sim' },
-    tagline:  { zh: '能力值驅動的職棒比賽模擬，看你的球隊一球一球打下去。', en: 'A stat-driven pro baseball simulator. Watch your team play it out pitch by pitch.' },
-    about:    { zh: '每位球員都有自己的能力值，比賽一球一球模擬，有文字轉播、比賽數據和球員名單。可以調整速度或直接模擬到結束。',
-                en: 'Every player has their own ratings and every pitch is simulated, with play-by-play, box scores and rosters. Change the speed or sim straight to the end.' },
-    controls: { zh: '滑鼠點選「開始比賽」', en: 'Click "Start game"' }
+    title:    { zh: '像素職棒', en: 'Pixel Baseball' },
+    tagline:  { zh: '抽球員卡包、排陣容，帶自己的球隊從業餘一路打上傳奇聯盟！', en: 'Open player packs, set your lineup and take your club from the amateur league to the legends.' },
+    about:    { zh: '創立自己的球隊，用金幣抽卡包收集 N 到 UR 共 216 位球員，重複抽到會升星。排好打線、先發輪值和牛棚，在六隊聯盟中爭冠——前兩名升級、最後一名降級。比賽在夜間球場一球一球模擬，球員越打越強。',
+                en: 'Found your own club and spend coins on card packs to collect 216 players from N to UR; duplicates raise their stars. Set the batting order, rotation and bullpen, then fight for the pennant in a six-team league where the top two go up and the last goes down. Every pitch plays out in a night ballpark and your players level up as they play.' },
+    controls: { zh: '滑鼠點選：抽卡、陣容、觀看比賽或快速模擬', en: 'Click: open packs, set the lineup, watch or quick-sim games' }
   },
 
   // ---------- mini-game lab: small experiments ----------
