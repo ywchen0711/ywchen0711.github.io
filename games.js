@@ -319,8 +319,8 @@ window.GAMES = [
     added: '2026-09-01',
     title:    { zh: '像素職棒', en: 'Pixel Baseball' },
     tagline:  { zh: '抽球員卡包、排陣容，帶自己的球隊從業餘一路打上傳奇聯盟！', en: 'Open player packs, set your lineup and take your club from the amateur league to the legends.' },
-    about:    { zh: '創立自己的球隊，用金幣抽卡包收集 N 到 LR 共 224 位球員（還有 4 位隱藏超級球員），每張卡隨機帶有 200 種技能中的幾種，重複抽到會升星。排好打線、先發輪值和牛棚，在六隊聯盟中爭冠——前兩名升級、最後一名降級。比賽在夜間球場一球一球模擬，球員越打越強。',
-                en: 'Found your own club and spend coins on card packs to collect 224 players from N to LR (plus 4 hidden superstars), each carrying random skills from a pool of 200; duplicates raise their stars. Set the batting order, rotation and bullpen, then fight for the pennant in a six-team league where the top two go up and the last goes down. Every pitch plays out in a night ballpark and your players level up as they play.' },
+    about:    { zh: '創立自己的球隊，用金幣抽卡包收集 N 到 LR 共 224 位球員（還有 4 位隱藏超級球員），每張卡隨機帶有 200 種技能中的幾種，重複抽到會升星。排好打線、先發輪值和牛棚，在六隊聯盟中爭冠——前兩名升級、最後一名降級；也能報名新人盃到傳奇盃六種盃賽，名次越高獎金和卡包越好。比賽在夜間球場一球一球模擬，球員越打越強。',
+                en: 'Found your own club and spend coins on card packs to collect 224 players from N to LR (plus 4 hidden superstars), each carrying random skills from a pool of 200; duplicates raise their stars. Set the batting order, rotation and bullpen, then fight for the pennant in a six-team league where the top two go up and the last goes down, or enter six knockout cups from Rookie to Legend for bigger prizes and better packs. Every pitch plays out in a night ballpark and your players level up as they play.' },
     controls: { zh: '滑鼠點選：抽卡、陣容、觀看比賽或快速模擬', en: 'Click: open packs, set the lineup, watch or quick-sim games' }
   },
 
