@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'sanguo',
+    url: '/sanguo-sim/',
+    thumb: 'thumbs/sanguo.jpg?v=1',
+    color: '#8a6a2a',
+    genres: ['strategy', 'learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-17',
+    title:    { zh: '三國志 群雄模擬', en: 'Three Kingdoms Chronicle' },
+    tagline:  { zh: '五百名三國武將，一個自己運轉的天下：內政、外交、戰爭全自動模擬，看歷史如何重演——或改寫。', en: 'Five hundred Three Kingdoms generals in a world that runs itself: domestic affairs, diplomacy and war are all simulated. Watch history repeat, or rewrite itself.' },
+    about:    { zh: '公元一九〇年，董卓挾天子，二十七路群雄割據四十五座城。五百名武將依史實年份登場與去世，各有統率、武力、智力、政治、魅力：諸葛亮、陸遜、姜維、司馬懿、鄧艾、羊祜……長大後會投奔家族或歷史上的主公。每個月，每位武將都會自己開墾、經商、築城、徵兵、訓練、搜索人才、登用；各勢力會結盟、停戰、背盟、挖角、勸降；邊境城市會聯合出兵攻城，城下有一騎討、雙方軍師施展火計伏兵，俘虜可能歸順、被釋放或處斬，君主死後由子嗣或重臣繼位，太守也可能叛變自立，直到有人統一天下。你可以看地圖、年表、勢力排行、五百名武將的生平與每座城的狀況，調速度、換種子重演不同的歷史。中英文都可以看。',
+                en: 'AD 190: Dong Zhuo holds the emperor, and 27 warlords split 45 cities. Five hundred generals come of age and die in their historical years, each with Leadership, War, Intelligence, Politics and Charisma; Zhuge Liang, Lu Xun, Jiang Wei, Sima Yi, Deng Ai and Yang Hu seek out their family or their historical lord when they come of age. Every month every general farms, trades, builds walls, drafts, trains, searches for talent or recruits; warlords ally, sign truces, betray, poach officers and demand surrender; border cities combine their armies to besiege their neighbours, with duels before the walls, stratagems by each side\'s cleverest officer, captives who join, go free or are executed, heirs who succeed fallen lords and governors who rebel, until someone unites the realm. Follow it all on the map, the chronicle, the warlord rankings, the life story of each of the 500 generals and every city; change the speed or the seed to replay a different history. In Chinese and English.' },
+    controls: { zh: '▶ 開始 / ⏸ 暫停（空白鍵）· 下個月（→）· 速度 1×–60× · 點城市看詳情 · 右側年表、勢力、武將、城市', en: '▶ Play / ⏸ Pause (Space) · Next month (→) · speed 1×–60× · click a city for details · Chronicle, Warlords, Generals, Cities on the right' },
+  },
+  {
     id: 'eightfold',
     url: '/eightfold-saga/',
     thumb: 'thumbs/eightfold.jpg?v=6',
