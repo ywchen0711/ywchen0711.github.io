@@ -319,8 +319,8 @@ window.GAMES = [
     added: '2026-09-01',
     title:    { zh: '像素職棒', en: 'Pixel Baseball' },
     tagline:  { zh: '抽球員卡包、排陣容，帶自己的球隊從業餘一路打上傳奇聯盟！', en: 'Open player packs, set your lineup and take your club from the amateur league to the legends.' },
-    about:    { zh: '創立自己的球隊，用金幣抽卡包收集 N 到 LR 共 1996 位各有特色的球員（還有 4 位隱藏超級球員），每張卡隨機帶有 200 種技能中的幾種，再幫球員穿上裝備、簽下教練團。排好打線、先發輪值和牛棚，在六隊聯盟中爭冠——前兩名升級、最後一名降級；也能報名新人盃到傳奇盃六種盃賽，名次越高獎金和卡包越好；還能用房號和朋友連線對戰。比賽在夜間球場一球一球模擬，球員越打越強。',
-                en: 'Found your own club and spend coins on card packs to collect 1,996 players from N to LR, each with their own traits (plus 4 hidden superstars) and random skills from a pool of 200, then kit them out with gear and hire a coaching staff. Set the batting order, rotation and bullpen, then fight for the pennant in a six-team league where the top two go up and the last goes down, or enter six knockout cups from Rookie to Legend for bigger prizes and better packs, or play a friend online with a room code. Every pitch plays out in a night ballpark and your players level up as they play.' },
+    about:    { zh: '創立自己的球隊，用金幣抽卡包收集 N 到 LR 共 1996 位各有特色的球員（還有 4 位隱藏超級球員），每張卡隨機帶有 200 種技能中的幾種，再幫球員穿上裝備、簽下教練團。排好打線、先發輪值和牛棚，在 30 隊、每季 162 場的聯盟中爭冠，前四名打季後賽，升級或降級；也能報名十二種盃賽，包括更難的宇宙盃、神話盃，以及只能用 N 卡或低等級球員的限定盃賽，還能儲存多組陣容隨時切換；還能用房號和朋友連線對戰。比賽在夜間球場一球一球模擬，球員越打越強。',
+                en: 'Found your own club and spend coins on card packs to collect 1,996 players from N to LR, each with their own traits (plus 4 hidden superstars) and random skills from a pool of 200, then kit them out with gear and hire a coaching staff. Set the batting order, rotation and bullpen, then fight through a 30-team, 162-game season with playoffs, promotion and relegation, or enter twelve knockout cups — including the brutal Cosmic and Mythic Cups and restricted cups for N-rarity or low-level players — with up to five saved lineups to switch between, or play a friend online with a room code. Every pitch plays out in a night ballpark and your players level up as they play.' },
     controls: { zh: '滑鼠點選：抽卡、陣容、觀看比賽或快速模擬', en: 'Click: open packs, set the lineup, watch or quick-sim games' }
   },
 
