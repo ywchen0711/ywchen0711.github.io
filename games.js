@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'chosenones',
+    url: '/chosen-ones/',
+    thumb: 'thumbs/chosenones.jpg?v=1',
+    color: '#3a2a7a',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-17',
+    title:    { zh: '天命之路：五章物語', en: 'Chosen Ones: A Tale in Five Chapters' },
+    tagline:  { zh: '像勇者鬥惡龍4 一樣的王道 RPG：五個章節、五段故事，最後所有夥伴聚集在勇者身邊，搭著馬車打倒魔王。', en: 'A classic Dragon Quest IV-style RPG: five chapters, five stories, and in the end every companion gathers around the hero to ride the wagon against the demon lord.' },
+    about:    { zh: '預言說，魔王索爾札將被一位天選的勇者打倒。第一章，忠誠的騎士卡爾德帶著史萊姆噗噗尋找失蹤的孩子；第二章，任性的公主莉雅帶著老魔法師與神官逃出王宮參加武鬥大會；第三章，商人托爾在礦坑找到黃金神像、開起自己的店；第四章，舞孃米菈與占卜師希雅姊妹為父報仇；第五章，你的村莊被魔王軍毀滅，勇者踏上旅程，在世界各地遇見前四章的主角，聚集八位夥伴，用馬車輪流上陣，取得天空裝備，進入魔王城。回合制戰鬥、二十種咒文、四十種可愛怪物、旅店、教會存檔、商店、寶箱、地城與頭目戰；第五章可以設定夥伴的作戰方針。有像素地圖、晶片音樂，中英文都可以玩。', en: 'A prophecy says the demon lord Solzar will fall to a chosen hero. In Chapter 1 the loyal knight Kaldor and Pupu the slime search for missing children; in Chapter 2 the headstrong princess Rhea runs away with her old wizard and her priest to fight in the arena; in Chapter 3 the merchant Tolle finds a golden statue in a mine and opens his own shop; in Chapter 4 the dancer Mira and the fortune-teller Thea avenge their father. In Chapter 5 the demon army destroys your village, and the hero sets out, meets the heroes of the first four chapters around the world, gathers eight companions who swap in and out from the wagon, wins the sky equipment and storms the demon castle. Turn-based battles, twenty spells, forty cute monsters, inns, church saves, shops, treasure chests, dungeons and boss fights, plus battle tactics for your companions in Chapter 5. Pixel maps and chiptune music, in Chinese and English.' },
+    controls: { zh: '方向鍵/WASD 移動 · Z/空白/Enter 確定、對話 · X/Esc 選單、取消 · M 音樂 · 手機有方向鍵與按鈕', en: 'Arrows/WASD move · Z/Space/Enter confirm and talk · X/Esc menu and cancel · M music · touch d-pad and buttons on phones' },
+  },
+  {
     id: 'sanguo',
     url: '/sanguo-sim/',
     thumb: 'thumbs/sanguo.jpg?v=1',
