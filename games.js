@@ -42,7 +42,7 @@ window.GAMES = [
   {
     id: 'eightfold',
     url: '/eightfold-saga/',
-    thumb: 'thumbs/eightfold.jpg?v=7',
+    thumb: 'thumbs/eightfold.jpg?v=8',
     color: '#5a3a9a',
     genres: ['rpg', 'strategy'],
     devices: ['keyboard', 'touch'],
