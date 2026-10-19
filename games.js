@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'demoncovenant',
+    url: '/demon-covenant/',
+    thumb: 'thumbs/demoncovenant.jpg',
+    color: '#a01a3a',
+    genres: ['rpg', 'horror'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-19',
+    title:    { zh: '魔都轉生', en: 'Demon Covenant' },
+    tagline:  { zh: '與惡魔交談、締結契約、合體，在崩毀的東京活下去。', en: 'Talk to demons, make covenants, fuse them, and survive the ruins of Tokyo.' },
+    about:    { zh: '第一人稱迷宮 RPG。東京被黑色穹頂封鎖，地底湧出惡魔。你用手機裡的惡魔召喚程式和四十種神話惡魔交談、讓牠們成為同伴，在合體祭壇把兩隻惡魔合成更強的新惡魔。戰鬥採用「行動回合」制：打中弱點或會心一擊可以多行動一次，攻擊被無效或反射則會失去回合。走過新宿地下街、池袋廢墟、東京鐵塔、九段靈廟直到東京深淵，你的選擇會把你推向秩序、混沌或中庸，迎向三種結局。',
+                en: 'A first-person dungeon RPG. A black dome has sealed Tokyo and demons pour up from below. With the summoning app on your phone you talk forty demons from world mythology into joining you, and fuse two of them at the altar into something stronger. Battles use press turns: hit a weakness or land a critical and you act again; get nulled or repelled and you lose your turn. Through Shinjuku, a ruined Ikebukuro mall, Tokyo Tower and a spirit shrine down to the Abyss, your choices lead to Law, Chaos or the middle road, and one of three endings.' },
+    controls: { zh: '↑↓ 前進後退 · ←→ 轉向 · Q/E 側移 · Enter 確定 · Esc 選單 · M 地圖 · 手機用左下方向鍵', en: '↑↓ move · ←→ turn · Q/E sidestep · Enter confirm · Esc menu · M map · on a phone, the pad in the corner' },
+  },
+  {
     id: 'sagecanyon',
     url: '/sage-canyon/',
     thumb: 'thumbs/sagecanyon.jpg?v=2',
