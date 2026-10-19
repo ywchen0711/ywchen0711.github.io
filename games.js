@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'sagecanyon',
     url: '/sage-canyon/',
-    thumb: 'thumbs/sagecanyon.jpg?v=1',
+    thumb: 'thumbs/sagecanyon.jpg?v=2',
     color: '#5a8a4a',
     genres: ['action', 'rpg'],
     devices: ['keyboard', 'touch'],
