@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'windborne',
+    url: '/windborne/',
+    thumb: 'thumbs/windborne.jpg?v=1',
+    color: '#3a7ab0',
+    genres: ['action', 'rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-18',
+    title:    { zh: '風息之地', en: 'Windborne' },
+    tagline:  { zh: '像薩爾達曠野之息一樣的開放世界：看得到的地方都能去。攀爬、滑翔、神殿解謎、會壞的武器、料理，解放四座大神殿，打倒城堡裡的黑潮魔影。', en: 'An open world in the spirit of Breath of the Wild: if you can see it, you can go there. Climb, glide, solve shrines, break weapons, cook, free four great shrines and defeat the Gloomshade in the castle.' },
+    about:    { zh: '你在黎明台地上醒來，四周都是懸崖，只有拿到滑翔傘才能下去。這是一座 1.6 公里的島：中央平原與被黑影籠罩的城堡、寒冷的霜嶺雪山、會噴發熔岩的赤炎山、碧水湖岸與風谷村、金砂沙漠、迷霧森林。任何陡坡、牆壁、樹木和瞭望塔都能用精力攀爬，在空中按跳躍就能滑翔，掉進水裡就游泳，下雨時岩壁會打滑。爬上七座瞭望塔解開地圖並能快速移動；十六座神殿各有謎題，台地上的四座會教你磁力、炸彈、製冰、靜止四種符文；四顆精靈寶珠能在女神像前換一顆心或更多精力。武器、弓和盾都會壞掉，要從哥布林營地、寶箱和古代守護者身上不斷補充；盾牌的完美防禦能把雷射彈回去。採集蘋果、蘑菇、辣椒、蘿蔔，打獵和敲礦，用營火上的鍋子做料理。尋找 42 顆葉精種子擴充背包，夜晚會變暗、會下雨，血月升起時魔物會復活。解放四座大神殿就能得到英傑之力，並削弱最後的頭目。中英文都可以玩，支援鍵盤滑鼠與手機觸控。',
+                en: 'You wake on the Dawn Plateau, ringed by cliffs you can only leave with a paraglider. Below lies a 1.6 km island: the Heartland and a castle wrapped in gloom, the cold Frostspire Peaks, the volcano Emberpeak, the Azure Shore and Windhollow Village, the Goldsand Desert and Mistwood. Climb any slope, wall, tree or tower while your stamina lasts, glide by pressing jump in mid-air, swim, and slip on wet rock in the rain. Wake seven towers to reveal the map and fast travel; solve sixteen shrines, where the four on the plateau teach the Magnet, Bomb, Ice and Stasis runes; trade four Spirit Orbs at a goddess statue for a heart or more stamina. Weapons, bows and shields break, so keep raiding goblin camps, chests and ancient sentinels, and send a sentinel\'s laser back with a perfect guard. Gather apples, mushrooms, peppers and radishes, hunt, smash ore, and cook in pots over campfires. Find 42 leaf sprite seeds to grow your pouches; nights darken, rain falls, and the Blood Moon brings monsters back. Free the four great shrines to earn the champions\' gifts and weaken the final foe. In Chinese and English, with keyboard and mouse or touch.' },
+    controls: { zh: 'WASD 移動 · 滑鼠 看（點畫面鎖定）· Shift 衝刺 · 空白 跳/滑翔 · 左鍵 攻擊 · 右鍵 拉弓 · Q 舉盾 · E 調查 · R 符文 · Tab 背包 · M 地圖 · 手機有搖桿與按鈕', en: 'WASD move · mouse look (click to lock) · Shift sprint · Space jump/glide · left click attack · right click bow · Q shield · E interact · R rune · Tab inventory · M map · touch stick and buttons on phones' },
+  },
+  {
     id: 'chosenones',
     url: '/chosen-ones/',
     thumb: 'thumbs/chosenones.jpg?v=2',
