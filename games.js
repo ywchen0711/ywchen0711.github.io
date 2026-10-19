@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'spire',
+    url: '/spire-of-peril/',
+    thumb: 'thumbs/spire.jpg',
+    color: '#ff2a3a',
+    genres: ['platformer', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-19',
+    title:    { zh: '絕命高塔', en: 'Spire of Peril' },
+    tagline:  { zh: '沒有存檔點的障礙高塔：踩到紅色就從頭來過，時間到就換一座新塔。', en: 'A tower obby with no checkpoints: touch red and start over, and a new tower rises when time runs out.' },
+    about:    { zh: '類似 Roblox《地獄塔》的障礙跑酷。每一回合都會疊出一座新的高塔：浮空階梯、獨木橋、旋轉死亡棒、移動平台、消失地板、輸送帶、彈跳墊、攀爬架、冰面、雷射走廊……越高越難。沒有存檔點，摔下去會掉到下面的樓層，碰到紅色就回到起點；八分鐘一到，新的高塔就會升起。登頂可以賺金幣，在商店買加速線圈、重力線圈和衣服顏色。也有練習模式。',
+                en: 'An obby in the spirit of Roblox\'s Tower of Hell. Every round stacks a new tower: floating steps, tightropes, a sweeping death bar, shuttles, crumbling tiles, conveyors, launch pads, a truss climb, ice, a laser hall and more, harder the higher you go. No checkpoints: fall and you land on the floors below, touch red and you are back at the start, and after eight minutes a new tower rises. Reach the top to earn coins for speed and gravity coils and outfit colours. There is a practice mode too.' },
+    controls: { zh: 'WASD 移動 · 空白鍵 跳 · 拖曳 轉視角 · 滾輪 縮放 · Shift 鎖定視角 · R 重來 · 手機：左邊搖桿、右邊拖曳、黃色鈕跳', en: 'WASD move · Space jump · drag to look · wheel zoom · Shift lock · R reset · phone: stick on the left, drag on the right, yellow button jumps' },
+  },
+  {
     id: 'demoncovenant',
     url: '/demon-covenant/',
     thumb: 'thumbs/demoncovenant.jpg',
