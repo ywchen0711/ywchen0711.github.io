@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'sagecanyon',
+    url: '/sage-canyon/',
+    thumb: 'thumbs/sagecanyon.jpg?v=1',
+    color: '#5a8a4a',
+    genres: ['action', 'rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-18',
+    title:    { zh: '鼠尾草峽谷大冒險', en: 'Sage Canyon Quest' },
+    tagline:  { zh: '從 Sage Canyon 小學出發的曠野之息風格冒險：Josh 在學校草地上醒來，灰色的黑霧蓋住了整個峽谷。爬上屋頂、滑翔下峽谷、完成神殿，登上黑山把黑霧趕走！', en: 'A Breath of the Wild-style adventure that starts at Sage Canyon School: Josh wakes on the school field to find a grey fog over the canyon. Climb the roofs, glide into the canyon, clear the shrines and climb Black Mountain to drive the Gloom away!' },
+    about:    { zh: '學校照著鳥瞰圖大致排出來，放大成大約兩倍：北邊的大草地和球門、西邊的球場、四方格和遊樂設施、午餐棚、兩層樓的主建築、中庭花園、教室側翼和停車場。學校外面是虛構的冒險世界：西邊和南邊是鼠尾草峽谷和小溪，東邊是 Josh 家所在的社區，卡梅爾山路北邊的丘陵一路爬上黑山，黑霧就躲在山頂的廢棄電台裡。屋頂、樹、遊樂設施、峽谷岩壁都能用精力爬上去，在空中按跳躍就能用風箏滑翔翼滑翔。學校裡的四座神殿會教你磁力、炸彈、製冰、靜止四種符文，完成後老園丁會把滑翔翼送給你。回家找爸爸 Jeff 拿任務、在家睡覺讓媽媽 Erin 幫你恢復、聽 Jasper 說峽谷裡會發光的劍。武器會壞、可以拉弓和舉盾，還能採集、打獵、料理，找葉精種子。解放四座大神殿就能削弱黑霧魔。虛構故事，學校只是場景，沒有標示任何教室或細節。',
+                en: 'The school is laid out roughly after an aerial view, at about twice life size: the big field and goals in the north, the courts, four square and play structure in the west, the lunch shelter, the two-story main building, the garden courtyard, the classroom wings and the parking lots. Around it lies a made-up adventure land: Sage Canyon and its creek to the west and south, the neighborhood where Josh lives to the east, and the hills north of Carmel Mountain Road climbing to Black Mountain, where the Gloom hides in an old radio station. Climb roofs, trees, play structures and canyon walls with your stamina, and glide with a kite-glider by pressing jump in mid-air. Four shrines at school teach the Magnet, Bomb, Ice and Stasis runes, and finishing them earns the glider from the old gardener. Go home for your quest from Dad (Jeff), sleep at home so Mom (Erin) can restore your hearts, and hear from Jasper about a glowing sword in the canyon. Weapons break; draw your bow, raise your shield, gather, hunt, cook and find leaf-sprite seeds. Free the four great shrines to weaken the Gloom. A work of fiction: the school is only a setting, with no rooms or details marked.' },
+    controls: { zh: 'WASD 移動 · 滑鼠 看（點畫面鎖定）· Shift 衝刺 · 空白 跳/滑翔 · 左鍵 攻擊 · 右鍵 拉弓 · Q 舉盾 · E 調查 · R 符文 · 滾輪 換武器 · Tab 背包 · M 地圖 · 手機有搖桿與按鈕', en: 'WASD move · mouse look (click to lock) · Shift sprint · Space jump/glide · left click attack · right click bow · Q shield · E interact · R rune · wheel switch weapon · Tab inventory · M map · touch stick and buttons on phones' },
+  },
+  {
     id: 'windborne',
     url: '/windborne/',
     thumb: 'thumbs/windborne.jpg?v=1',
