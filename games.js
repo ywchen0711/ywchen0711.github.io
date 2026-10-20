@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'leafleap',
+    url: '/leaf-leap/',
+    thumb: 'thumbs/leafleap.jpg',
+    color: '#d8282a',
+    genres: ['platformer', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-19',
+    title:    { zh: '葉葉跳跳', en: 'Leaf Leap' },
+    tagline:  { zh: '頂方塊、踩敵人、吃下神奇葉子在天上飛！簡單模式的橫向卷軸冒險。', en: 'Bop blocks, stomp baddies, and grab the Super Leaf to fly! An easy side-scrolling adventure.' },
+    about:    { zh: '致敬經典紅白機平台遊戲（像超級瑪利歐兄弟 3）的橫向卷軸冒險。在世界地圖上沿著小路前進：六個關卡、蘑菇小屋、石頭堡壘和龜王城。蘑菇讓你變大、火焰花能丟彈跳火球、神奇葉子讓你長出尾巴：甩尾巴打敵人、在空中連按跳慢慢飄落，跑步集滿 P 計量表還能起飛。踩扁蘑菇怪、把烏龜踩成龜殼再踢出去、小心水管裡的食人花，最後踩三下打倒兩位首領。每關終點的卡片箱可以得到蘑菇、花或星星卡，集三張換額外生命。簡單模式：五條命、每關都有中間點、沒有時間限制。',
+                en: 'A side-scroller in tribute to the classic 8-bit platformers (think Super Mario Bros. 3). Walk the path on the world map: six levels, a Mushroom House, a Stone Fortress and the Turtle King\'s castle. The Mushroom makes you big, the Fire Flower throws bouncing fireballs, and the Super Leaf gives you a tail: swing it at enemies, tap jump in the air to float down, and fill the P-meter by running to take off and fly. Stomp Mushlings, kick turtle shells, mind the biting plants in the pipes, and beat two bosses with three stomps each. Touch the card box at the end of a level for a mushroom, flower or star card, and collect three for extra lives. Easy mode: five lives, a checkpoint in every level, and no timer.' },
+    controls: { zh: '← → 移動 · 空白鍵／Z 跳 · Shift／X 跑步＋丟火球＋甩尾巴 · 地圖上方向鍵走路、空白鍵進入、X 道具 · Esc 選單 · 控制器：A 跳、B 跑 · 手機：螢幕按鈕', en: '← → move · Space / Z jump · Shift / X run, throw fire, swing tail · on the map: arrows walk, Space enters, X items · Esc menu · controller: A jump, B run · phone: on-screen buttons' },
+  },
+  {
     id: 'mysticseas',
     url: '/mystic-seas/',
     thumb: 'thumbs/mysticseas.jpg',
