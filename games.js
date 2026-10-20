@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'asharia',
+    url: '/ash-aria/',
+    thumb: 'thumbs/asharia.jpg',
+    color: '#c84a2a',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-20',
+    title:    { zh: '灰燼詠嘆調', en: 'Ash Aria' },
+    tagline:  { zh: '向 Final Fantasy VI 致敬的原創 JRPG：十五位各有專屬指令的角色、ATB 戰鬥、星晶魔法，起承轉合四幕——世界真的會崩壞。', en: 'An original JRPG in tribute to Final Fantasy VI: fifteen heroes with their own commands, ATB battles, Astral magic and four acts — and the world really does break.' },
+    about:    { zh: '帝國用星靈的力量造出能用魔法的「晶騎士」。失去記憶、半人半星靈的少女艾莉雅在雪夜的礦都醒來，和寶藏獵人洛恩、沙漠之王艾德蒙、武僧賽伊、霞之國的武士桐生、荒原的野孩子嘉藍、前帝國將軍瑟琳娜、飛空艇船長雷吉斯、刺客夜鴉、小畫家莉莉、老魔導師波洛、雪狐摩卡、雪人烏瑪、模仿師鏡一起對抗帝國與笑面魔導卿維瑟克。每個人都有專屬指令：幻化、竊取、機工、用方向鍵輸入的拳技、蓄力的居合、化身魔物的野性、吸收魔法的封魔、按鍵停下的命運輪、投擲、描繪、青魔、狐舞、狂怒、模仿。ATB 即時回合戰鬥，裝備星晶召喚並學習魔法。第一幕三條河流的分線、歌劇院的詠嘆調、皇帝的晚宴、浮空大陸上的三柱——然後世界崩壞。一年後，瑟琳娜在孤島醒來，在燒焦的世界裡一個一個找回同伴，登上審判之塔。兩個世界地圖、飛空艇、16 座城鎮、30 座迷宮、105 種魔物、24 顆星晶、八龍、鬥技場，十五人各自的結局。中英文都可以玩。',
+                en: 'The Empire forges magic-wielding Crystal Knights from the power of the Astrals. Aria, a half-Astral girl with no memory, wakes in a snowbound mining town and stands against the Empire and its laughing magister Vissek with Rowan the treasure hunter, Edmund the desert king, Sai the monk, Kiriyu the samurai of Kasumi, Galan the wild child, Selene the former general, Regis the airship captain, Nightcrow the assassin, Lili the little painter, Bolo the old mage, Moka the snow fox, Uma the yeti and Kagami the mimic. Every hero has a command of their own: Astralize, Steal, Tools, Blitzes you enter with the arrow keys, charged Iai, Feral beast forms, the spell-swallowing Runeblade, Fortune reels you stop by hand, Throw, Sketch, Lore, Dance, Berserk and Mimic. Active Time Battles, and Astrals you equip to summon and to learn magic. Three rivers to follow in Act I, an aria at the opera, the Emperor\'s banquet, the Pillars on the Floating Isle — and then the world breaks. A year later Selene wakes on a lonely island and finds her friends one by one across a scorched world, then climbs the Spire of Judgement. Two world maps, an airship, 16 towns, 30 dungeons, 105 monsters, 24 Astrals, eight dragons, a colosseum and an ending for each of the fifteen. In Chinese and English.' },
+    controls: { zh: '方向鍵/WASD 移動 · Z/空白/Enter 確定、對話 · X/Esc 選單、取消 · M 音樂 · 戰鬥中選單打開時時間會停止 · 手機有方向鍵與按鈕', en: 'Arrows/WASD move · Z/Space/Enter confirm and talk · X/Esc menu and cancel · M music · time stops while a battle menu is open · touch d-pad and buttons on phones' },
+  },
+  {
     id: 'driftwood',
     url: '/driftwood-home/',
     thumb: 'thumbs/driftwood.jpg',
