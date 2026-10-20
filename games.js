@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'mysticseas',
+    url: '/mystic-seas/',
+    thumb: 'thumbs/mysticseas.jpg',
+    color: '#f2c14e',
+    genres: ['rpg', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-19',
+    title:    { zh: '魔果海域', en: 'Mystic Seas' },
+    tagline:  { zh: '在五座島嶼間航行：接任務、打倒首領，吃下魔果獲得特殊能力。', en: 'Sail between five islands, take quests, beat bosses, and eat mystic fruits for wondrous powers.' },
+    about:    { zh: '類似 Roblox《Blox Fruits》的 3D 海洋冒險 RPG。從新手島出發，經過叢林島、沙漠島、冰霜島，一路打到海軍要塞，最高 Lv 120。向任務委託人接任務、升級後把能力點數分配給格鬥、防禦、劍術或果實。格鬥、刀、果實各有自己的 Z X C V 招式，熟練度越高解鎖越多。六種魔果——彈簧、火焰、冰凍、閃光、震動、暗黑——會不時長在樹下，也能向果實商人購買；吃了果實的人碰到海水會失去力氣，所以要向船塢管理員叫船出海。五位首領會掉落稀有的刀。可以二段跳、衝刺，自動存檔。',
+                en: 'A 3D ocean adventure RPG in the spirit of Roblox\'s Blox Fruits. Start on Starter Isle and fight your way through Jungle, Desert and Frost Isles to the Marine Fortress, up to Lv 120. Take quests from quest givers, then spend stat points on Melee, Defense, Sword or Fruit. Fists, swords and fruits each have their own Z X C V skills that unlock as their mastery grows. Six mystic fruits (Spring, Flame, Ice, Light, Quake and Dark) grow under trees now and then or can be bought from fruit dealers. Fruit eaters lose strength in seawater, so summon a boat from a dockmaster to cross the sea. Five bosses guard rare swords. With a double jump, a dash and autosave.' },
+    controls: { zh: 'WASD 移動 · 空白鍵 跳 · Q 衝刺 · 左鍵 攻擊 · Z X C V 招式 · 1 2 3 換武器 · E 互動 · 右鍵拖曳 視角 · Tab 選單 · M 地圖 · 控制器：左搖桿移動、A 跳、X 攻擊、十字鍵招式、Y 互動 · 手機：左邊搖桿、右邊拖曳、按鈕攻擊', en: 'WASD move · Space jump · Q dash · left click attack · Z X C V skills · 1 2 3 weapon · E talk · right-drag look · Tab menu · M map · controller: left stick move, A jump, X attack, D-pad skills, Y talk · phone: stick on the left, drag on the right, buttons to attack' },
+  },
+  {
     id: 'spire',
     url: '/spire-of-peril/',
     thumb: 'thumbs/spire.jpg',
