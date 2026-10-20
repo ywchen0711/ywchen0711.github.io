@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'driftwood',
+    url: '/driftwood-home/',
+    thumb: 'thumbs/driftwood.jpg',
+    color: '#f0a040',
+    genres: ['story', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-19',
+    title:    { zh: '漂流島', en: 'Driftwood Home' },
+    tagline:  { zh: '暴風雨把船翻了，Josh 醒來在無人島上。找水、生火、蓋小屋，想辦法回家。', en: 'A storm capsized his boat and Josh woke on a deserted island. Find water, make fire, build a shelter, and get home.' },
+    about:    { zh: '3D 荒島求生遊戲。暴風雨的夜裡，Josh 在小帆船上睡著，一道巨浪把船翻了過來，他醒來時躺在一座無人島的沙灘上。注意生命、飽足、口渴、體力和體溫：白天會口渴肚子餓，夜晚寒冷，暴風雨會讓你濕透發冷，吃生的東西會拉肚子。在島上撿樹枝、石頭、燧石、纖維和棕櫚葉，摘椰子、香蕉和野莓，在泉水喝水，用魚叉抓螃蟹和魚；每天早上還有船上的箱子漂上岸。做石刀、石斧、魚叉、繩子和火把，蓋營火（用燧石點火、烤食物、取暖）、雨水收集器和避難小屋。回家有兩條路：在山頂蓋信號火，看到船經過時點燃；或是造木筏、裝上帆和槳，帶上指南針、海圖、清水和食物自己划回家。最後回到溫暖的家，家人和狗在等他。',
+                en: 'A 3D island survival game. One stormy night Josh falls asleep on his little sailboat, a wave flips it over, and he wakes on the beach of a deserted island. Watch health, food, water, energy and warmth: days bring hunger and thirst, nights are cold, storms soak and chill you, and raw food can make you sick. Gather sticks, stones, flint, fibre and palm leaves, pick coconuts, bananas and berries, drink at the spring, and spear crabs and fish; crates from the wreck wash ashore each morning. Make a knife, axe, spear, rope and torch, and build a campfire (light it with flint, cook, keep warm), a rain catcher and a shelter. There are two ways home: build a signal fire on the hilltop and light it when a ship passes, or build a raft with a sail and an oar and sail home with the compass, the chart, water and food. Either way ends at home, by the fire, with family and the dog.' },
+    controls: { zh: 'WASD 移動 · Shift 衝刺 · 空白鍵 跳 · E 採集／互動 · F 或左鍵 用工具 · 1–5 換工具 · Q 吃喝 · Z 睡覺 · Tab 背包與製作 · M 地圖 · J 日記 · 拖曳 轉視角 · 控制器和觸控也能玩', en: 'WASD move · Shift sprint · Space jump · E gather / use · F or click: use tool · 1–5 tools · Q eat or drink · Z sleep · Tab bag & crafting · M map · J journal · drag to look · controller and touch work too' },
+  },
+  {
     id: 'leafleap',
     url: '/leaf-leap/',
     thumb: 'thumbs/leafleap.jpg',
