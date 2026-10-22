@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'starscar',
+    url: '/starscar/',
+    thumb: 'thumbs/starscar.jpg?v=1',
+    color: '#3a5aa0',
+    genres: ['strategy', 'rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-22',
+    title:    { zh: '星痕戰旗', en: 'Starscar Tactics' },
+    tagline:  { zh: '像太空戰士戰略版、三角戰略、皇家騎士團一樣的原創戰棋 RPG：五十種職業、五百種招式與魔法、一千件裝備，斜角高低差地圖、背擊與詠唱，偷竊、招募和四座隱藏迷宮。', en: 'An original tactics RPG in the spirit of Final Fantasy Tactics, Triangle Strategy and Tactics Ogre: fifty jobs, five hundred skills and spells, a thousand pieces of gear, isometric maps with height, back attacks and charged spells, stealing, recruiting and four hidden labyrinths.' },
+    about:    { zh: '五十年前，一顆星墜落在維爾德蘭大陸。白燈教會用星的碎片在貴族手上烙下「星紋」，沒有星紋的平民被叫做「無紋者」。你是無紋者傭兵雷恩，在傭兵團長葛雷的帶領下救了一位從教會逃出來的燈之巫女希兒，從此捲進了王位繼承戰爭與教會的陰謀。序章加五章、五十五場劇情戰役與四百多句雙語對白；八位會加入的同伴各有故事，主角與希兒還有專屬職業。戰鬥在立體的斜角地圖上進行：高處攻擊更痛、弓箭射得更遠，從背後攻擊敵人無法閃避；速度決定行動順序，魔法要詠唱、目標可能跑掉；槍兵跳到空中、忍者二刀流、盜賊偷敵人的裝備、馴獸師把敵人和魔物說服成同伴。每個職業約十種能力，用 JP 學會後可以混搭第二技能、反應、輔助與移動能力。地圖上埋著隨機的隱藏寶物，敵人會掉落身上的裝備。酒館有三十個委託和傳聞，順著線索能打開王者迷宮、天神迷宮、幻影迴廊與龍之墓所，深處有隱藏職業「王者」與「天使」。中英文都可以玩。',
+                en: 'Fifty years ago a star fell on Veldran. The Church of the White Lamp brands its shards into the hands of the nobility as star-marks, and commoners without one are called the Unmarked. You are Ren, an Unmarked sellsword in Captain Gray\'s company, who rescues Sylla, a lamp-maiden fleeing the church, and is pulled into a war of succession and the church\'s scheme. A prologue and five chapters, fifty-five story battles and over four hundred lines of bilingual dialogue; eight companions join with stories of their own, and Ren and Sylla have jobs only they can take. Battles are fought on isometric maps with height: strikes from above hurt more and arrows fly farther, blows from behind can\'t be dodged, speed sets the turn order, spells take time to charge and targets may walk away. Lancers leap into the sky, ninjas wield two blades, thieves steal the enemy\'s gear and beastmasters talk foes and monsters into joining you. Each job has about ten abilities learned with JP, mixed freely as secondary skill sets, reactions, supports and movement. Random treasure is buried on every map and fallen foes drop what they wore. Taverns post thirty jobs and rumours whose trails open the King\'s Labyrinth, the Celestial Labyrinth, the Phantom Gallery and the Dragon\'s Grave, where the hidden Sovereign and Seraph jobs wait. In Chinese and English.' },
+    controls: { zh: '點地圖選擇 · 方向鍵移動游標 · Z/Enter 確定 · X/Esc 取消、選單 · Q/E 旋轉視角 · 手機直接點畫面', en: 'Tap the map · arrows move the cursor · Z/Enter confirm · X/Esc back and menu · Q/E turn the camera · tap on phones' },
+  },
+  {
     id: 'asharia',
     url: '/ash-aria/',
     thumb: 'thumbs/asharia.jpg',
