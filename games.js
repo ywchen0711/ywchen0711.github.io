@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'breezyisle',
+    url: '/breezy-isle/',
+    thumb: 'thumbs/breezyisle.jpg?v=1',
+    color: '#3aa8d8',
+    genres: ['rpg', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1+',
+    added: '2026-10-23',
+    title:    { zh: '微風島', en: 'Breezy Isle' },
+    tagline:  { zh: '線上島嶼生活：種田、釣魚、捕蟲、蓋房子、做裝備、送禮給朋友，還能組隊打魔王！', en: 'An online island life: farm, fish, catch bugs, build a home, craft gear, give gifts to friends and team up against bosses!' },
+    about:    { zh: '和大家一起住在一座小島上。在自己家的田地種紅蘿蔔、番茄、草莓、南瓜，作物就算你離線也會繼續長大，澆水長得更快；拿釣竿在河流、大海、池塘釣 20 種魚，拿捕蟲網在花叢、樹上、草地、水邊抓 15 種蟲，白天晚上出現的都不一樣，全部收進圖鑑；砍樹、敲石頭拿木材和礦石，在工坊做武器、防具、更好的工具和料理；在木匠家具店把帳篷一路升級成城堡，買家具擺滿院子。走到別人旁邊可以加好友、送禮物、邀請組隊，最多 4 人一起到北邊的魔王祭壇挑戰史萊姆王、森林巨像和熔岩巨龍：地上出現紅圈時要趕快翻滾躲開。每天還有三個每日任務。可以開公開島嶼、用代碼開私人島嶼，或自己玩；進度會存到雲端。',
+                en: 'Live on a little island with everyone else. Grow carrots, tomatoes, strawberries and pumpkins on your own farm (they keep growing while you are offline, faster when watered); fish 20 kinds of fish in the river, the sea and the pond, and net 15 kinds of bugs in flowers, trees, grass and by the water, different by day and by night, all kept in your encyclopedia. Chop trees and mine rocks for wood and ore, craft weapons, armour, better tools and food at the workshop, and grow your tent into a castle at the carpenter, filling the yard with furniture. Walk up to people to add friends, give gifts and invite them to a party, then take on the Slime King, the Forest Golem and the Lava Dragon at the boss altar up north with up to four players: roll out of the red rings on the ground! Three daily tasks every day. Play on the public isle, a private isle with a code, or solo; progress saves to the cloud.' },
+    controls: { zh: 'WASD / 方向鍵移動 · Shift 跑步 · E 動作 · 1–7 換工具 · F 攻擊 · 空白鍵翻滾 · Q 吃東西 · 手機：搖桿和右下角按鈕', en: 'WASD / arrows to move · Shift run · E action · 1–7 tools · F attack · Space roll · Q eat · phone: stick and the buttons bottom right' },
+  },
+  {
     id: 'twistedtower',
     url: '/twisted-tower/',
     thumb: 'thumbs/twistedtower.jpg?v=1',
