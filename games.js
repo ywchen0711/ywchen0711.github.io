@@ -43,7 +43,7 @@ window.GAMES = [
   {
     id: 'asharia',
     url: '/ash-aria/',
-    thumb: 'thumbs/asharia.jpg',
+    thumb: 'thumbs/asharia.jpg?v=2',
     color: '#c84a2a',
     genres: ['rpg', 'story'],
     devices: ['keyboard', 'touch'],
