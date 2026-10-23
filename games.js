@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'sanguotactics',
     url: '/sanguo-tactics/',
-    thumb: 'thumbs/sanguotactics.jpg?v=2',
+    thumb: 'thumbs/sanguotactics.jpg?v=3',
     color: '#a0281a',
     genres: ['strategy', 'rpg'],
     devices: ['keyboard', 'touch'],
