@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'twistedtower',
+    url: '/twisted-tower/',
+    thumb: 'thumbs/twistedtower.jpg?v=1',
+    color: '#5a2a8a',
+    genres: ['horror', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1-8',
+    added: '2026-10-22',
+    title:    { zh: '扭曲大樓', en: 'Twisted Tower' },
+    tagline:  { zh: '最多 8 人連線合作：一層一層往下闖，修好機器、躲開扭曲怪，在電梯關門前回來！', en: 'Online co-op for up to 8: head down floor by floor, fix the machines, dodge the Twisteds and make the elevator before it leaves!' },
+    about:    { zh: '從六個卡通角色中挑一個：衝刺的小兔邦、會超頻機器的齒輪仔、能治療隊友的花瓣、看得到怪物的小彗星、會躲起來的綿綿、丟彈珠引開怪物的波波，每個人的速度、體力、隱密、技巧和萃取能力都不一樣。每一層要修好幾台機器：站在機器旁萃取墨汁，圓圈出現時按準技巧檢定，失誤的聲音會把扭曲怪引過來。扭曲怪是角色們變形後的樣子，有的看得遠、有的追得快、有的聽得到失誤、有的靠近才看得見。機器修夠了電梯就會打開，第一個人進去 30 秒後就關門。每過一層可以用撿到的墨汁在電梯商店買繃帶、加速糖、煙霧彈等道具，越往下越難。可以開公開房間、用 4 個字母的代碼開私人房間，或自己玩；聊天只有預設的句子。',
+                en: 'Pick one of six toons: Bun dashes, Cog overclocks machines, Petal heals the team, Comet sees the monsters, Mopsy hides and Pip throws a gumball decoy, and each has their own speed, stamina, stealth, skill and extraction. Every floor has machines to fix: stand by one to extract ichor and hit the skill checks, because a miss makes a noise the Twisteds can hear. The Twisteds are warped copies of the toons; some see far, some run fast, some hear every mistake, and one is invisible until it is close. Fix enough machines and the elevator opens, then leaves 30 seconds after the first toon steps in. Between floors, spend your ichor in the elevator shop on bandages, speedy candy, smoke puffs and more; every floor is harder than the last. Play in a public room, a private room with a 4-letter code, or solo; chat uses preset phrases only.' },
+    controls: { zh: 'WASD / 方向鍵移動 · Shift 衝刺 · 空白鍵技巧檢定 · Q 能力 · 1–3 道具 · C 說話 · 手機：搖桿、🏃 衝刺、點圓圈', en: 'WASD / arrows to move · Shift sprint · Space skill check · Q ability · 1–3 items · C chat · phone: stick, 🏃 sprint, tap the ring' },
+  },
+  {
     id: 'sanguotactics',
     url: '/sanguo-tactics/',
     thumb: 'thumbs/sanguotactics.jpg?v=3',
