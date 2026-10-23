@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'breezyisle',
     url: '/breezy-isle/',
-    thumb: 'thumbs/breezyisle.jpg?v=1',
+    thumb: 'thumbs/breezyisle.jpg?v=2',
     color: '#3aa8d8',
     genres: ['rpg', 'action'],
     devices: ['keyboard', 'touch'],
