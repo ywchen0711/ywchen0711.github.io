@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'marker-bros',
+    url: '/marker-bros/',
+    thumb: 'thumbs/markerbros.jpg?v=1',
+    color: '#ffb81c',
+    genres: ['story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-23',
+    title:    { zh: '麥克筆兄弟', en: 'Marker Bros' },
+    tagline:  { zh: 'Josh 和 Jasper 自己畫的搞笑漫畫：魔法麥克筆畫什麼就變成真的！', en: 'A goofy comic drawn by Josh and Jasper: whatever the magic markers draw comes true!' },
+    about:    { zh: '兄弟倆在閣樓找到一盒「超級麥克筆」，畫什麼就變成真的。第 1 集：掃把機器人吃了太多臭襪子，變成巨大的臭襪怪，爸爸的冷笑話冷到把怪獸冷凍，媽媽畫了一台洗衣機。第 2 集：從小被叫去擦掉每個字的橡皮擦博士要把全世界擦掉，連 Josh 的帽子都被擦掉了，幸好有頭上也有橡皮擦的鉛筆俠。主演：Josh、Jasper、爸爸 Jeff、媽媽 Erin，客串：柴犬麻糬和郊狼教練。有章節頁、可以按住讓圖動起來的「翻翻樂」，還有教你畫麻糬的步驟。中英文都有，手機可以一格一格看。',
+                en: 'The brothers find a box of MIGHTY MARKERS in the attic: whatever you draw comes true. Episode 1: a cleaning robot eats too many stinky socks and becomes the giant Sockzilla; Dad’s jokes are so cold they freeze it, and Mom draws a washing machine. Episode 2: Dr. Eraser, who had to erase everything as a kid, wants to erase the whole world, starting with Josh’s cap, until Pencil Pal (who has an eraser too) shows up. Starring Josh, Jasper, Dad (Jeff) and Mom (Erin), with Mochi the Shiba and Coach Coyote. Chapter pages, Flip-O-Rama pages you hold to animate, and How to Draw Mochi. Chinese and English; on a phone, read one panel at a time.' },
+    controls: { zh: '← → 或點畫面左右翻頁 · 按住「翻！」看翻翻樂 · 🔍 逐格閱讀', en: '← → or tap the sides to turn pages · hold FLIP! on Flip-O-Rama pages · 🔍 panel-by-panel reading' },
+  },
+  {
     id: 'duskhold',
     url: '/duskhold/',
     thumb: 'thumbs/duskhold.jpg?v=1',
@@ -20,9 +35,9 @@ window.GAMES = [
     players: '1',
     added: '2026-10-23',
     title:    { zh: '暗月迷城', en: 'Duskhold' },
-    tagline:  { zh: '經典的地下城動作 RPG：三種職業、隨機地城、三大魔王，和白藍黃金四種稀有度的寶物！', en: 'A classic dungeon-crawling action RPG: three classes, random dungeons, three great bosses and loot in four rarities!' },
-    about:    { zh: '選擇戰士、遊俠或法師。戰士有重擊、跳斬、戰吼和旋風斬；遊俠有多重箭、冰霜箭、爆裂箭和箭雨；法師有火球、冰霜新星、閃電鏈、傳送和隕石。每次升級分配 5 點屬性點和 1 點技能點。從黎明營地出發，穿過地下墓穴、沉沒神殿和燼淵三幕，每一層都是隨機產生的，第四層是魔王的巢穴：骷髏王、沙蠍女王和深淵領主。怪物成群出現，還有藍色的精英群和帶著特殊能力的金色首領。打倒怪物、打破陶罐、打開寶箱會掉落普通、魔法、稀有和暗金裝備，有 22 種隨機屬性和 18 件暗金寶物。在營地可以找商人買賣、找賭徒碰運氣、存進倉庫，用傳送點和回城卷軸往返。打倒三大魔王後解鎖惡夢和地獄難度。可以建立多個角色，進度會存到雲端。',
-                en: 'Choose a Warrior, Ranger or Sorceress. The Warrior bashes, leaps, roars and whirls; the Ranger fires multishots, frost and explosive arrows and arrow rain; the Sorceress casts fireballs, frost novas, chain lightning, teleport and meteors. Each level brings 5 stat points and a skill point. From Dawn Camp, descend through the Catacombs, the Sunken Temple and the Ember Abyss, every level freshly built, to the lairs of the Bone King, the Scorpion Queen and the Abyss Lord. Monsters come in packs, with blue champion packs and golden unique monsters with special powers. Kills, urns and chests drop normal, magic, rare and unique gear: 22 random affixes and 18 uniques. In camp, trade with the merchant, try your luck with the gambler and keep your best finds in the stash; waypoints and town portal scrolls take you back and forth. Beat all three bosses to unlock Nightmare and Hell. Make several characters; progress saves to the cloud.' },
+    tagline:  { zh: '經典的地下城動作 RPG：五種職業、每個職業 200 個技能、500 件暗金和 100 組套裝，還有紙娃娃換裝！', en: 'A classic dungeon-crawling action RPG: five classes with 200 skills each, 500 uniques, 100 sets and a paper doll!' },
+    about:    { zh: '選擇戰士、遊俠、德魯伊、死靈法師或法師，每個職業有 5 系共 200 個技能：投射物、新星、閃電鏈、近戰連擊、陷阱、詛咒、變身狼人熊人、召喚骷髏大軍和野獸，最多可以綁 6 個技能鍵。從黎明營地出發，穿過地下墓穴、沉沒神殿和燼淵三幕隨機地城，打倒骷髏王、沙蠍女王和深淵領主，解鎖惡夢和地獄難度。寶物有普通、魔法、稀有、套裝和暗金：500 件暗金、100 組套裝（穿越多件獎勵越多），每件都會穿在角色身上，背包裡有會轉的 3D 紙娃娃，還有收集圖鑑。支援手把，進度存到雲端。',
+                en: 'Play a Warrior, Ranger, Druid, Necromancer or Sorceress, each with five trees and 200 skills: projectiles, novas, chain lightning, melee combos, traps, curses, wolf and bear forms, skeleton armies and beasts, with up to six skill keys. Descend from Dawn Camp through three acts of random dungeons, beat the Bone King, the Scorpion Queen and the Abyss Lord, and unlock Nightmare and Hell. Loot comes in normal, magic, rare, set and unique: 500 uniques and 100 sets with bonuses for each piece worn, all shown on your hero, a turning 3D paper doll in the inventory, and a codex to collect them all. Gamepad support and cloud saves.' },
     controls: { zh: '點擊或 WASD 移動 · 左鍵攻擊 · 右鍵或 Q E R F 施放技能 · 1 2 3 喝藥水 · T 回城 · I 物品 · K 技能 · Tab 地圖 · 手機：搖桿和技能按鈕', en: 'Click or WASD to move · left-click to attack · right-click or Q E R F to cast · 1 2 3 potions · T town portal · I items · K skills · Tab map · phone: stick and skill buttons' },
   },
   {
