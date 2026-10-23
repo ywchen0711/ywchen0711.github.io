@@ -28,7 +28,7 @@ window.GAMES = [
   {
     id: 'starscar',
     url: '/starscar/',
-    thumb: 'thumbs/starscar.jpg?v=1',
+    thumb: 'thumbs/starscar.jpg?v=2',
     color: '#3a5aa0',
     genres: ['strategy', 'rpg', 'story'],
     devices: ['keyboard', 'touch'],
