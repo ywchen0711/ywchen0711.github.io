@@ -445,7 +445,7 @@ window.GAMES = [
   {
     id: 'sango',
     url: '/Sango/',
-    thumb: 'thumbs/sango.jpg',
+    thumb: 'thumbs/sango.jpg?v=2',
     color: '#c84a3a',
     genres: ['strategy', 'action'],
     devices: ['keyboard', 'touch'],
