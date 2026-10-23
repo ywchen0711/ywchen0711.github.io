@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'duskhold',
+    url: '/duskhold/',
+    thumb: 'thumbs/duskhold.jpg?v=1',
+    color: '#8a5a2a',
+    genres: ['rpg', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-23',
+    title:    { zh: '暗月迷城', en: 'Duskhold' },
+    tagline:  { zh: '經典的地下城動作 RPG：三種職業、隨機地城、三大魔王，和白藍黃金四種稀有度的寶物！', en: 'A classic dungeon-crawling action RPG: three classes, random dungeons, three great bosses and loot in four rarities!' },
+    about:    { zh: '選擇戰士、遊俠或法師。戰士有重擊、跳斬、戰吼和旋風斬；遊俠有多重箭、冰霜箭、爆裂箭和箭雨；法師有火球、冰霜新星、閃電鏈、傳送和隕石。每次升級分配 5 點屬性點和 1 點技能點。從黎明營地出發，穿過地下墓穴、沉沒神殿和燼淵三幕，每一層都是隨機產生的，第四層是魔王的巢穴：骷髏王、沙蠍女王和深淵領主。怪物成群出現，還有藍色的精英群和帶著特殊能力的金色首領。打倒怪物、打破陶罐、打開寶箱會掉落普通、魔法、稀有和暗金裝備，有 22 種隨機屬性和 18 件暗金寶物。在營地可以找商人買賣、找賭徒碰運氣、存進倉庫，用傳送點和回城卷軸往返。打倒三大魔王後解鎖惡夢和地獄難度。可以建立多個角色，進度會存到雲端。',
+                en: 'Choose a Warrior, Ranger or Sorceress. The Warrior bashes, leaps, roars and whirls; the Ranger fires multishots, frost and explosive arrows and arrow rain; the Sorceress casts fireballs, frost novas, chain lightning, teleport and meteors. Each level brings 5 stat points and a skill point. From Dawn Camp, descend through the Catacombs, the Sunken Temple and the Ember Abyss, every level freshly built, to the lairs of the Bone King, the Scorpion Queen and the Abyss Lord. Monsters come in packs, with blue champion packs and golden unique monsters with special powers. Kills, urns and chests drop normal, magic, rare and unique gear: 22 random affixes and 18 uniques. In camp, trade with the merchant, try your luck with the gambler and keep your best finds in the stash; waypoints and town portal scrolls take you back and forth. Beat all three bosses to unlock Nightmare and Hell. Make several characters; progress saves to the cloud.' },
+    controls: { zh: '點擊或 WASD 移動 · 左鍵攻擊 · 右鍵或 Q E R F 施放技能 · 1 2 3 喝藥水 · T 回城 · I 物品 · K 技能 · Tab 地圖 · 手機：搖桿和技能按鈕', en: 'Click or WASD to move · left-click to attack · right-click or Q E R F to cast · 1 2 3 potions · T town portal · I items · K skills · Tab map · phone: stick and skill buttons' },
+  },
+  {
     id: 'breezyisle',
     url: '/breezy-isle/',
     thumb: 'thumbs/breezyisle.jpg?v=2',
