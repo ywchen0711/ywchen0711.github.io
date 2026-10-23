@@ -13,6 +13,7 @@
 
   var TEXT = {
     zh: {
+      calTitle: '全家行事曆', calSub: '全家人一起看、一起排的行程表：上學、上班、才藝課、生日、旅行', pinned: '置頂',
       brand: '像素遊樂場', search: '搜尋遊戲…', lang: 'EN', recent: '繼續玩', favorites: '我的最愛', all: '所有遊戲', nothing: '找不到遊戲 😢',
       footer: '由 ywchen0711 製作的瀏覽器遊戲', howto: '怎麼玩：', play: '開始玩', newtab: '在新分頁開啟', back: '回到大廳',
       reload: '重新載入', fullscreen: '全螢幕', yourName: '你的名字', save: '好了！', guest: '玩家', isNew: '新遊戲！',
@@ -22,6 +23,7 @@
       hi: '嗨，{name}！'
     },
     en: {
+      calTitle: 'Family Calendar', calSub: 'One calendar the whole family shares: school, work, lessons, birthdays, trips', pinned: 'Pinned',
       brand: 'Pixel Playground', search: 'Search games…', lang: '中文', recent: 'Continue playing', favorites: 'Favorites', all: 'All games', nothing: 'No games found 😢',
       footer: 'Browser games made by ywchen0711', howto: 'How to play:', play: 'Play', newtab: 'Open in new tab', back: 'Lobby',
       reload: 'Reload', fullscreen: 'Fullscreen', yourName: 'Your name', save: 'Done!', guest: 'Player', isNew: 'NEW!',

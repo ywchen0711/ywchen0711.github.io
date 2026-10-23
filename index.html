@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Huninn&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
   <header class="top">
@@ -26,6 +26,7 @@
   </header>
 
   <main id="lobby">
+    <a class="pinned" href="/family-calendar/"><span class="pin-ic" aria-hidden="true">📅</span><span class="pin-tx"><b data-t="calTitle"></b><small data-t="calSub"></small></span><span class="pin-tag" data-t="pinned"></span><span class="pin-go" aria-hidden="true">→</span></a>
     <section class="hero" id="hero"></section>
     <nav class="chips" id="chips"></nav>
     <section class="row" id="row-recent" hidden><h2 data-t="recent"></h2><div class="scroller" id="recent"></div></section>
@@ -78,7 +79,7 @@
   </div>
 
   <script src="games.js?v=66"></script>
-  <script src="app.js?v=10"></script>
+  <script src="app.js?v=11"></script>
   <script type="module" src="account.js?v=2"></script>
 </body>
 </html>

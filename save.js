@@ -105,6 +105,8 @@ export const userId = () => session?.user?.id || null;
 // account(): { id, email, anon } for the signed-in user (a guest is anon), or null before the first sign-in
 export function account() { try { const x = session || JSON.parse(ls.get(SESS)); return x && x.user ? { ...x.user, anon: !x.user.email } : null; } catch (e) { return null; } }
 export async function ensure() { try { return (await getSession()).user; } catch (e) { return null; } }
+// token(): the signed-in user's access token, for apps on this site with their own tables (e.g. the family calendar)
+export async function token() { return (await getSession()).access_token; }
 // Swap the local copies of every known game's save to the new account's: the server copy wins; a guest's progress
 // is uploaded to the account when the account has none for that game; otherwise the other account's copy is removed.
 async function switchSaves(keepGuest) {

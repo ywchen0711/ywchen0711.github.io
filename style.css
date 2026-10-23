@@ -174,3 +174,15 @@ footer { margin-top: 48px; text-align: center; color: var(--muted); font-size: 1
 .amsg.bad { background: color-mix(in srgb, #ff5c86 18%, transparent); color: #c0284a; }
 .acctsheet .play { width: 100%; }
 @media (max-width: 560px) { .acct { max-width: 110px; } }
+
+/* ---------- pinned: the family calendar ---------- */
+.pinned { display: flex; align-items: center; gap: 14px; margin: 0 0 16px; padding: 14px 18px; border-radius: var(--radius); text-decoration: none; color: #fff;
+  background: linear-gradient(120deg, #0f6cbd, #4f6bed 60%, #8a6cf0); box-shadow: var(--shadow); transition: transform .15s, box-shadow .15s; }
+.pinned:hover { transform: translateY(-2px); box-shadow: 0 4px 10px rgba(30, 30, 70, .12), 0 14px 30px rgba(30, 30, 70, .16); }
+.pin-ic { font-size: 30px; width: 50px; height: 50px; display: grid; place-items: center; background: rgba(255, 255, 255, .18); border-radius: 14px; flex: none; }
+.pin-tx { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.pin-tx b { font-size: 18px; font-weight: 900; }
+.pin-tx small { opacity: .9; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pin-tag { font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 10px; background: rgba(255, 255, 255, .22); flex: none; }
+.pin-go { font-size: 22px; font-weight: 900; flex: none; }
+@media (max-width: 560px) { .pin-tag { display: none; } .pinned { padding: 12px 14px; gap: 10px; } .pin-ic { width: 42px; height: 42px; font-size: 24px; } }
