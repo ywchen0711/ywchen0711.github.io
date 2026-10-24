@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'dewy-runway',
+    url: '/dewy-runway/',
+    thumb: 'thumbs/dewyrunway.jpg?v=1',
+    color: '#ff8fb8',
+    genres: ['sim'],
+    devices: ['keyboard', 'touch'],
+    players: '1-8',
+    added: '2026-10-23',
+    title:    { zh: '小露換裝秀', en: 'Dewy’s Runway' },
+    tagline:  { zh: '幫愛哭的絨毛娃娃小露換裝，依主題搭配，走上伸展台讓評審打分數！', en: 'Dress up Dewy, the teary plush doll, for a theme and strut the runway for the judges!' },
+    about:    { zh: '像 Dress To Impress 和閃耀暖暖的換裝遊戲。約 90 件衣服配件，動物絨毛帽兜、公主禮服、太空衣、翅膀、雨傘……每件都能換兩種顏色，還能改眼睛、眼淚、嘴巴和腮紅。伸展台挑戰給你主題和 3 分鐘，然後和四位電腦模特兒走秀，三位評審依主題、配色、完整度和創意打分。線上伸展台可以開房間跟朋友比，大家互相打星星。用金幣買衣服或開盲盒（有隱藏款），自由換裝可以存造型、存成圖片。',
+                en: 'A dress-up game in the spirit of Dress To Impress and Shining Nikki. About 90 items, from plush animal hoods and princess gowns to space suits, wings and umbrellas, each in two colours you choose, plus eyes, tears, mouth and cheeks. The Runway Challenge gives you a theme and three minutes, then you walk against four computer models while three judges score theme, colours, completeness and creativity. Online, make a room and rate your friends’ looks. Spend coins in the shop or on blind boxes with secret rares, and save looks and pictures in Free Dress.' },
+    controls: { zh: '點選衣服穿上，再點一次拿掉 · 色票換顏色', en: 'Tap items to wear, tap again to remove · tap colours to recolour' },
+  },
+  {
     id: 'spelling-bee',
     url: '/spelling-bee/',
     thumb: 'thumbs/spellingbee.jpg?v=1',
