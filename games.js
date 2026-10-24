@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'kaiju-night',
+    url: '/kaiju-night/',
+    thumb: 'thumbs/kaijunight.jpg?v=1',
+    color: '#d23a2a',
+    genres: ['action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-23',
+    title:    { zh: '巨獸之夜', en: 'Kaiju Night' },
+    tagline:  { zh: '暴雨的港口城市，巨型機甲對上從海裡爬上岸的巨獸。寫實、黑暗的 3D 巨獸大戰！', en: 'A giant robot meets a kaiju in a harbour city in the rain: a dark, realistic 3D monster brawl!' },
+    about:    { zh: '凌晨三點，暴雨中一隻第四級巨獸從海溝爬上港口，城裡最後一台守望者機甲擋在牠面前。可以觀戰（電腦對打，像新聞直播一樣切換直升機、路人手機、監視器、慢動作特寫等鏡頭），也可以親自駕駛機甲，或化身巨獸摧毀城市。閃電、雨幕、反光的濕馬路、探照燈直升機、倒塌的大樓和燃燒的廢墟，音效全部即時合成。',
+                en: 'At 3 a.m., in a storm, a Category IV kaiju crawls out of the harbour and the city\'s last Sentinel robot steps in its way. Watch an AI fight cut like a live news broadcast (helicopter, phone camera, CCTV, slow-motion close-ups), pilot the robot yourself, or become the kaiju and wreck the city. Lightning, rain, wet reflective streets, searchlight helicopters, collapsing towers and burning ruins, with fully synthesized sound.' },
+    controls: { zh: 'WASD 移動 · J/K/L/I 攻擊 · Q 必殺 · Shift 衝刺 · 空白 格擋', en: 'WASD move · J/K/L/I attacks · Q special · Shift dash · Space block' },
+  },
+  {
     id: 'pop-studio',
     url: '/pop-studio/',
     thumb: 'thumbs/popstudio.jpg?v=1',
