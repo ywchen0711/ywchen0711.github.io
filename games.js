@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'kaiju-night',
     url: '/kaiju-night/',
-    thumb: 'thumbs/kaijunight.jpg?v=1',
+    thumb: 'thumbs/kaijunight.jpg?v=2',
     color: '#d23a2a',
     genres: ['action'],
     devices: ['keyboard', 'touch'],
