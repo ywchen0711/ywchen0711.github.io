@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'spelling-bee',
+    url: '/spelling-bee/',
+    thumb: 'thumbs/spellingbee.jpg?v=1',
+    color: '#ffc93c',
+    genres: ['learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1-6',
+    added: '2026-10-23',
+    title:    { zh: '拼字大賽', en: 'Spelling Bee' },
+    tagline:  { zh: '英文拼字比賽：十個等級、400 個單字，從幼稚園到全國冠軍字！', en: 'An English spelling bee: ten levels and 400 words, from kindergarten to national champion words!' },
+    about:    { zh: '聽發音拼出單字，就像真正的拼字比賽：可以請主持人再唸一次、慢慢唸，或問定義、例句、字源和詞性。比賽模式和四位對手同台，答錯太多次就出局，撐到最後就能拿星星、解鎖下一級，第 10 級是歷屆全國拼字比賽的冠軍字。練習模式會先考還不熟的字，答錯的字會再出現，並逐字母告訴你哪裡拼錯。家庭比賽可以 2 到 6 人輪流用同一台裝置，每個人選自己的等級，大人小孩一起比。',
+                en: 'Hear the word and spell it, just like a real bee: ask the pronouncer to repeat or say it slowly, or for the definition, a sentence, the origin and the part of speech. In a contest you face four rival spellers on stage; too many misses and you are out, survive to earn stars and unlock the next level. Level 10 is made of real winning words of the National Spelling Bee. Practice tests the words you have not mastered first, brings missed words back, and shows letter by letter where you went wrong. The Family Bee lets 2 to 6 people take turns on one device, each at their own level.' },
+    controls: { zh: '鍵盤打字或點螢幕鍵盤 · Enter 送出 · 空白鍵再唸一次', en: 'Type or tap the keyboard · Enter to submit · Space to hear the word again' },
+  },
+  {
     id: 'marker-bros',
     url: '/marker-bros/',
     thumb: 'thumbs/markerbros.jpg?v=1',
