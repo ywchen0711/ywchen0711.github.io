@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'city-builder',
+    url: '/city-builder/',
+    thumb: 'thumbs/citybuilder.jpg?v=1',
+    color: '#ffb340',
+    genres: ['sim', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-24',
+    title:    { zh: '城市發展家', en: 'City Builder' },
+    tagline:  { zh: '在真實地形的台灣或聖地牙哥地圖上，蓋路、劃分區、拉電力，讓城市長成大都會！', en: 'Grow a city on a real terrain map of Taiwan or San Diego: roads, zones, power, and a metropolis!' },
+    about:    { zh: '兩張用真實地形資料做成的地圖：台灣（中央山脈、西部平原、河川、澎湖）和聖地牙哥（太平洋海岸、聖地牙哥灣、米慎灣、東邊的山，南邊是墨西哥）。可以從空地開始，或從真實城市位置上已經有的小鎮開始。蓋道路和橋、住宅商業工業區、火力太陽能風力水力核能發電、警察消防學校醫院公園、大學體育場港口機場；城市會依需求、地價、污染、治安、交通和公共服務長高或衰退。管理稅率和預算，還要面對颱風、野火和地震。',
+                en: 'Two maps built from real terrain data: Taiwan (the Central Mountain Range, the western plains, the rivers, Penghu) and San Diego (the Pacific coast, San Diego Bay, Mission Bay, the mountains to the east, Mexico to the south). Start on empty land or from small towns where the real cities are. Build roads and bridges, residential, commercial and industrial zones, coal, solar, wind, hydro and nuclear power, police, fire, schools, hospitals and parks, a university, a stadium, a port and an airport; the city grows taller or declines with demand, land value, pollution, crime, traffic and services. Set taxes, balance the budget, and face typhoons, wildfires and earthquakes.' },
+    controls: { zh: '選工具後點或拖曳 · 右鍵或兩指拖曳移動 · 滾輪或兩指縮放', en: 'Pick a tool, then click or drag · right-drag or two fingers to pan · wheel or pinch to zoom' },
+  },
+  {
     id: 'kaiju-night',
     url: '/kaiju-night/',
     thumb: 'thumbs/kaijunight.jpg?v=2',
