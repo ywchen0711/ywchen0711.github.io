@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'pop-studio',
+    url: '/pop-studio/',
+    thumb: 'thumbs/popstudio.jpg?v=1',
+    color: '#ff5ea8',
+    genres: ['sim', 'learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-23',
+    title:    { zh: '流行歌製作人', en: 'Pop Studio' },
+    tagline:  { zh: '當流行歌製作人：真實樂器寫譜、一鍵自動伴奏、填歌詞讓 AI 歌手唱！', en: 'Be a pop producer: real instruments, one-click backing band, and an AI singer for your lyrics!' },
+    about:    { zh: '20 種真實取樣樂器（鋼琴、吉他、貝斯、弦樂、薩克斯風、合成器……）和 10 種鼓聲，用鋼琴捲軸寫旋律、用格子排鼓，設定和弦、速度和調性。選曲風和和弦進行就能一鍵產生伴奏。寫下歌詞，AI 歌手會一字一音唱出來，中文英文都可以，有甜美女聲、溫暖男聲、童聲、機器人和合唱團；也可以只寫歌詞，讓 AI 幫你譜旋律。附原創流行範例歌曲和兒歌民謠，可以匯出 WAV、用連結分享。',
+                en: 'Twenty real sampled instruments (piano, guitars, bass, strings, sax, synths…) and ten drums. Write melodies in the piano roll, program beats in the drum grid, and set chords, tempo and key. Pick a style and a chord progression for a one-click backing band. Type lyrics and the AI singer sings them note by note, in Chinese or English, as a sweet girl, warm boy, kid, robot or choir; or just write lyrics and let the AI compose the melody. Includes original pop-style sample songs and public-domain nursery tunes, WAV export and share links.' },
+    controls: { zh: '點格子加音符、拖曳移動、拉右邊改長短 · 空白鍵播放', en: 'Click to add notes, drag to move, drag the edge to resize · Space to play' },
+  },
+  {
     id: 'dewy-runway',
     url: '/dewy-runway/',
     thumb: 'thumbs/dewyrunway.jpg?v=1',
