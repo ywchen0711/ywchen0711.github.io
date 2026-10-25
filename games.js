@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'abyss',
     url: '/abyss/',
-    thumb: 'thumbs/abyss.jpg?v=1',
+    thumb: 'thumbs/abyss.jpg?v=2',
     color: '#5a1a10',
     genres: ['rpg', 'action'],
     devices: ['keyboard', 'touch'],
