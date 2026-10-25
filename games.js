@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'ashenoath',
     url: '/ashen-oath/',
-    thumb: 'thumbs/ashenoath.jpg?v=1',
+    thumb: 'thumbs/ashenoath.jpg?v=2',
     color: '#1e3a6e',
     genres: ['strategy', 'rpg', 'story'],
     devices: ['keyboard', 'touch'],
