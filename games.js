@@ -11,6 +11,21 @@
  */
 window.GAMES = [
   {
+    id: 'rummi',
+    url: '/rummi/',
+    thumb: 'thumbs/rummi.jpg?v=1',
+    color: '#1a5a46',
+    genres: ['board', 'puzzle', 'learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1-4',
+    added: '2026-10-24',
+    title:    { zh: '拉密', en: 'Rummi' },
+    tagline:  { zh: '數字牌組合遊戲！跟電腦或線上跟朋友玩，教練幫你判斷、提示最好的出法。', en: 'The number-tile game! Play the computer or friends online, with a coach that checks your sets and shows the best play.' },
+    about:    { zh: '106 張數字牌（1 到 13 四種顏色各兩張，加兩張鬼牌），組成順子和群組，第一次出牌要破冰 30 分，之後可以把桌上的牌拆開重組。可以跟 1 到 3 個電腦玩（簡單、普通、困難），也可以開房間用 4 個字母的代碼線上跟朋友玩，空位補電腦。教練模式會即時判斷每一組對不對、說明錯在哪裡、按「提示」看最好的出法並一步一步解釋，還有六堂互動教學課。',
+                en: 'A hundred and six number tiles (1 to 13 in four colours, twice each, and two jokers): make runs and groups, open with a 30-point first meld, then take the table apart and rebuild it. Play 1 to 3 computer players (easy, normal or hard), or make a room and play friends online with a 4-letter code, computer players filling empty seats. The coach checks every set as you go, explains what is wrong, shows the best play step by step with “Hint”, and there are six interactive lessons.' },
+    controls: { zh: '點牌選取，再點組合或「＋ 新組合」放下（也可以拖曳）· 出牌 / 抽牌 / 提示', en: 'Tap tiles to select, then tap a set or “+ New set” (or drag) · Play / Draw / Hint' },
+  },
+  {
     id: 'city-builder',
     url: '/city-builder/',
     thumb: 'thumbs/citybuilder.jpg?v=1',
