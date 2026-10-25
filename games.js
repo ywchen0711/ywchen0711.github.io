@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'abyss',
+    url: '/abyss/',
+    thumb: 'thumbs/abyss.jpg?v=1',
+    color: '#5a1a10',
+    genres: ['rpg', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-25',
+    title:    { zh: '骸骨深淵', en: 'Abyss of Bones' },
+    tagline:  { zh: '暗黑風格的 3D 動作 RPG：深入骸骨洞窟，砍碎成群的骷髏，守住方尖碑，撿傳說裝備，打倒骸骨之王。', en: 'A dark 3D action RPG: hack through hordes of skeletons, hold the obelisks, loot legendary gear and face the Bone King.' },
+    about:    { zh: '一層一層深入隨機生成的骸骨洞窟。找到方尖碑、喚醒它，守在旁邊直到充能完成，骷髏戰士、弓手、法師和骨巨人會從地底爬出來；每三層有骸骨之王。升級時學火焰柱、冰霜新星、連鎖閃電、旋風斬、祝福之錘和隕石術，撿起藍色、黃色和橘色的傳說裝備，在營火旁買藥水、賭裝備、用靈魂換永久符文。', en: 'Go down floor by floor through randomly grown caves of the dead. Find each obelisk, wake it and hold your ground while it charges as skeleton warriors, archers, mages and bone brutes claw their way out of the ground; every third floor the Bone King waits. Learn Pillar of Fire, Frost Nova, Chain Lightning, Whirlwind, Blessed Hammer and Meteor as you level, pick up magic, rare and legendary gear, and at the camp buy potions, gamble for items and trade souls for lasting runes.' },
+    controls: { zh: 'WASD 或滑鼠移動，點骷髏攻擊；1–4 / 右鍵技能；空白鍵翻滾；Q 藥水；I 背包；Tab 地圖。手機：搖桿和按鈕', en: 'WASD or the mouse to move, click to attack; 1–4 / right mouse for skills; Space to roll; Q potion; I inventory; Tab map. Touch: stick and buttons' },
+  },
+  {
     id: 'teahouse',
     url: '/teahouse/',
     thumb: 'thumbs/teahouse.jpg?v=2',
