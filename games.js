@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'ashenoath',
+    url: '/ashen-oath/',
+    thumb: 'thumbs/ashenoath.jpg?v=1',
+    color: '#1e3a6e',
+    genres: ['strategy', 'rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-25',
+    title:    { zh: '灰燼誓約', en: 'Ashen Oath' },
+    tagline:  { zh: '聖火降魔錄風格的戰棋 RPG：一個不肯立誓的傭兵，護送流亡的王女，走過三十一章的長篇故事。', en: 'A Fire Emblem–style tactics RPG: a mercenary who will not swear an oath escorts an exiled princess through a 31-chapter story.' },
+    about:    { zh: '在薩爾凡王國，每個騎士都要對聖火立誓，而誓言會一點一點吃掉人心。傭兵團長黎恩接下護送王女艾希莉亞的合約，從櫻谷到七港、霜原、王都，結識二十多位同伴。戰鬥是格子戰棋：武器相剋、職業轉職、成長率升級、武器耐久、支援對話，還有可選的永久死亡。難度來自每一章不同的地圖目標：守城、逃脫、護送、壓制、霧戰、援軍、搶寶箱的盜賊，不是靠敵人數值膨脹。故事中的選擇會改變後面的章節和結局。（遊戲文字只有中文）', en: 'In the kingdom of Salvan every knight swears to the Holy Flame, and the oath slowly eats away the heart. Lian, a mercenary captain, takes a contract to escort the exiled princess Ashelia from the cherry valley to the seven ports, the frost plains and the capital, gathering more than twenty companions along the way. Battles are on a grid: the weapon triangle, class promotion, growth-rate level ups, weapon durability, support conversations and optional permadeath. The challenge comes from each map having its own shape (hold the fort, escape, escort, seize, fog, reinforcements, thieves after the chests), not from inflated enemy stats. Choices in the story change later chapters and the ending. (Story text is in Chinese only.)' },
+    controls: { zh: '滑鼠點選或方向鍵 / WASD 移動游標，Z / Enter 決定，X / Esc 取消。手機：點選', en: 'Mouse, or arrows / WASD to move the cursor; Z / Enter to confirm, X / Esc to cancel. Touch: tap' },
+  },
+  {
     id: 'abyss',
     url: '/abyss/',
     thumb: 'thumbs/abyss.jpg?v=2',
