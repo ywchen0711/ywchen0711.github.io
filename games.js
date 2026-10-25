@@ -238,7 +238,7 @@ window.GAMES = [
   {
     id: 'leafleap',
     url: '/leaf-leap/',
-    thumb: 'thumbs/leafleap.jpg?v=2',
+    thumb: 'thumbs/leafleap.jpg?v=3',
     color: '#d8282a',
     genres: ['platformer', 'action'],
     devices: ['keyboard', 'touch'],
