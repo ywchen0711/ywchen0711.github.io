@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'liangshan',
+    url: '/liangshan/',
+    thumb: 'thumbs/liangshan.jpg?v=1',
+    color: '#1a2a6a',
+    genres: ['rpg', 'story', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-25',
+    title:    { zh: '梁山群英傳', en: 'Heroes of the Marsh' },
+    tagline:  { zh: '吞食天地風格的水滸傳 RPG：走遍北宋山河，招降路上遇到的武將，聚齊梁山一百單八將。', en: 'A Water Margin RPG in the style of Destiny of an Emperor: roam the Song empire, win over the generals you meet and gather the 108 heroes of Liangshan.' },
+    about:    { zh: '從史家村的九紋龍史進開始，跟著《水滸傳》的故事：魯提轄拳打鎮關西、林沖風雪山神廟、智取生辰綱、武松打虎、江州劫法場、三打祝家莊、破連環馬、石碣天書排座次，到招安、征遼、征方臘。戰鬥像吞食天地：將領的兵力就是生命，每回合下令攻擊、計策（火計、水淹七軍、五雷正法……）、道具、防禦或全軍突擊。野外遇到的將領打敗後可以招降，酒館裡還有想上梁山的好漢和想先比試的名將。共有 500 個人物（一百單八將、原著人物、北宋遼金的真實人物和虛構的將校）、1000 件裝備（十八般兵器與丈八蛇矛、青龍偃月刀等名器）和 500 種道具，每個人都有自己的像素頭像。火併王倫之後，梁山就是你的根據地。', en: 'Begin as Shi Jin, the Nine-Dragoned, and follow the novel: Lu Zhishen’s three punches, Lin Chong in the snow, the birthday-gift heist, Wu Song and the tiger, the raid on the Jiangzhou execution ground, the three attacks on Zhu Family Manor, the chained cavalry, the stone tablet that ranks the 108, the amnesty, the war on the Liao and the war on Fang La. Battles are fought as in Destiny of an Emperor: a general’s soldiers are their life, and each round you order attacks, tactics (fire, flood, thunder rites…), items, a guard or an all-out charge. Generals you beat on the road can be persuaded to join, and inns hold heroes waiting for Liangshan and famous generals who want to test you first. 500 people (the 108, the novel’s cast, real figures of the Song, Liao and Jin, and invented officers), 1000 pieces of equipment and 500 items, each person with their own pixel portrait. Once Wang Lun is gone, Liangshan is your base.' },
+    controls: { zh: '方向鍵 / WASD 移動，Enter / Z 決定，Esc / X 取消與選單。手機：虛擬方向鍵和 A / B 按鈕', en: 'Arrows / WASD to move, Enter / Z to confirm, Esc / X to cancel and open the menu. Touch: the on-screen pad and A / B buttons' },
+  },
+  {
     id: 'ashenoath',
     url: '/ashen-oath/',
     thumb: 'thumbs/ashenoath.jpg?v=2',
