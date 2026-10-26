@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'xiyouji',
+    url: '/xiyouji/',
+    thumb: 'thumbs/xiyouji.jpg?v=1',
+    color: '#5a2418',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-25',
+    title:    { zh: '西遊記・八十一難', en: 'Journey to the West' },
+    tagline:  { zh: '把《西遊記》一百回完整寫成的線性 RPG：從石猴出世、大鬧天宮，到西天取經的八十一難、五聖成真。', en: 'The whole of Journey to the West as a story RPG: from the stone monkey’s birth and the havoc in heaven to all eighty-one ordeals of the pilgrimage.' },
+    about:    { zh: '五十二個章節照著原著一回一回走：花果山、拜師學藝、龍宮借寶、大鬧天宮、五行山；唐僧出長安，收悟空、白龍馬、八戒、沙僧；三打白骨精、平頂山的紫金紅葫蘆、紅孩兒的三昧真火、車遲國鬥法、女兒國、真假美猴王、三調芭蕉扇、獅駝嶺、無底洞……直到靈山取經、通天河落水、五聖成真。每章有故事、城鎮、一張有妖怪和寶箱的地圖，盡頭是大妖怪與它的法寶。正面視角的回合制戰鬥，悟空的七十二變、八戒的天蓬水軍、沙僧的護師、唐僧的心經與緊箍咒，還有「總攻擊」自動戰鬥。八十一難一難一難記在簿子上。每個人物和妖怪都有程式畫的半寫實頭像。（遊戲文字只有中文。）', en: 'Fifty-two episodes follow the novel chapter by chapter, each with its story, sometimes a town, a map with demons and treasure, and a great demon with its magic treasure at the end. Front-view turn-based battles with each pilgrim’s own arts, an auto-battle command, and a record of all eighty-one ordeals. Every character has a painted portrait. (The game text is in Chinese only.)' },
+    controls: { zh: '方向鍵 / WASD 移動，Enter / Z 決定、對話、開寶箱，Esc / X / C 選單；對話中按 C 快轉。手機有虛擬按鈕。', en: 'Arrows / WASD to walk, Enter / Z to confirm, talk and open chests, Esc / X / C for the menu (C also fast-forwards text). On-screen pad on touch screens.' },
+  },
+  {
     id: 'liangshan',
     url: '/liangshan/',
     thumb: 'thumbs/liangshan.jpg?v=1',
