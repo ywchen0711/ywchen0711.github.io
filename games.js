@@ -21,7 +21,7 @@ window.GAMES = [
     added: '2026-10-26',
     title:    { zh: '十兄弟', en: 'Ten Brothers' },
     tagline:  { zh: '可愛像素風的橫向解謎過關：十個兄弟各有本領，每一關都要好幾個兄弟同心協力才過得去。', en: 'A cute pixel-art puzzle platformer: ten brothers, ten gifts, and every level needs several of them working together.' },
-    about:    { zh: '老大 Josh 智多星會操作控制台，老二 Jasper 飛毛腿趕得上計時門，Hank 推箱碎牆、Bobby 跳得高、Tiny 鑽柵欄、Cliff 爬牆、Finn 游泳、Tank 不怕尖刺、Max 搭木板、Leo 撐傘滑翔。十個關卡，一關比一關需要動腦，最後一關十兄弟全員出動。', en: 'Josh works the control panels, Jasper outruns the timed doors, Hank pushes crates and breaks walls, Bobby jumps high, Tiny slips through grates, Cliff climbs, Finn swims, Tank walks on spikes, Max builds planks and Leo glides on his umbrella. Ten levels, each a puzzle for several brothers; in the last, all ten.' },
+    about:    { zh: '老大 Josh 智多星會操作控制台，老二 Jasper 飛毛腿趕得上計時門，Hank 推箱碎牆、Bobby 跳得高、Tiny 鑽柵欄、Cliff 爬牆、Finn 游泳、Tank 不怕尖刺、Max 搭木板、Leo 撐傘滑翔。四十個關卡，一關比一關需要動腦，最後十兄弟全員出動。', en: 'Josh works the control panels, Jasper outruns the timed doors, Hank pushes crates and breaks walls, Bobby jumps high, Tiny slips through grates, Cliff climbs, Finn swims, Tank walks on spikes, Max builds planks and Leo glides on his umbrella. Forty levels, each a puzzle for several brothers; in the last, all ten.' },
     controls: { zh: '← → 走，↑ / 空白鍵 跳，X 使出本領，Tab 或 1～0 換兄弟，H 提示，R 重來。手機有虛擬按鈕。', en: 'Arrows to move, Up / Space to jump, X for each brother’s gift, Tab or 1-0 to switch brothers, H for a hint, R to restart. Touch buttons on phones.' },
   },
   {
