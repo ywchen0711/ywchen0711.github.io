@@ -27,7 +27,7 @@ window.GAMES = [
   {
     id: 'liangshan',
     url: '/liangshan/',
-    thumb: 'thumbs/liangshan.jpg?v=1',
+    thumb: 'thumbs/liangshan.jpg?v=2',
     color: '#1a2a6a',
     genres: ['rpg', 'story', 'strategy'],
     devices: ['keyboard', 'touch'],
