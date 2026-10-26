@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'geoquiz',
+    url: '/geoquiz/',
+    thumb: 'thumbs/geoquiz.jpg?v=1',
+    color: '#1f6f8b',
+    genres: ['learning', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-26',
+    title:    { zh: '地理大挑戰', en: 'Geo Quiz' },
+    tagline:  { zh: '看地圖認國家、在地圖上點出國家、國旗、首都、台灣縣市和地理常識，四個難度。', en: 'Name the country lit up on the map, find countries by clicking, flags, capitals, Taiwan’s counties and world geography, at four levels.' },
+    about:    { zh: '六個主題：綜合、世界地圖、國旗、首都、台灣、地理常識。地圖題會放大到那一洲，把要猜的國家亮起來；也有反過來要你在地圖上點出國家的題目。國旗題有看旗猜國，也有四面旗子裡找出正確的一面。台灣題有縣市地圖（金門、馬祖在小框裡）、景點在哪個縣市。簡單只考有名的國家，普通加上點地圖，困難的錯誤選項都是同一洲的鄰國，專家六選一、在整張世界地圖上點、每題只有 10 秒。答得快、連對都會加分，每個主題和難度各自記最佳紀錄。共 196 個國家。（遊戲只有中文。）', en: 'Six subjects: mixed, world map, flags, capitals, Taiwan and general geography. Map questions zoom to the continent and light up a country, or ask you to click one. Flags go both ways. Taiwan questions use a county map with Kinmen and Matsu in insets. Easy asks only well-known countries; normal adds clicking on the map; hard picks wrong answers from the neighbours; expert has six choices, the whole world map and ten seconds a question. Speed and streaks add points, and each subject and level keeps its own best score. 196 countries. (Chinese only.)' },
+    controls: { zh: '點選答案，或按 1～6；Enter 下一題。地圖題直接點國家或縣市。', en: 'Tap an answer or press 1-6; Enter for the next question. On map questions, tap the country or county.' },
+  },
+  {
     id: 'zizi',
     url: '/zizi/',
     thumb: 'thumbs/zizi.jpg?v=1',
