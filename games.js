@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'xiyouji',
     url: '/xiyouji/',
-    thumb: 'thumbs/xiyouji.jpg?v=1',
+    thumb: 'thumbs/xiyouji.jpg?v=2',
     color: '#5a2418',
     genres: ['rpg', 'story'],
     devices: ['keyboard', 'touch'],
