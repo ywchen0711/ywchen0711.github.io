@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'zizi',
+    url: '/zizi/',
+    thumb: 'thumbs/zizi.jpg?v=1',
+    color: '#d9a520',
+    genres: ['learning', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1-8',
+    added: '2026-10-26',
+    title:    { zh: '字字千金', en: 'Word Gold' },
+    tagline:  { zh: '仿照公視《一字千金》的國字成語益智闖關：十五個單元全都有，可以跟電腦比，也能開房間連線跟朋友對戰。', en: 'A Chinese-character quiz show after the TV show 一字千金: all fifteen kinds of rounds, against the computer or online with friends.' },
+    about:    { zh: '將錯糾錯、字字珠璣、四說新語、去無成字、團結一詞、聽音寫國字、畫中有話、掌握先機（錯別字訂正）、成語對對碰、字有發揮、同中求異、隻字片語（12×8 方格成語接龍）、拆字接龍、文字五子棋，還有搶答的一字千金。節目模式是三關初賽加冠軍決賽，總分前兩名爭冠軍；也可以單獨練習任何一個單元。連線對戰開房間會得到四個字母的代碼，朋友輸入代碼就能加入，房主還可以加電腦對手。題庫有近千句成語，答案依教育部標準字體與《重編國語辭典修訂本》。（遊戲只有中文。）', en: 'Fifteen kinds of rounds on characters, idioms and zhuyin readings: pick the right form, find the common character, build idioms from parts, fix the wrong character in a sentence, chain idioms across a 12 x 8 grid, swap radicals, gomoku where every stone is a character, and a buzzer final. Show mode plays three rounds and a final for the top two; any round can also be practised alone. Online rooms take a four-letter code, and the host can add computer contestants. (Chinese only.)' },
+    controls: { zh: '點字卡作答，或用注音輸入法直接打字後按 Enter。手機、平板、電腦都能玩。', en: 'Tap the character tiles, or type with a Chinese input method and press Enter. Works on phones, tablets and computers.' },
+  },
+  {
     id: 'tenbrothers',
     url: '/tenbrothers/',
     thumb: 'thumbs/tenbrothers.jpg?v=1',
