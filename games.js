@@ -13,15 +13,15 @@ window.GAMES = [
   {
     id: 'ironfilm',
     url: '/ironfilm/',
-    thumb: 'thumbs/ironfilm.jpg?v=1',
+    thumb: 'thumbs/ironfilm.jpg?v=2',
     color: '#a8642a',
     genres: ['action', 'story'],
     devices: ['keyboard', 'touch'],
     players: '1',
     added: '2026-10-27',
     title:    { zh: '鋼魂戰線：鐵鴉之夜', en: 'Iron Front: Night of the Ravens' },
-    tagline:  { zh: '用《鋼魂戰線》的 3D 引擎拍的機甲動畫短片：黃昏廢墟裡 30 秒的槍戰、飛彈和刀棍對決。', en: 'An animated mech short filmed in the Iron Front 3D engine: a 30-second duel of guns, missiles, blade and shock rod in a ruined city at sunset.' },
-    about:    { zh: '停戰前夜，洛恩駕駛鐵鴉一號走向兩公里外的停火線，黑犬從屋頂跳下攔住他。十三個鏡頭、硬切剪接：機槍曳光彈、兩枚飛彈在身邊爆炸、噴射衝鋒、戰刀和電擊棍卡在一起火花四濺、斬斷手臂、最後從空中劈下的一擊。機甲就是《鋼魂戰線》裡的 3D 機體，火焰、煙、火花和電弧都是即時算出來的，音效和配樂也都是合成的。可以拖曳時間軸、中英字幕切換。', en: 'On the night before the truce, Ron walks Raven One towards the ceasefire line two kilometres away; the Black Hound drops from a rooftop to stop him. Thirteen shots with hard cuts: machine-gun tracers, two missiles bursting either side, a charge on the jets, blade and shock rod locked in a shower of sparks, an arm cut off, and the last blow from above. The machines are Iron Front’s own 3D wanzers; fire, smoke, sparks and arcs are worked out live, and the sound and music are synthesized. Scrub the timeline; Chinese or English subtitles.' },
+    tagline:  { zh: '用《鋼魂戰線》的 3D 引擎拍的機甲動畫短片：洛恩被黑犬打到單膝跪地，米雅開著攻擊直升機衝進來救援，兩人聯手反敗為勝。', en: 'An animated mech short filmed in the Iron Front engine: the Black Hound has Ron down on one knee, until Mia comes in over the rooftops in an attack helicopter and they turn it around together.' },
+    about:    { zh: '停戰前夜，洛恩駕駛鐵鴉一號走向停火線，黑犬從屋頂跳下攔路。槍戰、飛彈、噴射衝鋒、刀棍交擊之後，黑犬佔了上風：洛恩的機槍被打飛、胸口中刀、單膝跪地；刀舉起來的那一刻，米雅的攻擊直升機越過屋頂，火箭彈先到。直升機機砲掃射、灑熱焰彈甩開飛彈，洛恩重新站起來斬斷黑犬的手臂，最後從空中劈下。四十秒、二十個鏡頭；武器、飛彈和直升機都是精細模型；腳步會踩穩地面、膝蓋和腳趾有關節、動作有慣性；音效是真實錄音（真槍、直升機旋翼），配樂用真實管弦樂取樣合成。劇情、角色、動作、鏡頭都是資料檔，之後可以輕鬆加新的集數和人物。中英字幕。', en: 'On the night before the truce, Ron walks Raven One towards the ceasefire line and the Black Hound drops from a rooftop to stop him. After the guns, the missiles, a charge on the jets and blade against shock rod, the Hound has the better of him: the gun knocked from his hand, a cut across the chest, down on one knee. As the blade comes up, Mia’s attack helicopter comes over the rooftops, rockets first; its cannon, flares to lose a missile, and Ron back on his feet to take the Hound’s arm and finish it from above. Forty seconds, twenty shots; detailed weapons, missiles and helicopter; feet that stay planted, knees and toes that bend, motion with weight; real recorded sound (real guns, a real helicopter) and a score played from real orchestral samples. Story, characters, moves and shots are all data, so new episodes and characters are easy to add. Chinese and English subtitles.' },
     controls: { zh: '按播放開始。空白鍵播放／暫停，← → 前後跳兩秒，下方時間軸可以拖曳。', en: 'Press play. Space plays or pauses, ← → skip two seconds, drag the timeline at the bottom.' },
   },
   {
