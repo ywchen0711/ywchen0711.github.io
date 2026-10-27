@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'ironfilm',
+    url: '/ironfilm/',
+    thumb: 'thumbs/ironfilm.jpg?v=1',
+    color: '#a8642a',
+    genres: ['action', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-27',
+    title:    { zh: '鋼魂戰線：鐵鴉之夜', en: 'Iron Front: Night of the Ravens' },
+    tagline:  { zh: '用《鋼魂戰線》的 3D 引擎拍的機甲動畫短片：黃昏廢墟裡 30 秒的槍戰、飛彈和刀棍對決。', en: 'An animated mech short filmed in the Iron Front 3D engine: a 30-second duel of guns, missiles, blade and shock rod in a ruined city at sunset.' },
+    about:    { zh: '停戰前夜，洛恩駕駛鐵鴉一號走向兩公里外的停火線，黑犬從屋頂跳下攔住他。十三個鏡頭、硬切剪接：機槍曳光彈、兩枚飛彈在身邊爆炸、噴射衝鋒、戰刀和電擊棍卡在一起火花四濺、斬斷手臂、最後從空中劈下的一擊。機甲就是《鋼魂戰線》裡的 3D 機體，火焰、煙、火花和電弧都是即時算出來的，音效和配樂也都是合成的。可以拖曳時間軸、中英字幕切換。', en: 'On the night before the truce, Ron walks Raven One towards the ceasefire line two kilometres away; the Black Hound drops from a rooftop to stop him. Thirteen shots with hard cuts: machine-gun tracers, two missiles bursting either side, a charge on the jets, blade and shock rod locked in a shower of sparks, an arm cut off, and the last blow from above. The machines are Iron Front’s own 3D wanzers; fire, smoke, sparks and arcs are worked out live, and the sound and music are synthesized. Scrub the timeline; Chinese or English subtitles.' },
+    controls: { zh: '按播放開始。空白鍵播放／暫停，← → 前後跳兩秒，下方時間軸可以拖曳。', en: 'Press play. Space plays or pauses, ← → skip two seconds, drag the timeline at the bottom.' },
+  },
+  {
     id: 'ironfront',
     url: '/ironfront/',
     thumb: 'thumbs/ironfront.jpg?v=2',
