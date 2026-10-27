@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'budaixi',
+    url: '/budaixi/',
+    thumb: 'thumbs/budaixi.jpg?v=1',
+    color: '#9a1418',
+    genres: ['action', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-27',
+    title:    { zh: '掌中劍・月下決', en: 'Swords in the Palm: Duel Under the Moon' },
+    tagline:  { zh: '台灣布袋戲風格的 3D 動畫：月夜竹林到雲海山巔，五分鐘的劇情與打鬥，有口白、出場詩、鑼鼓與配音。', en: 'A 3D short in the style of Taiwanese glove puppetry: five minutes of story and swordplay from a moonlit bamboo forest to a peak above the clouds, with a narrator, entrance poems, gongs and drums, and voices.' },
+    about:    { zh: '第一回〈月下決〉（約五分鐘）：布袋戲台的布幕拉開，月夜竹林裡，紅綾燕飛霜帶著《天劍譜》逃亡，獨戰四名血蓮使者；血蓮魔尊夜無極從天而降，一掌將她擊倒。魔爪舉起之時，一道劍氣自黑暗中飛來，白衣劍子凌雲霄翩然落下。兩人從竹林地面一路打上竹梢，劍氣對撞、九幽掌對霜天一劍；魔尊衝上雲霄，劍子追上，在雲海之上的孤峰、巨大明月之下決戰：萬魔歸宗對上一劍・月華。天亮時口白收場：血蓮之事如何，且聽下回分解。照布袋戲的規矩：口白開場詩、角色出場詩與大字名號、招式喊名、每一擊每一亮相都有鑼鼓；戲偶會滑行、上下晃動、飛躍翻身，袖子、頭髮、裙擺和綵帶都會跟著擺動。每句台詞都有配音（中文、英文各一套），音效是真實錄音，配樂用真實的鑼、鈸、木魚、鼓、古箏、陶笛與弓弦樂器取樣。中英字幕。', en: 'Part One, Duel Under the Moon (about five minutes): the curtain of a puppet stage parts on a bamboo forest at night. Red Silk, Yan Feishuang, flees with the Heavenly Sword Manual and fights off four envoys of the Blood Lotus; then their master, Ye Wuji, the Blood Lotus Lord, comes down out of the sky and beats her down. As his claw goes up, a crescent of sword energy flies out of the dark and the White-Robed Sword, Ling Yunxiao, glides down between them. They fight through the bamboo and up into its tops, crescent against crescent, the Nine Netherworlds Palm against the Frost Sky Sword; the Lord blasts himself into the sky, Ling follows, and they finish it on a lone peak above a sea of clouds under a huge moon: Ten Thousand Demons against One Sword of Moonlight. At dawn the narrator closes the tale: what came of the Blood Lotus, the next part will tell. In the manner of budaixi: the narrator’s opening poem, each master’s entrance poem with his name in great calligraphy, techniques called out by name, gongs and drums on every blow and pose; the puppets glide, bob, leap and flip, their sleeves, hair, skirts and ribbons swinging after them. Every line voiced, in Chinese and in English, real recorded sound, and music played from real gongs, cymbals, woodblock, drums, zither, ocarina and bowed strings. Chinese and English subtitles.' },
+    controls: { zh: '按開演開始。空白鍵播放／暫停，← → 前後跳兩秒，下方時間軸可以拖曳。', en: 'Press Begin. Space plays or pauses, ← → skip two seconds, drag the timeline at the bottom.' },
+  },
+  {
     id: 'ironfilm',
     url: '/ironfilm/',
     thumb: 'thumbs/ironfilm.jpg?v=2',
