@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'wulinworld',
+    url: '/wulin-world/',
+    thumb: 'thumbs/wulinworld.jpg?v=1',
+    color: '#26335e',
+    genres: ['rpg', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-28',
+    title:    { zh: '武林積木：龍門江湖', en: 'Wulin Bricks: The Rivers and Lakes of Longmen' },
+    tagline:  { zh: '整個江湖都是積木搭的開放世界！操控奕叡、奕碩兄弟，向高人學輕功、闖黑風寨、登暴龍崖，收齊四片天機鑰，打開瀑布後的天機閣。', en: 'An open world built entirely of bricks! As the brothers Yi Rui and Yi Shuo, learn lightness skills from the masters, storm the Black Wind Fort, climb the Tyrant Dragon Cliff, gather the four Stratagem Keys and open the pavilion behind the falls.' },
+    about:    { zh: '《龍門雙奕》的開放世界：父親被誣陷下獄，兄弟倆逃亡中，奕碩球裡的青龍玉原來是四片天機鑰之一。整片四百乘四百格的土地都是有凸點的積木：被執法堂封條封住的龍門刀莊、龍門村、說書人白先生所在的聽雨樓十字街、竹林、湖心的寒江閣、山上的千佛寺、紅岩高塔暴龍崖、山頭的黑風寨，以及北方天機瀑布後的玉門。可以隨時切換奕叡（刀）和奕碩（足球），另一個會跟在身後；普通攻擊之外，還有耗內力的絕招「一刀啟程」劍氣與「旋風球」。黑風寨的山賊和巡邏的執法堂弟子會追打你，還有寨主黑熊、暴龍冷笑天和天機閣裡的蒙面人三場頭目戰。向苦禪大師學梯雲縱（二段跳）、向柳寒煙學水上飄（滑翔、水面奔跑）、從黑熊的寶箱取得壁虎遊牆（爬牆），每學一門輕功就能去新的地方。藏在屋頂、樹梢、竹尖、崖邊的二十九張秘笈殘頁，每五張提高氣血。有晝夜變化、古箏配樂、地圖、自動存檔，中英雙語。', en: 'The open world of The Longmen Brothers. Their father framed and jailed, the brothers are on the run, and the dragon jade in Yi Shuo’s ball turns out to be one of four Stratagem Keys. The whole 400 by 400 land is built of studded bricks: the Longmen Manor under the Law Hall’s seals, the village, the crossroads town with the storyteller Master Bai’s teahouse, the bamboo forest, the Cold River Pavilion on its island, the temple on the hill, the red tower of the Tyrant Dragon Cliff, the Black Wind Fort, and the jade gate behind the falls in the north. Swap any time between Yi Rui (a saber) and Yi Shuo (a football) while the other follows; besides plain blows, spend qi on One Cut to Set Out, a crescent of sword qi, and the Whirlwind Ball. Bandits and Law Hall patrols come after you, with three bosses: Black Bear, Leng Xiaotian the Tyrant Dragon, and the Masked Man in the pavilion. Learn the Cloud Ladder (a double jump) from Master Kuchan, Skim the Water (glide, run on water) from Liu Hanyan, and Gecko on the Wall (wall climbing) from Black Bear’s chest; each opens new places. Twenty-nine manual pages hide on roofs, treetops, bamboo tips and cliff ledges, and every five gives more health. Day and night, zither music, a map, autosave, Chinese and English.' },
+    controls: { zh: 'WASD 移動，空白鍵跳（學會後空中再按二段跳、按住滑翔），J／左鍵 攻擊，K／右鍵 絕招，E 對話，Q 換人，M 地圖，滑鼠轉視角（點畫面鎖定）。手機：左邊搖桿、右邊拖曳轉視角、按鈕。', en: 'WASD move, Space jumps (once learnt, again in mid-air for a second jump, hold to glide), J or left click hits, K or right click for the special, E talks, Q swaps brothers, M map, the mouse turns the camera (click to lock). Touch: a stick on the left, drag on the right to look, buttons.' },
+  },
+  {
     id: 'wulinbricks',
     url: '/wulinbricks/',
     thumb: 'thumbs/wulinbricks.jpg?v=3',
