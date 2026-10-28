@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'styleworld',
+    url: '/styleworld/',
+    thumb: 'thumbs/styleworld.jpg?v=1',
+    color: '#1f3f9e',
+    genres: ['platformer'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-27',
+    title:    { zh: '六界第一關', en: 'Style World' },
+    tagline:  { zh: '經典的第一關，六種世界隨時切換：貼紙、青花瓷、Risograph 印刷、十字繡、等高線地圖、立體書。', en: 'A classic first level in six worlds, switch any time: stickers, blue-and-white porcelain, risograph print, cross-stitch, contour map, pop-up book.' },
+    about:    { zh: '同一個關卡、同樣的規則，畫法完全不同：貼紙世界裡每樣東西都是有白邊、會翹角的貼紙；青花瓷世界只有白瓷和鈷藍，表面有釉光，頂一下磚塊會出現冰裂紋，打碎時散成帶花紋的瓷片；Risograph 只用螢光粉、藍、黃三色網點套印，還會對不準；十字繡世界一格一格繡在十字布上；等高線世界把地形畫成地圖，有等高線、高度數字、等壓線雲和指北針；立體書裡的方塊是紙卡，從右邊翻起來、從左邊摺回去。關卡和角色都是原創的：頭上長芽的小圓仔、甲蟲、可以踢的蝸牛殼、禮物盒和長大莓果。', en: 'One level, one set of rules, six ways of drawing it. In the sticker world everything is a sticker with a white margin and a lifting corner. In porcelain there is only white and cobalt under a glaze: a struck brick crackles, and a broken one bursts into painted shards. The risograph prints three fluoro inks as halftone dots, off register. The cross-stitch world is sewn square by square on aida cloth. The contour world is a survey map, with contour lines, heights, isobar clouds and a compass. In the pop-up book the blocks are paper cards that fold up from the right and down again on the left. The level and the characters are original: a round little hero with a sprout, beetles, kickable snail shells, gift boxes and a growth berry.' },
+    controls: { zh: '← → 移動，空白鍵跳（按久跳高），1–6 換世界，R 重來。手機有觸控按鈕。', en: '← → move, Space jumps (hold to go higher), 1–6 change world, R restarts. Touch buttons on phones.' },
+  },
+  {
     id: 'bricktown',
     url: '/bricktown/',
     thumb: 'thumbs/bricktown.jpg?v=1',
