@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'paperpuppets',
+    url: '/paperpuppets/',
+    thumb: 'thumbs/paperpuppets.jpg?v=1',
+    color: '#2a2230',
+    genres: ['story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-27',
+    title:    { zh: '紙偶小劇場：隔壁的阿樂', en: 'Paper Puppets: Leo Next Door' },
+    tagline:  { zh: '2D 紙偶動畫連續劇：寫好劇本，導演程式自動排走位、表情、鏡頭與配音。第一集〈卡在樹上的風箏〉。', en: 'A 2D cut-out puppet series: write the script, and the director lays out the blocking, faces, camera and voices. Episode 1: The Kite in the Tree.' },
+    about:    { zh: '小米家隔壁搬來了新鄰居阿樂。他的風箏一飛就卡在公園的大樹上，兩個孩子怎麼跳都搆不到——直到奶奶拄著拐杖來送點心。黃昏時，風箏終於飛上天。這是一個做連續劇的框架：每一集只是一份簡單的劇本，程式會自己安排角色走位、轉身、聽的人的反應、喜怒哀樂的姿勢與表情、開場遠景、雙人鏡頭、單人與特寫；走路時腳會踩在地上，說話時嘴型跟著聲音動，會眨眼、看著對方，頭髮隨動作擺動。每句台詞都有角色配音，配樂在瀏覽器裡現場合成。中英字幕。', en: 'A new boy, Leo, has moved in next door to Mia. His kite gets stuck in the big tree in the park the first time he flies it, and the two children jump and jump but cannot reach it, until Grandma comes with her walking stick and a bag of cookies. At dusk the kite flies at last. This is a framework for making a series: each episode is a simple script, and the program works out where the characters walk and turn, how the listeners react, the posture and face of every feeling, the establishing shot, two-shots, singles and close-ups. Feet plant as they walk, mouths follow the voices, eyes blink and look at each other, hair swings. Every line is voiced; the score is made in the browser. Chinese and English subtitles.' },
+    controls: { zh: '選集數開始播放。空白鍵播放／暫停，← → 前後跳五秒，下方時間軸可以拖曳。', en: 'Pick an episode to start. Space plays or pauses, ← → skip five seconds, drag the timeline at the bottom.' },
+  },
+  {
     id: 'budaixi',
     url: '/budaixi/',
     thumb: 'thumbs/budaixi.jpg?v=2',
