@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'brickbuilders',
+    url: '/brick-builders/',
+    thumb: 'thumbs/brickbuilders.jpg?v=1',
+    color: '#2a64b8',
+    genres: ['rpg', 'strategy'],
+    devices: ['keyboard'],
+    players: '1',
+    added: '2026-10-29',
+    title:    { zh: '積木建造家：空蕩島', en: 'Brick Builders: Empty Isle' },
+    tagline:  { zh: '像《創世小玩家 2》一樣：敲碎方塊收集材料，在工作台做家具，圍出房間，村民就會搬來住！', en: 'Like Dragon Quest Builders 2: break blocks for materials, make furniture at a workbench, wall in rooms, and villagers move in!' },
+    about:    { zh: '在一座什麼都沒有的荒島醒來，手上只有一把鎚子，旁邊是愛打架的夥伴黑牙。把草地、樹幹、岩石、礦石敲碎變成材料，在工作台做出木門、床、桌椅、火把、大鍋；用兩格高的牆圍出房間再裝上門，裡面的家具決定它是臥室、廚房、餐廳還是書房。房間帶來幸福愛心，讓基地從 Lv1 升到 Lv5，農夫阿花、木匠老木、廚師胖廚和小孩小石陸續搬來，會拜託你事情、晚上回床睡覺。種高麗菜（照真實時間長大），晚上和黑牙一起打史萊姆。遊戲自動存檔。', en: 'Wake on an empty island with only a hammer and Heiya, a friend who likes a fight. Break grass, trunks, rock and ore into materials; make doors, beds, tables, torches and a cooking pot at the workbench; wall in rooms two bricks high with a door, and the furniture inside makes it a bedroom, kitchen, dining room or study. Rooms bring hearts that raise your base from level 1 to 5, and four villagers move in, ask things of you and sleep in beds at night. Grow cabbages in real time, and fight slimes at night beside Heiya. Saves automatically.' },
+    controls: { zh: 'WASD 移動・滑鼠轉視角・左鍵/J 敲擊・右鍵/K 放置・滾輪/1-8 選東西・E 使用/對話・C 隨身製作・I 背包・空白鍵 跳', en: 'WASD move · mouse look · left click/J hit · right click/K place · wheel/1-8 choose · E use/talk · C craft · I bag · Space jump' },
+  },
+  {
     id: 'joshwordgold',
     url: '/josh-word-gold/',
     thumb: 'thumbs/joshwordgold.jpg?v=1',
