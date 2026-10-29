@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'joshwordgold',
+    url: '/josh-word-gold/',
+    thumb: 'thumbs/joshwordgold.jpg?v=1',
+    color: '#3a1a6a',
+    genres: ['story', 'learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-28',
+    title:    { zh: '一字千金 ABC 海外特別節目', en: 'A Word Worth Gold: The ABC Special' },
+    tagline:  { zh: '加州十歲的 Josh 一個人去參加國字比賽！睡覺可以吃嗎？可以吻你一個問題嗎？最後一個「媽」字定勝負。約十分鐘的積木動畫。', en: 'Ten-year-old Josh from California takes on a Chinese quiz show alone! Can you eat sleep? May I kiss you a question? The final comes down to one character. A ten-minute brick film.' },
+    about:    { zh: '住在聖地牙哥、每個星期六都上中文學校的 Josh，跟紐約的 Emily、德州牛仔 Kevin、倫敦的「BBC」Ethan、溫哥華一直說 sorry 的 Sophie、澳洲的「另一個 ABC」Mei 同台較量，主持人曾國城。聲調大考驗、文化大不同、成語英文翻，最後的決戰一字千金：Josh 寫「龜」多了一點落後一千分，最後一題寫「媽」——Emily 寫成了「嗎」，Josh 驚險逆轉奪冠。弟弟 Jasper 在台下舉著「GO JOSH!」大喊「哥哥加油，Add oil！」。觀眾的笑聲、掌聲是真實錄音；播放時可以拖曳畫面轉視角，也可以下載影片。', en: 'Josh, who goes to Chinese school every Saturday in San Diego, faces Emily from New York, Kevin the Texan, Ethan the “BBC”, Sophie the always-sorry Canadian and Mei, the other ABC, with Tseng Kuo-cheng hosting. Tones, customs, idioms put into English, and the final: Josh writes a tortoise with one stroke too many and falls a thousand behind, then the last question is 媽 — and Emily writes 嗎. His little brother Jasper holds up GO JOSH! in the front row. Real audience laughter and applause; drag to look around, or download the video.' },
+    controls: { zh: '按「開演」播放；播放中拖曳畫面可以轉視角，空白鍵暫停，左右鍵快轉倒轉。', en: 'Press Play; drag to look around while it plays, Space to pause, arrow keys to skip.' },
+  },
+  {
     id: 'wulinworld',
     url: '/wulin-world/',
     thumb: 'thumbs/wulinworld.jpg?v=1',
