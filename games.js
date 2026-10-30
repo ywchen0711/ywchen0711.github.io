@@ -12,7 +12,7 @@
 window.GAMES = [
   {
     id: 'jasperpopup',
-    url: 'https://ywchen0711.github.io/jasper-popup/',
+    url: '/jasper-popup/',
     thumb: 'thumbs/jasperpopup.jpg?v=1',
     color: '#c94f3b',
     genres: ['story', 'puzzle'],
