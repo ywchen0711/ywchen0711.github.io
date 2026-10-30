@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'jasperghost',
+    url: '/jasper-ghost-house/',
+    thumb: 'thumbs/jasperghost.jpg?v=1',
+    color: '#2a1a3a',
+    genres: ['action', 'puzzle', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-29',
+    title:    { zh: 'Jasper 的鬼屋：立體書大冒險', en: 'Jasper’s Ghost House' },
+    tagline:  { zh: '像《路易吉洋樓》一樣：拿著手電筒和吸塵器，在立體書鬼屋裡把鬼吸回畫裡，救出被關進畫中的哥哥 Josh！', en: 'Like Luigi’s Mansion: armed with a flashlight and a vacuum, suck the ghosts of a pop-up haunted mansion back into their paintings and rescue big brother Josh!' },
+    about:    { zh: '哥哥 Josh 被一本舊立體書吸了進去，弟弟 Jasper（人中右邊有顆小黑痣）跟著跳進書裡。貓頭鷹教授借給他「呼呼吸塵器 3000」。整間鬼屋就是一本書：每個房間是一頁，走過門就翻頁，家具、牆壁和鬼都會從書頁裡立起來。鬼露出愛心大笑時用閃光嚇呆它，再按住吸塵器，往反方向拉才吸得快；房間的鬼抓光了燈才會亮。一共 4 層樓、45 個房間：12 種鬼（會揍人的、會旋轉的、會丟垃圾的、隱形抓人的、會爆炸的、你一回頭才靠近的害羞鬼、有火冰水護盾的元素鬼、帶著寶藏逃跑的快鬼），12 位各有破解方法的肖像鬼頭目（把盤子吹回去打管家、吸走泡泡夫人的浴簾、澆熄主廚的爐火、用冰凍住時鐘大師的鐘擺……），最後是三回合的幽暗國王。拿到水、火、冰三個徽章就能從浴缸、蠟燭、冰塊吸取元素再噴出去，解開更多謎題、打開更多門，常常要回到前面的樓層。還有拉桿順序、音樂盒、時鐘、配電盤等 9 種謎題，每個完成的房間都藏著一隻害羞鬼（王座要 25 隻才開），撿到的錢可以升級吸塵器、手電筒、體力和元素槽。有地圖、自動存檔，中文和英文，預計要玩五個小時以上。', en: 'Big brother Josh is sucked into an old pop-up book, and little Jasper (with the small mole by his lip) jumps in after him. Professor Owlbert lends him the Gust-O-Matic 3000. The haunted house is the book itself: every room is a page, walking through a door turns it, and furniture, walls and ghosts fold up out of the paper. Flash a ghost when it laughs and shows its heart, then hold the vacuum and pull the other way to drain it; the lights only come on when a room is clear. Four floors and 45 rooms: 12 kinds of ghost (punchers, spinners, junk-throwers, invisible grabbers, bombers, shy ones that creep up when you look away, fire/ice/water ghosts with shields, fleeing treasure spirits), 12 portrait-ghost bosses each with its own trick (blow the butler’s plates back at him, vacuum away Lady Bubbles’ shower curtain, douse the Chef’s stove, freeze the Clockmaster’s pendulum...) and a three-round King Gloom. The water, fire and ice medals let you soak up elements from tubs, candles and ice and blow them out, opening new puzzles and doors and sending you back to earlier floors. Nine kinds of puzzle, a Boo hidden in every finished room (the throne wants 25), treasure to spend on upgrades, a map, saving, Chinese and English. Five hours and more of play.' },
+    controls: { zh: 'WASD 移動・滑鼠瞄準・J/右鍵 閃光・K/空白鍵/左鍵 吸（按住）・L 吹（按住）・E 搜查/開門・M 地圖・H 提示・Esc 選單・支援手把和觸控', en: 'WASD move · mouse aim · J/right click flash · K/Space/left click vacuum (hold) · L blow (hold) · E search/doors · M map · H hint · Esc menu · gamepad and touch' },
+  },
+  {
     id: 'jasperpopup',
     url: '/jasper-popup/',
     thumb: 'thumbs/jasperpopup.jpg?v=1',
