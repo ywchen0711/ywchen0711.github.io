@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'sagecanyondrive',
     url: '/sage-canyon-drive/',
-    thumb: 'thumbs/sagecanyondrive.jpg?v=1',
+    thumb: 'thumbs/sagecanyondrive.jpg?v=2',
     color: '#2f5d8a',
     genres: ['sports', 'learning'],
     devices: ['keyboard', 'touch'],
