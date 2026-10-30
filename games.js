@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'jasperpopup',
+    url: 'https://ywchen0711.github.io/jasper-popup/',
+    thumb: 'thumbs/jasperpopup.jpg?v=1',
+    color: '#c94f3b',
+    genres: ['story', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-29',
+    title:    { zh: 'Jasper 的立體書：熊貓寶寶在哪裡？', en: "Jasper's Pop-Up Panda Adventure" },
+    tagline:  { zh: '翻開立體書，紙做的竹林、小河、雪山一頁頁站起來！幫熊貓媽媽找回五個迷路的熊貓寶寶。', en: 'Open the pop-up book and watch paper forests, rivers and mountains fold up page by page! Help Panda Mom find her five lost babies.' },
+    about:    { zh: '桌上放著一本大大的立體書，每翻一頁，紙做的竹子、小屋、大樹、雪山和人物就會從書頁裡彈起來。弟弟 Jasper 要幫熊貓媽媽找回玩捉迷藏玩到迷路的五個寶寶：圓圓、豆豆、毛毛、糖糖和球球。掀開落葉堆的翻翻頁、拉一拉書邊的紙片讓小橋放下來、轉動花朵轉盤、晚上提著燈籠收集螢火蟲、找出一直打噴嚏的雪人、打開會動的蒸籠，最後帶著五個寶寶回家。每一頁還藏著一顆星星。故事可以中文或英文朗讀，點畫面就能走路，小小孩也能玩。', en: 'A big pop-up book lies open on the table, and with every page paper bamboo, cottages, trees, snowy mountains and characters spring up out of it. Little brother Jasper helps Panda Mom find the five babies who got lost playing hide-and-seek: Yuanyuan, Doudou, Maomao, Tangtang and Qiuqiu. Lift a flap of leaves, pull a paper tab to fold down a bridge, turn the flower wheel, gather fireflies by lantern light, find the snowman who keeps sneezing, open the steamer that wiggles, and bring all five babies home. Each page also hides a star. The story can be read aloud in Chinese or English, and tapping the page walks you there, so even little ones can play.' },
+    controls: { zh: '方向鍵/WASD 或點畫面走路・空白鍵/Enter 或點東西互動・Esc 選單・支援手把', en: 'Arrow keys/WASD or tap to walk · Space/Enter or tap things to use them · Esc menu · gamepad works too' },
+  },
+  {
     id: 'brickfantasy',
     url: '/brick-fantasy/',
     thumb: 'thumbs/brickfantasy.jpg?v=1',
