@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'crystalechoes',
+    url: '/crystal-echoes/',
+    thumb: 'thumbs/crystalechoes.jpg',
+    color: '#3a5ab8',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-30',
+    title:    { zh: '水晶迴響', en: 'Crystal Echoes' },
+    tagline:  { zh: 'HD-2D 像素風回合制 RPG！打弱點讓敵人破防，全面擊潰後發動英雄迴響的「共鳴」必殺技。四章劇情、六位夥伴、八位傳說英雄、召喚獸、飛空艇與滿滿的支線。', en: 'An HD-2D pixel turn-based RPG! Break enemies with weaknesses, then unleash the Resonance of a legendary hero. Four chapters, six companions, eight echoes, summons, an airship and lots of side quests.' },
+    about:    { zh: '在艾斯特蘭大陸，水晶裡沉睡著古代英雄的「迴響」。年輕騎士艾倫和夥伴們追擊想讓一切回歸緘默的「蝕夜六使」。戰鬥採用時間軸回合制：削減破防值、追加階段、共鳴、極限技、召喚與接力。', en: 'Crystals hold the echoes of ancient heroes. Young knight Aren and friends chase the Six of the Eclipse across towns, forests, mines, a water capital and floating ruins, with a timeline turn system, break shields, extra phases, resonance, limits and summons.' },
+    controls: { zh: '方向鍵移動、Shift 跑步、Z/Enter 確定、X/Esc 取消、C 選單、R 坐騎；平板用左半邊拖曳移動和右下按鈕', en: 'Arrows to move, Shift run, Z/Enter confirm, X/Esc cancel, C menu, R mount; on tablets drag the left side and use the buttons' },
+  },
+  {
     id: 'sagecanyondrive',
     url: '/sage-canyon-drive/',
     thumb: 'thumbs/sagecanyondrive.jpg?v=2',
