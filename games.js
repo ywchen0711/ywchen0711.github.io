@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'jellydash',
+    url: '/jelly-dash/',
+    thumb: 'thumbs/jellydash.jpg',
+    color: '#ff6ab0',
+    genres: ['platformer', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1-20',
+    added: '2026-10-31',
+    title:    { zh: '果凍豆衝衝衝', en: 'Jelly Dash' },
+    tagline:  { zh: '可以連線的派對障礙賽！最多20顆果凍豆一起衝：躲旋轉棒、撞假門、跳過轉盤，最後在會掉落的蜂巢地板上搶冠軍。建立房間把代碼傳給朋友，人數不夠會補電腦。', en: 'An online party obstacle-course game! Up to 20 jelly beans race past spinning bars, smash fake doors, hop the spinning platform and fight for the crown on falling hex tiles. Create a room, share the code, and bots fill the empty spots.' },
+    about:    { zh: '每一回合會淘汰一些人，直到剩下一位冠軍。四種關卡：旋轉大道（旋轉棒、移動平台、大鐵鎚、轉盤、輸送帶斜坡）、真假門門（猜哪扇門撞得破）、跳跳轉盤（跳過低棒、閃開高棒，越轉越快）和決賽蜂巢墜落（三層會掉的地板）。可以自訂果凍豆的顏色、花紋和帽子。連線是瀏覽器對瀏覽器直接連（WebRTC），房主的瀏覽器負責主持比賽；也可以一個人和電腦比賽。', en: 'Each round knocks some players out until one champion is left. Four rounds: Spin Road (sweeping bars, moving platforms, hammers, spinning discs and a conveyor ramp), Door Dash (guess which doors break), Jump Spin (jump the low bar, dodge the high one, faster and faster) and the Hex Fall final (three layers of falling tiles). Customize your bean with colors, patterns and hats. Online play is browser to browser (WebRTC) with the host running the show, or play solo against computer beans.' },
+    controls: { zh: 'WASD/方向鍵 移動・空白鍵 跳・Shift 飛撲・滑鼠拖曳或 Q/R 轉視角；手機平板：左下拖曳移動、右邊拖曳轉視角、按鈕跳和飛撲', en: 'WASD/arrows move · Space jump · Shift dive · drag the mouse or Q/R to turn the camera; on phones and tablets drag on the left to move, drag on the right to look, buttons to jump and dive' },
+  },
+  {
     id: 'crystalechoes',
     url: '/crystal-echoes/',
     thumb: 'thumbs/crystalechoes.jpg',
