@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'joshjaspernoodles',
+    url: '/josh-jasper-noodles/',
+    thumb: 'thumbs/joshjaspernoodles.jpg?v=1',
+    color: '#3a0a06',
+    genres: ['story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-01',
+    title:    { zh: 'Josh & Jasper 牛肉麵大對決', en: 'Josh & Jasper: Beef Noodle Showdown' },
+    tagline:  { zh: 'Josh 和 Jasper 對上兩位義大利主廚，一小時煮台灣牛肉麵！評審是腳永遠翹在椅子上、口袋裡有味精的毒舌 Uncle Rojak。約十一分鐘的積木動畫。', en: 'Josh and Jasper take on two Italian chefs: one hour to cook Taiwanese beef noodle soup, judged by the savage Uncle Rojak, one leg up on his chair and MSG in his pocket. An eleven-minute brick film.' },
+    about:    { zh: '三關：牛肉、湯頭、麵。義大利隊把牛肉切成生牛肉片（「你不是尊重牛肉，你是要牛肉投降」）、倒紅酒把鍋子燒起來（「那不是鑊氣，那是要申請保險」）、把義大利麵折成兩半讓 Giuseppe 主廚崩潰——這時 Uncle 的腳放下來了。台灣隊照阿嬤的食譜：第一鍋水倒掉、壓力鍋、Uncle 丟過來的味精，還有 Jasper 的「恐龍湯匙」辣油和他的秘密食材。最後評分，冠軍拿走黃金電鍋。英文對白，每個人都有自己的口音（Uncle 的星馬英文、Giuseppe 濃濃的義大利腔），中文字幕。', en: 'Three rounds: the beef, the broth, the noodles. Team Italia slice the beef raw ("you make the beef surrender"), set the pan on fire with red wine ("that is not wok hei, that is insurance claim") and snap the spaghetti in half, and Chef Giuseppe falls apart. That is when Uncle’s leg comes down. Team Taiwan follow Grandma’s recipe: the first water thrown away, the pressure cooker, the MSG Uncle throws across the studio, plus Jasper’s dinosaur spoon of chilli oil and his secret ingredient. The winner takes home the Golden Rice Cooker. English dialogue, every character in their own accent, with Chinese subtitles.' },
+    controls: { zh: '按「開演」播放；播放中拖曳畫面可以轉視角，空白鍵暫停，左右鍵快轉倒轉。按 EN 換英文字幕。', en: 'Press Play; drag to look around while it plays, Space to pause, arrow keys to skip. EN / 中 switches the subtitles.' },
+  },
+  {
     id: 'joshjasperrap',
     url: '/josh-jasper-rap/',
     thumb: 'thumbs/joshjasperrap.jpg?v=1',
