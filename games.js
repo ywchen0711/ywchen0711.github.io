@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'joshjasperrap',
+    url: '/josh-jasper-rap/',
+    thumb: 'thumbs/joshjasperrap.jpg?v=1',
+    color: '#2a0640',
+    genres: ['story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-10-31',
+    title:    { zh: 'Josh & Jasper 大嘻哈時代3', en: 'Josh & Jasper: The Rap Era 3' },
+    tagline:  { zh: 'Josh 和弟弟 Jasper 去參加饒舌海選！評審 J.Sheon、Gummy B、熱狗，八位參賽者每人只有三十秒。約十一分鐘的積木動畫。', en: 'Josh and little brother Jasper audition for a rap show! Judges J.Sheon, Gummy B and MC HotDog, eight contestants, thirty seconds each. An eleven-minute brick film.' },
+    about:    { zh: '三位評審每人一條金項鍊，拿到兩條就晉級，三條全亮直接晉級還會噴火。菜市場饒舌的金花阿嬤唱到一半接電話、Lil 泡麵三十秒講了十一個 yeah、凱文王子對著 J.Sheon 唱情歌唱到破音、外送員阿傑唱到一半跑去送單、肌肉 Max 邊做伏地挺身邊饒舌、MC 憂鬱三十秒只說了四個字讓評審睡著……Josh 用 Auto-Tune 唱副歌、饒舌唱 taco 配滷肉飯和被偷吃的薯條；人中右邊有顆痣的 Jasper 唱恐龍、恐龍吼、承認薯條是他吃的，最後 mic drop。每首歌的 beat 都是程式合成的，饒舌對準拍子，唱歌用音高修正。', en: 'Each judge has one gold chain: two and you go through, three and the flames go up. A market grandma takes a phone call mid-verse, a rookie says yeah eleven times, an R&B prince serenades a judge until his voice cracks, a courier leaves mid-song for an order, a trainer raps through push-ups, a poet puts the judges to sleep. Josh sings an auto-tuned hook and raps about tacos and his stolen fries; Jasper, with the mole above his lip, raps dinosaurs, roars, confesses to the fries and drops the mic. Every beat is synthesised; the rap is fitted to it and the singing pitch-corrected.' },
+    controls: { zh: '按「開演」播放；播放中拖曳畫面可以轉視角，空白鍵暫停，左右鍵快轉倒轉。', en: 'Press Play; drag to look around while it plays, Space to pause, arrow keys to skip.' },
+  },
+  {
     id: 'jellydash',
     url: '/jelly-dash/',
     thumb: 'thumbs/jellydash.jpg',
