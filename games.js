@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'relicdepths',
+    url: '/relic-depths/',
+    thumb: 'thumbs/relicdepths.jpg?v=1',
+    color: '#1a0e1c',
+    genres: ['rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-01',
+    title:    { zh: '遺物深淵', en: 'Relic Depths' },
+    tagline:  { zh: '回合制打寶 RPG：十種職業、八十棵技能樹，裝備有隨機詞綴，還有暗金和套裝。深入五幕隨機生成的地城，一路打到地獄難度！', en: 'A turn-based loot RPG: ten classes, eighty skill trees, gear with random affixes, uniques and sets. Delve through five acts of random dungeons, all the way to Hell difficulty!' },
+    about:    { zh: '從暮光營地出發，選一個職業（狂戰士、聖騎士、元素法師、死靈法師、遊俠、刺客、德魯伊、武僧、吟遊詩人、機巧槍手），之後還能招募其他職業組成四人小隊。每升一級拿到技能點和屬性點，分配到八棵技能樹裡。魔物會掉落白、藍、黃、暗金、綠五種稀有度的裝備；藍色光環的冠軍和金色光環的獨特怪物帶著強壯、火焰強化、吸血、分裂等特性，掉寶也更好。營地有商人、賭徒、倉庫和傭兵隊長。打倒第五幕的首領會開放噩夢難度，再來是地獄。', en: 'Set out from the Twilight Camp as one of ten classes and hire others into a party of four. Each level brings skill and stat points for eight skill trees. Monsters drop white, blue, yellow, unique and set gear; blue-ringed champions and gold-ringed unique monsters carry modifiers like Extra Strong, Fire Enchanted, Vampiric or Splitting, and drop better loot. The camp has a merchant, a gambler, a stash and a mercenary captain. Beat the Act 5 boss to unlock Nightmare, then Hell.' },
+    controls: { zh: '方向鍵移動，Z / Enter 確定，X / Esc 取消，C 開選單（技能樹、屬性點、裝備、背包），M 看地圖。戰鬥可以開「自動」。觸控：左半邊拖曳移動，☰ 開選單。', en: 'Arrow keys to move, Z / Enter to confirm, X / Esc to cancel, C for the menu (skill trees, stats, gear, bag), M for the map. Battles have an Auto button. Touch: drag on the left half to move, ☰ for the menu.' },
+  },
+  {
     id: 'joshjaspernoodles',
     url: '/josh-jasper-noodles/',
     thumb: 'thumbs/joshjaspernoodles.jpg?v=1',
