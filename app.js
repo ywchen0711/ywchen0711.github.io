@@ -161,8 +161,7 @@
     state.plays[g.id] = (state.plays[g.id] || 0) + 1; save('plays', state.plays);
     state.recent = [{ id: g.id, t: Date.now() }].concat(state.recent.filter(function (r) { return r.id !== g.id; })).slice(0, 8); save('recent', state.recent);
     $('now').textContent = L(g.title);
-    var f = $('frame');
-    f.src = gameUrl(g);
+    show(gameUrl(g));
     $('player').hidden = false;
     document.body.style.overflow = 'hidden';
     $('back').focus();
@@ -170,12 +169,15 @@
   function stopGame() {
     if (!playing) return;
     playing = null;
-    $('frame').src = 'about:blank';                    // stops the game's music and timers
+    show('about:blank');                               // stops the game's music and timers
     $('player').hidden = true;
     document.body.style.overflow = '';
     if (document.fullscreenElement) document.exitFullscreen().catch(function () {});
     renderRows();
   }
+  // load a page in the player without adding to the browser's history (a plain src change adds an entry, so the
+  // lobby's back button would first step the frame back and need a second press)
+  function show(url) { var f = $('frame'); try { f.contentWindow.location.replace(url); } catch (e) { f.src = url; } }
   $('frame').addEventListener('load', function () { try { if (playing) $('frame').contentWindow.focus(); } catch (e) { /* other site */ } });
 
   // ---------- the address decides what is on screen ----------
@@ -186,9 +188,10 @@
     if (g && m[1] === 'game') openDetails(g); else $('modal').hidden = true;
   }
   function go(hash) { openedFromLobby = true; location.hash = hash; }
+  // back to the lobby in one press: the address drops its #play / #game in place, whatever the frame did to the history
   function home() {
-    if (openedFromLobby && history.length > 1) { openedFromLobby = false; history.back(); }
-    else location.hash = '';
+    openedFromLobby = false;
+    if (location.hash) { history.replaceState(null, '', location.pathname + location.search); route(); }
   }
   window.addEventListener('hashchange', route);
 
@@ -215,7 +218,7 @@
   $('modal').addEventListener('click', function (e) { if (e.target === $('modal')) home(); });
   $('modal-x').addEventListener('click', home);
   $('back').addEventListener('click', home);
-  $('reload').addEventListener('click', function () { if (playing) $('frame').src = gameUrl(playing); });
+  $('reload').addEventListener('click', function () { if (playing) show(gameUrl(playing)); });
   $('full').addEventListener('click', function () {
     if (document.fullscreenElement) document.exitFullscreen(); else $('player').requestFullscreen().catch(function () {});
   });
