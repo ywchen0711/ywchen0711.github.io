@@ -13,7 +13,7 @@ window.GAMES = [
   {
     id: 'sanguobrawl',
     url: '/sanguo-brawl/',
-    thumb: 'thumbs/sanguobrawl.jpg?v=2',
+    thumb: 'thumbs/sanguobrawl.jpg?v=3',
     color: '#1a120a',
     genres: ['action', 'rpg'],
     devices: ['keyboard', 'touch'],
