@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'sanguobrawl',
+    url: '/sanguo-brawl/',
+    thumb: 'thumbs/sanguobrawl.jpg?v=1',
+    color: '#1a120a',
+    genres: ['action', 'rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-06',
+    title:    { zh: '亂世豪俠傳', en: 'Brawlers of the Three Kingdoms' },
+    tagline:  { zh: '扮演劉備、關羽、張飛或趙雲，在東漢末年的大路上自由闖蕩！拳腳兵器連段、抓人摔人、撿木桶砸人，向各地高手學招式、裝上四個絕招。HD-2D 動作 RPG。', en: 'Be Liu Bei, Guan Yu, Zhang Fei or Zhao Yun and roam the road of the late Han! Fist, kick and blade combos, grabs and throws, barrels to hurl, techniques learned from the great fighters of the age with four in hand. An HD-2D action RPG.' },
+    about:    { zh: '二十個地方連成一張地圖：涿縣、陳留、洛陽、長沙、建業五座城鎮，還有黃巾營寨、汜水關、虎牢關、江夏水寨、南中密林和天柱山。想去哪裡都可以，太早去會很難打。在飯館吃飯回復體力，有些菜吃了還會變強；在兵器鋪買裝備；在道場和盧植、典韋、許褚、黃忠、甘寧、太史慈、左慈切磋，打贏了他們就肯教你招式。二十五種招式（旋風腿、百裂拳、氣功彈、青龍斬、燕人吼、七進七出、百步穿楊、五雷正法、方天亂舞……）最多裝四種。主線依序打倒程遠志、張角、華雄、呂布，最後攻入郿塢討伐董卓。三兄弟在桃園結義後，可以帶一位兄弟並肩作戰。', en: 'Twenty places on one map: five towns (Zhuo, Chenliu, Luoyang, Changsha, Jianye) and the Yellow Turban camp, Sishui and Hulao passes, the river forts, the southern jungle and a mountain hermitage. Go anywhere, though some roads are too hard too soon. Eat at the inns to heal (some dishes make you stronger for good), buy gear, and spar with masters like Dian Wei, Xu Chu, Huang Zhong and Zuo Ci to learn their techniques. Twenty-five techniques, four in hand. Defeat Cheng Yuanzhi, Zhang Jiao, Hua Xiong and Lu Bu, then storm Meiwu and bring down Dong Zhuo. Swear the oath in the peach garden and a sworn brother fights at your side.' },
+    controls: { zh: '方向鍵 / WASD 移動（連按兩下奔跑），J 攻擊，K 踢，空白鍵跳，按住 L 防禦，U I O P 使出招式，E 進門、說話、撿東西，Q 吃藥，Esc 選單。觸控：左下搖桿，右下攻、腳、跳、防和招式鍵。', en: 'Arrows / WASD to move (double-tap to run), J attack, K kick, Space jump, hold L to guard, U I O P techniques, E to enter, talk or pick up, Q to heal, Esc for the menu. Touch: stick bottom-left, buttons bottom-right.' },
+  },
+  {
     id: 'sanguoheroes',
     url: '/sanguo-heroes/',
     thumb: 'thumbs/sanguoheroes.jpg?v=1',
