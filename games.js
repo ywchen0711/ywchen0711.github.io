@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'writingdojo',
+    url: '/writing-dojo/',
+    thumb: 'thumbs/writingdojo.jpg',
+    color: '#2f7de1',
+    genres: ['learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-07',
+    title:    { zh: '寫作練功房', en: 'Writing Dojo' },
+    tagline:  { zh: '一到十二年級的英文寫作練習：文法、標點、句子和段落的技巧題（隨機產生、附解說），還有先計畫、寫草稿、再修改的寫作任務。中英雙語。', en: 'English writing for grades 1–12: grammar, punctuation, sentence and paragraph drills with explanations, plus writing tasks you plan, draft and revise. Chinese and English.' },
+    about:    { zh: '依照美國 Common Core 寫作與語言標準分年級：173 個技巧單元，每個先上小課堂，再做選擇、點出錯字、排順序或填字的練習，題目每次都不一樣；111 個寫作任務，從一年級的感謝卡、二年級的意見文，到高中的論說文、修辭分析和大學申請短文。寫完按「檢查」，電腦會標出大小寫、拼字、重複的字、連寫句和缺少的段落，再用檢查表自評，最後和範文比一比。', en: 'Sorted by the US Common Core Writing and Language standards: 173 skill units, each with a mini-lesson and endless drills (pick, tap the mistake, put in order, type), and 111 writing tasks, from a first-grade thank-you note to high-school arguments, rhetorical analysis and college essays. Press Check and the page marks capitals, spelling, overused words, run-ons and missing paragraphs; then use the rubric and compare with a model text.' },
+    controls: { zh: '點選答案、點出錯的字或依序點句子 · 寫作任務在文字框裡打字', en: 'Tap answers, tap the wrong word or tap sentences in order · type in the writing box' }
+  },
+  {
     id: 'mathdojo',
     url: '/math-dojo/',
     thumb: 'thumbs/mathdojo.jpg',
