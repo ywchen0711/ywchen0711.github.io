@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'mathdojo',
+    url: '/math-dojo/',
+    thumb: 'thumbs/mathdojo.jpg',
+    color: '#ef6c3a',
+    genres: ['learning'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-07',
+    title:    { zh: '數學練功房', en: 'Math Dojo' },
+    tagline:  { zh: '一到十二年級的數學練習，依美國、台灣 108 課綱和 AoPS 分年級，題目隨機產生，每題都有詳細解答。中英雙語。', en: 'Math practice for grades 1–12, sorted by the US, Taiwan and AoPS curricula, with endless random questions and a worked solution for each. Chinese and English.' },
+    about:    { zh: '224 個單元，從數一數、九九乘法、分數、方程式、畢氏定理，到對數、向量、矩陣和微積分，還有 AoPS 和 AMC 風格的競賽題。每個單元的數字和情境每次都不同，答錯有提示、可以再試一次，然後看一步一步的詳解。可以單元練習、做 10 題綜合測驗，或列印 20 題的學習單（附解答）。', en: '224 topics, from counting, times tables and fractions to equations, the Pythagorean theorem, logarithms, vectors, matrices and calculus, plus AoPS and AMC-style contest problems. Every question has new numbers; a miss gets a hint and a second try, then a step-by-step solution. Practice one topic, take a 10-question mixed quiz, or print a 20-question worksheet with an answer key.' },
+    controls: { zh: '輸入答案按 Enter 或點選選項 · 右上角切換課綱和中英文', en: 'Type an answer and press Enter, or tap a choice · switch curriculum and language at the top right' }
+  },
+  {
     id: 'sanguobrawl',
     url: '/sanguo-brawl/',
     thumb: 'thumbs/sanguobrawl.jpg?v=6',
