@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'sciencelab',
+    url: '/science-lab/',
+    thumb: 'thumbs/sciencelab.jpg',
+    color: '#0e9e86',
+    genres: ['learning'],
+    devices: ['keyboard', 'mouse', 'touch'],
+    players: '1',
+    added: '2026-11-07',
+    title:    { zh: "自然科學實驗室", en: "Science Lab" },
+    tagline:  { zh: "一到十二年級的動手科學實驗：拉滑桿、看變化，再用題目做不完的練習鞏固觀念。", en: "Hands-on science for grades 1–12: move the sliders, watch what happens, then lock it in with endless practice." },
+    about:    { zh: "38 個互動模擬實驗，從磁鐵、浮沉、月相到牛頓定律、滴定與 DNA 轉譯，每個實驗都有「試試看，你發現了什麼？」的引導問題。82 個練習單元依台灣 108 課綱與美國 NGSS 編排，數值題每次隨機出題，並附逐步解說。可以做年級綜合測驗，也能列印學習單和解答。中英雙語，手機和電腦都能用。", en: "38 interactive simulations — from magnets, floating and moon phases to Newton’s laws, titration and DNA translation — each with guided “try this, what did you notice?” questions. 82 practice units follow Taiwan’s 108 curriculum and the US NGSS, with freshly generated numbers and step-by-step explanations. Take a mixed quiz for any grade or print a worksheet with an answer key. Bilingual Chinese/English, works on phones and computers." },
+    controls: { zh: "拖動滑桿、點按鈕或直接拖拉畫面中的物體；作答時點選選項或輸入數字（可加單位），按 Enter 送出。", en: "Drag sliders, tap buttons or drag objects in the picture; answer by tapping a choice or typing a number (units OK) and pressing Enter." }
+  },
+  {
     id: 'learnhub',
     url: '/learn-hub/',
     thumb: 'thumbs/learnhub.jpg',
