@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'chinesedojo',
+    url: '/chinese-dojo/',
+    thumb: 'thumbs/chinesedojo.jpg',
+    color: '#0f8b6c',
+    genres: ['learning'],
+    devices: ['keyboard', 'mouse', 'touch'],
+    players: '1',
+    added: '2026-11-07',
+    title:    { zh: "國語練功房", en: "Chinese Dojo" },
+    tagline:  { zh: "一到十二年級國語文練習：注音、成語、修辭、文言文，還有會幫你批改的作文教室。", en: "Taiwan Chinese for grades 1–12: Zhuyin, idioms, rhetoric, classical Chinese, and an essay studio that gives feedback." },
+    about:    { zh: "依照 108 課綱國語文分年級，共 166 個技巧單元，題目隨機產生，答完馬上有中英對照的解說。從注音、字形、量詞、成語、標點、病句，到修辭、閱讀理解、文言虛詞與國學常識，一路練到學測。作文教室有 84 個題目，先計畫、再寫草稿，電腦會檢查字數、標點、錯別字和一逗到底，最後附上原創範文。還有年級小測驗和可列印的練習卷。", en: "166 skill units organized by grade along Taiwan’s 108 Curriculum, with questions generated fresh every time and a bilingual explanation after each answer. Practice runs from Zhuyin, characters, measure words, idioms, punctuation and faulty sentences to rhetoric, reading, classical Chinese function words and literary knowledge, up to college-entrance level. The essay studio has 84 tasks: plan, draft, get automatic feedback on length, punctuation, wrong characters and run-on sentences, then read an original model essay. There are also grade quizzes and printable worksheets." },
+    controls: { zh: "點選答案；找錯字時點出寫錯的字；句子重組時依序點選詞語；作文在草稿區輸入，可點句型、好詞和標點按鈕插入。", en: "Tap an answer; tap the wrong character in error-spotting drills; tap pieces in order to build sentences; type essays in the draft box and tap starter, word and punctuation chips to insert them." }
+  },
+  {
     id: 'sciencelab',
     url: '/science-lab/',
     thumb: 'thumbs/sciencelab.jpg',
