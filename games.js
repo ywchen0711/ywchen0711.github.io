@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'mistbrook',
+    url: '/mistbrook/',
+    thumb: 'thumbs/mistbrook.jpg',
+    color: '#c8782a',
+    genres: ['rpg', 'story', 'strategy'],
+    devices: ['keyboard', 'mouse', 'touch'],
+    players: '1',
+    added: '2026-11-08',
+    title:    { zh: "霧溪之燈", en: "Lantern of Mistbrook" },
+    tagline:  { zh: "等角視角的隊伍冒險：黃昏的村莊、起霧的小溪、哥布林營地和廢墟祠堂，對話擲骰、回合制戰鬥。", en: "An isometric party RPG at dusk: a village, a misty stream, a goblin camp and a ruined shrine, with dice-rolled dialogue and turn-based battles." },
+    about:    { zh: "晨星燈被偷了，沒有它，溪上的霧每晚都會漲高。帶著戰士、遊俠、法師和牧師四人小隊，在可以旋轉的 3D 鏡頭下探索、和村民對話、用 d20 擲骰做說服、威嚇、洞悉等檢定，說對話可以少打好幾場仗。戰鬥是回合制：依先攻輪流行動，每回合有移動、動作和附贈動作，滑鼠移到敵人身上會顯示命中率。打敗狼群、哥布林、骷髏兵和灰袍祭司，最後決定晨星燈的命運——共有四種結局。", en: "The Morning Star Lantern has been stolen, and without it the mist on the stream rises every night. Lead a fighter, ranger, wizard and cleric through a rotatable 3D world: explore, talk to villagers and roll d20 Persuasion, Intimidation and Insight checks — the right words can skip whole fights. Combat is turn-based, with initiative, movement, an action and a bonus action each turn and hit chances shown on hover. Face wolves, goblins, skeletons and a grey-robed priest, then decide what to do with the lantern. Four endings." },
+    controls: { zh: "點地面移動、點人物對話、點敵人攻擊；右鍵拖曳或 Q/E 轉鏡頭，滾輪縮放，WASD 平移；數字鍵 1–6 選技能，空白鍵結束回合。手機：點一下移動，雙指縮放旋轉，戰鬥中點兩下確認。", en: "Click the ground to move, people to talk, enemies to attack; right-drag or Q/E rotates, wheel zooms, WASD pans; 1–6 pick abilities, Space ends the turn. Touch: tap to move, pinch to zoom and rotate, tap twice to confirm in combat." }
+  },
+  {
     id: 'chinesedojo',
     url: '/chinese-dojo/',
     thumb: 'thumbs/chinesedojo.jpg',
