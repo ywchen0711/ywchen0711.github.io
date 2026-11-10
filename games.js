@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'spiretide',
+    url: '/spire-tide/',
+    thumb: 'thumbs/spiretide.jpg',
+    color: '#2848b8',
+    genres: ['rpg', 'story', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-09',
+    title:    { zh: "蒼潮魔塔傳", en: "Spire of the Blue Tide" },
+    tagline:  { zh: "超任時代風格的原創角色扮演：港口小鎮、推石塊解謎的洞窟、從海上浮現的魔塔，正面視角回合制戰鬥。", en: "An original 16-bit era RPG: a harbour town, a push-block puzzle grotto, a tower risen from the sea, and front-view turn-based battles." },
+    about:    { zh: "百年前被封印的灰色高塔再次浮出海面，靠近的船隻一艘艘消失在霧中。港口少年蓮奉村長之託，前往北岬洞窟取回「潮之鑰」，途中與見習魔導士米菈、鐵匠葛羅、海神殿巫女莉絲結伴同行。256×224 的復古畫面、手繪點陣角色、會跟著隊長走的隊伍、Mode 7 風格的標題飛行、晶片音樂。地城裡要推石塊壓開關、用石塊填平坑洞、踩開關切換紅藍柱子、在冰面上滑行；看得見的魔物會跟著你的步伐移動。戰鬥中每回合為全員下指令，集滿氣力條可以使出必殺技。", en: "A grey tower sealed a century ago rises from the sea again, and ships vanish into its mist. Young Ren sets out to recover the Tide Key, joined by Mira the apprentice mage, Garo the smith and Lys the priestess. Retro 256×224 graphics, hand-drawn pixel sprites, a party that follows the leader, a Mode 7 title flight and a chiptune soundtrack. Dungeons have push-block switches, pits to fill, red and blue posts to toggle and ice to slide on; visible monsters move when you move. Give every hero a command each round and unleash specials when their gauge is full." },
+    controls: { zh: "方向鍵移動；Z / Enter 決定、對話、調查；X / Esc 取消與開啟選單。支援手把。手機：螢幕上的十字鍵與 A、B 按鈕。", en: "Arrow keys move; Z / Enter confirms, talks and checks; X / Esc cancels and opens the menu. Gamepads work. Touch: on-screen d-pad with A and B buttons." }
+  },
+  {
     id: 'mistbrook',
     url: '/mistbrook/',
     thumb: 'thumbs/mistbrook.jpg',
