@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'thousandwinds',
+    url: '/thousand-winds/',
+    thumb: 'thumbs/thousandwinds.jpg',
+    color: '#386838',
+    genres: ['rpg', 'story', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-10',
+    title:    { zh: "千風群英譚", en: "Saga of a Thousand Winds" },
+    tagline:  { zh: "中英雙語的原創自由劇本 RPG：六位主角任選、八顆風之石、戰鬥中靈光一閃學新招。", en: "An original free-scenario RPG in Chinese and English: six heroes, eight Wind Stones, and new techniques learned by inspiration mid-battle." },
+    about:    { zh: "風一天比一天微弱，止息之神涅爾的封印正在崩解。從六位主角中選一人展開旅程，在酒館打聽傳聞、在世界地圖上自由決定去哪裡。沒有等級，每場戰鬥後依表現成長；揮舞武器時會靈光一閃學會新技能；倒下會失去生命點數（LP），耗盡就再也回不來。每找回一顆風之石，世界就進入新的紀元，有些事件晚了就來不及。四位止息的使徒各有令人心痛的過去，收集的風之石越少，最終之戰就越艱難。", en: "The winds are failing and the seal on Nul, God of Stillness, is cracking. Pick one of six heroes, gather rumours in taverns and go wherever you like on the world map. There are no levels: heroes grow after each battle depending on what they did, and swinging a weapon can spark an inspiration that teaches a new technique. Fall in battle and you lose life points; run out and you are gone for good. Each Wind Stone moves the world into a new era, and some events end if you wait too long. Four apostles of stillness each carry a painful past, and the fewer stones you gather, the harder the final battle." },
+    controls: { zh: "方向鍵移動、在世界地圖上選地點；Z / Enter 決定、對話；X / Esc 取消與開啟選單。支援手把與手機觸控。標題畫面或設定可切換中文／英文。", en: "Arrow keys move and pick places on the world map; Z / Enter confirms and talks; X / Esc cancels and opens the menu. Gamepad and touch work. Switch between Chinese and English on the title screen or in Config." }
+  },
+  {
     id: 'earthfall',
     url: '/earthfall/',
     thumb: 'thumbs/earthfall.jpg',
