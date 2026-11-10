@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'earthfall',
+    url: '/earthfall/',
+    thumb: 'thumbs/earthfall.jpg',
+    color: '#283c88',
+    genres: ['rpg', 'story', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-10',
+    title:    { zh: "星墜地球記", en: "Earthfall Chronicle" },
+    tagline:  { zh: "中英雙語的超任風格原創角色扮演：墜落的星星、沉睡的方舟、一個想看見早晨的女孩。", en: "An original 16-bit style RPG in Chinese and English: a fallen star, a sleeping Ark, and a girl who wants to see the morning." },
+    about:    { zh: "十年前，一顆星星墜入東方的海，巡守隊長雷昂出海後再也沒有回來。十年後，同樣的星光落進了北方的礦坑，星星裡傳出女孩的哭聲。見習兵凱帶著父親的星盤，與聽得見星星聲音的妮雅、背負十年愧疚的老兵巴頓一同出發，在礦坑深處遇見了失去記憶的星之子艾歐。起承轉合的感人劇情：一鍋溫暖的粥、一個「粥涼之前就回來」的約定、塔中等待著的身影，以及一場告別。256×224 的復古畫面、推石塊解謎的地城、看得見的魔物、正面視角回合制戰鬥與原創晶片音樂，可隨時切換中文或英文。", en: "Ten years ago a star fell into the eastern sea, and Captain Leon sailed out and never came home. Now the same light falls into the northern mine, and a girl's voice cries from inside it. Young Kai sets out with his father's starwheel, Nia who hears the stars, and Barton, an old soldier carrying ten years of guilt. Deep in the mine they find Io, a child of the star with no memory. A heartfelt story in four acts: a warm pot of porridge, a promise to be home before it cools, someone waiting in the tower, and a farewell. Retro 256x224 graphics, push-block dungeons, visible monsters, front-view turn-based battles and an original chiptune score, playable in Chinese or English." },
+    controls: { zh: "方向鍵移動；Z / Enter 決定、對話、調查；X / Esc 取消與開啟選單。支援手把。手機：螢幕上的十字鍵與 A、B 按鈕。標題畫面或設定可切換中文／英文。", en: "Arrow keys move; Z / Enter confirms, talks and checks; X / Esc cancels and opens the menu. Gamepads work. Touch: on-screen d-pad with A and B buttons. Switch between Chinese and English on the title screen or in Config." }
+  },
+  {
     id: 'spiretide',
     url: '/spire-tide/',
     thumb: 'thumbs/spiretide.jpg',
