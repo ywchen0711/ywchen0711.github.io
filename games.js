@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'snesplayer',
+    url: '/snes-player/',
+    thumb: 'thumbs/snesplayer.jpg',
+    color: '#5a48a8',
+    genres: ['action', 'rpg'],
+    devices: ['keyboard', 'touch'],
+    players: '1-2',
+    added: '2026-11-10',
+    title:    { zh: "超任模擬器", en: "SNES Player" },
+    tagline:  { zh: "把你自己擁有的超任遊戲檔拖進來，就能在瀏覽器裡玩。", en: "Drop in a Super NES game file you own and play it in the browser." },
+    about:    { zh: "選擇或拖入 .sfc／.smc 遊戲檔就會開始。檔案只在你的瀏覽器裡執行，不會上傳。這裡不提供任何遊戲，請只使用你合法擁有的遊戲，例如自己卡帶的備份，或作者免費公開的自製遊戲。可以全螢幕、即時存檔讀檔、改按鍵，存檔留在這個瀏覽器裡。模擬器是 EmulatorJS 與 Snes9x 核心。", en: "Choose or drop a .sfc / .smc game file and it starts. The file runs inside your browser and is never uploaded. No games are provided: please only use games you legally own, such as a backup of your own cartridge, or homebrew its author shares for free. There is full screen, save and load states and key settings, and saves stay in this browser. The emulator is EmulatorJS with the Snes9x core." },
+    controls: { zh: "方向鍵；Z / X / A / S 是 A / B / X / Y；Q / E 是 L / R；Enter 是 Start，V 是 Select。手把插上就能用，手機和平板有畫面按鍵。", en: "Arrow keys; Z / X / A / S are A / B / X / Y; Q / E are L / R; Enter is Start and V is Select. Gamepads work when plugged in, and phones and tablets get on-screen buttons." }
+  },
+  {
     id: 'thousandwinds',
     url: '/thousand-winds/',
     thumb: 'thumbs/thousandwinds.jpg',
