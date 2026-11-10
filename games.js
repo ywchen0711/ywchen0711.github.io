@@ -27,15 +27,15 @@ window.GAMES = [
   {
     id: 'earthfall',
     url: '/earthfall/',
-    thumb: 'thumbs/earthfall.jpg',
+    thumb: 'thumbs/earthfall.jpg?v=2',
     color: '#283c88',
     genres: ['rpg', 'story', 'puzzle'],
     devices: ['keyboard', 'touch'],
     players: '1',
     added: '2026-11-10',
     title:    { zh: "星墜地球記", en: "Earthfall Chronicle" },
-    tagline:  { zh: "中英雙語的超任風格原創角色扮演：墜落的星星、沉睡的方舟、一個想看見早晨的女孩。", en: "An original 16-bit style RPG in Chinese and English: a fallen star, a sleeping Ark, and a girl who wants to see the morning." },
-    about:    { zh: "十年前，一顆星星墜入東方的海，巡守隊長雷昂出海後再也沒有回來。十年後，同樣的星光落進了北方的礦坑，星星裡傳出女孩的哭聲。見習兵凱帶著父親的星盤，與聽得見星星聲音的妮雅、背負十年愧疚的老兵巴頓一同出發，在礦坑深處遇見了失去記憶的星之子艾歐。起承轉合的感人劇情：一鍋溫暖的粥、一個「粥涼之前就回來」的約定、塔中等待著的身影，以及一場告別。256×224 的復古畫面、推石塊解謎的地城、看得見的魔物、正面視角回合制戰鬥與原創晶片音樂，可隨時切換中文或英文。", en: "Ten years ago a star fell into the eastern sea, and Captain Leon sailed out and never came home. Now the same light falls into the northern mine, and a girl's voice cries from inside it. Young Kai sets out with his father's starwheel, Nia who hears the stars, and Barton, an old soldier carrying ten years of guilt. Deep in the mine they find Io, a child of the star with no memory. A heartfelt story in four acts: a warm pot of porridge, a promise to be home before it cools, someone waiting in the tower, and a farewell. Retro 256x224 graphics, push-block dungeons, visible monsters, front-view turn-based battles and an original chiptune score, playable in Chinese or English." },
+    tagline:  { zh: "中英雙語的超任風格原創 RPG：2091 年小行星墜落，三百年後，鐵軌鎮的拾荒少年在地鐵深處喚醒了種子守護機器人。", en: "An original 16-bit RPG in Chinese and English: in 2091 an asteroid falls, and three hundred years later a scavenger wakes a seed-keeper robot deep in a sunken metro." },
+    about:    { zh: "故事從 2091 年的軌道站「搖籃號」開始：植物學家玲博士在小行星撞上地球前，把裝著全世界植物種子的機器人露米送回地球。三百年後，住在廢棄列車車廂裡的拾荒少年朔，為了替鐵軌鎮付教團的什一稅，潛入漆黑的沉沒地鐵，喚醒了露米。旋轉導管讓電流接通才能開門、手電筒照亮的黑暗地鐵、種下第一朵花後重新轉動的風車、霓虹廢都裡的真相、教團「神明」的真面目，以及種子庫裡一對母女的重逢。全新的地圖、全新的手繪點陣魔物，可隨時切換中文或英文。", en: "It begins in 2091 aboard the orbital station Cradle, as botanist Dr. Rei sends Lumi, a robot carrying the seeds of every plant on Earth, down to the planet before an asteroid hits. Three hundred years later Saku, a scavenger who lives in an abandoned train carriage, dives into the pitch-dark Sunken Metro to pay the church's tithe and wakes Lumi. Turn conduits to route power and open doors, explore by the light of a lamp, watch a dead windfarm turn green after the first flower, learn the truth in Neon City, uncover the church's god, and see a mother and daughter meet again at the Seed Vault. New maps, hand-drawn pixel monsters, and Chinese or English at any time." },
     controls: { zh: "方向鍵移動；Z / Enter 決定、對話、調查；X / Esc 取消與開啟選單。支援手把。手機：螢幕上的十字鍵與 A、B 按鈕。標題畫面或設定可切換中文／英文。", en: "Arrow keys move; Z / Enter confirms, talks and checks; X / Esc cancels and opens the menu. Gamepads work. Touch: on-screen d-pad with A and B buttons. Switch between Chinese and English on the title screen or in Config." }
   },
   {
