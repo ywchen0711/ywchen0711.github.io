@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'prismwander',
+    url: '/prismwander/',
+    thumb: 'thumbs/prismwander.jpg',
+    color: '#3a78c8',
+    genres: ['rpg', 'platformer', 'strategy'],
+    devices: ['keyboard', 'mouse', 'touch'],
+    players: '1',
+    added: '2026-11-10',
+    title:    { zh: "晶境漫遊", en: "Prismwander" },
+    tagline:  { zh: "原創的 3D 方塊世界 RPG：自由攀爬探索，找出藏在各地的水晶解鎖職業，自由搭配主副職業。中英雙語。", en: "An original 3D block-world RPG: climb and explore anywhere, find hidden crystals that unlock jobs, and mix main and sub jobs. Chinese and English." },
+    about:    { zh: "很久以前，尖塔頂端的稜晶碎成八塊水晶，每一塊都封著古代英雄的技藝。爐心村的四個年輕人踏上「漫遊之年」：沒有固定路線，草原、森林、海岸、湖心小島、層層疊疊的赤砂台地、積雪的山頂，想去哪裡就去哪裡。碰到水晶就學會新職業，每個人可以設定主職業和副職業，戰鬥得到的 JP 讓職業升級。怪物看得見也躲得開，強弱依地區固定。踩著石頭跳過湖面、沿著樹頂爬上去、拿到彈跳靴後再挑戰更高的懸崖。集齊八塊水晶，就能打開稜晶尖塔的大門。", en: "Long ago the Prism atop the Spire shattered into eight crystals, each holding the craft of a hero of old. Four young people from Hearthvale set out on their wandering year. There is no set route: meadow, forest, coast, the island in the lake, the terraced red mesa and the snowy peaks are all open to you. Touch a crystal and the party learns a new job; each traveller has a main job and a sub job, levelled up with JP from battle. Monsters are visible and avoidable, their strength fixed by region. Hop across the lake on stepping stones, climb the treetops, and take on higher cliffs once you find the spring boots. Gather all eight crystals to open the gate of the Prism Spire." },
+    controls: { zh: "WASD／方向鍵移動（Shift 跑步）、空白鍵跳躍（有斗篷時按住可滑翔）、滑鼠拖曳或 Q／R 轉視角、滾輪縮放、E 對話與調查、Esc 選單。支援手把與手機觸控。標題畫面或設定可切換中文／英文。", en: "WASD / arrows move (Shift to run), Space jumps (hold to glide once you have the cape), drag the mouse or Q / R to turn the camera, the wheel zooms, E talks and looks, Esc opens the menu. Gamepad and touch work. Switch between Chinese and English on the title screen or in Settings." }
+  },
+  {
     id: 'peachisle',
     url: '/peach-isle/',
     thumb: 'thumbs/peachisle.jpg',
