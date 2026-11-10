@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'peachisle',
+    url: '/peach-isle/',
+    thumb: 'thumbs/peachisle.jpg',
+    color: '#d8708c',
+    genres: ['rpg', 'story', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-10',
+    title:    { zh: "桃源鬼島記", en: "Peachling and the Oni Isle" },
+    tagline:  { zh: "從桃子裡生的少年，和狗、猴子、雉雞一起渡海前往鬼之島。中英雙語的原創 RPG。", en: "A boy born from a peach crosses the sea to the Oni Isle with a dog, a monkey and a pheasant. An original RPG in Chinese and English." },
+    about:    { zh: "老奶奶在河邊撿到一顆大桃子，裡面躺著一個男嬰。十五年後，戴鬼面的強盜一次次搶走黍之里的糧食，桃丸帶著奶奶做的黍糰子出發了。路上遇見守著主人墳墓的狗小白、為了餵養小猴子而偷東西的棗、還有被風打落後再也不敢飛的雉。每位夥伴都有地圖上的能力：小白會挖出埋起來的東西、棗能爬藤蔓、雉能飛過深谷敲響鈴鐺。糰子要在爐灶用黍米、蜂巢、艾草、桃花瓣親手做，和夥伴分享能加深羈絆，羈絆夠深就能使出四人合擊。到了鬼之島，你會發現事情不是大家以為的那樣；被迫拿刀的鬼，也可以選擇說服而不是打倒。", en: "An old woman finds a giant peach in the river, and inside it a baby boy. Fifteen years later, raiders in oni masks keep stealing Kibi Village's millet, and Momomaru sets out with a bag of his grandmother's millet dumplings. On the way he meets Shiro, a dog guarding his master's grave; Natsume, a monkey who steals to feed orphaned babies; and Kiji, a pheasant too frightened to fly. Each friend has a skill on the map: Shiro digs up buried things, Natsume climbs vines and Kiji flies across gorges to ring bells. You cook dumplings at a hearth from millet, honey, mugwort and peach petals, and sharing them deepens your bond until the four can strike as one. On the Oni Isle, things are not what everyone believed, and the oni forced to fight can be talked down instead of beaten." },
+    controls: { zh: "方向鍵移動；Z / Enter 決定、對話、使用夥伴的能力；X / Esc 取消與開啟選單。支援手把與手機觸控。標題畫面或設定可切換中文／英文。", en: "Arrow keys move; Z / Enter confirms, talks and uses a friend's skill; X / Esc cancels and opens the menu. Gamepad and touch work. Switch between Chinese and English on the title screen or in Config." }
+  },
+  {
     id: 'snesplayer',
     url: '/snes-player/',
     thumb: 'thumbs/snesplayer.jpg',
