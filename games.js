@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'bellhours',
+    url: '/bell-between-hours/',
+    thumb: 'thumbs/bellhours.jpg',
+    color: '#c8a050',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-10',
+    title:    { zh: "時隙鐘聲", en: "The Bell Between Hours" },
+    tagline:  { zh: "原創的時空旅行 RPG：鐘匠學徒穿梭三個時代，阻止一口會吃掉時間的鐘。戰鬥就在地圖上開打，夥伴能合體出招。中英雙語。", en: "An original time-travel RPG: a clockmaker's apprentice crosses three eras to stop a bell that eats time. Battles break out right on the map, and friends can combine their techniques. Chinese and English." },
+    about:    { zh: "公元 1250 年，鐘匠之都燈河鎮。學徒蓮和師傅做好了一口「時之鐘」，鐘心是一塊來路不明的黑色星鐵。千鐘祭當天女王敲響了鐘，全鎮的人瞬間停住，蓮和研究時間的學者米拉被捲進時間的裂縫，醒來時已是公元 2400 年——鐘聲讓世界停了一千多年的「靜止之年」。和靠著懷錶還能行動的拾荒少年賽勒斯、公元前 3000 年守護星石的獵人卡雅一起，在三個時代之間來回，找出鑄鐘人薇絲珀的祕密，用三個時代的聲音為鐘重新調音。怪物就在地圖上，走過去碰到就在原地開打；每個人的氣槽依速度累積，技能有單體、直線、範圍、全體等不同的攻擊範圍，瞄準時會標出會打到誰。兩三個人的氣槽同時滿了，就能使出合體技。所有美術來自開放授權的 LPC 素材，音樂來自 Juhani Junkala 等人的 CC0 作品。", en: "AD 1250, Lanternford, the town of clockmakers. The apprentice Ren and his master have finished the Hour Bell, whose heart is a lump of black star-iron from who knows where. When the Queen rings it at the festival, the whole town freezes, and Ren and the time scholar Mira fall through a crack in time. They wake in AD 2400, in Stillfall, a world the bell has been stopping for a thousand years. With Silas, a scavenger who keeps moving thanks to his pocketwatch, and Kaya, a huntress from 3000 BC who guards the fallen star, they travel between three eras to learn the Bellwright Vesper's secret and retune the bell with the sounds of three ages. Monsters walk the map, and walking into them starts the fight right there. Each friend's gauge fills by speed, and techniques reach one foe, a line, an area or everyone, with the ground they would hit marked as you aim. When two or three friends have full gauges, they can combine their techniques. All art comes from the openly licensed LPC collections; the music is CC0 work by Juhani Junkala and others." },
+    controls: { zh: "方向鍵／WASD 移動；Z / Enter 決定、對話；X 取消（按住可跑）；C / Tab 開選單；M 開關音樂。支援手把與手機觸控。標題畫面或選單可切換中文／英文。", en: "Arrows / WASD move; Z / Enter confirms and talks; X cancels (hold to run); C / Tab opens the menu; M toggles music. Gamepad and touch work. Switch between Chinese and English on the title screen or in the menu." }
+  },
+  {
     id: 'prismwander',
     url: '/prismwander/',
     thumb: 'thumbs/prismwander.jpg',
