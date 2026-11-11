@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'ashenvow',
+    url: '/ashen-vow/',
+    thumb: 'thumbs/ashenvow.jpg',
+    color: '#7c3c88',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-11',
+    title:    { zh: "灰誓騎士", en: "The Ashen Vow" },
+    tagline:  { zh: "原創的 8 位元角色扮演遊戲：背負詛咒之劍的騎士踏上贖罪之旅。側視即時戰鬥、召喚、飛空艇。中英雙語。", en: "An original 8-bit RPG: a knight with a cursed sword sets out to atone. Side-view active-time battles, summons and an airship. Chinese and English." },
+    about:    { zh: "瓦恩王國的灰衛隊長海爾，奉國王之命奪走守護大地的「泉鏡」。他開始懷疑國王，卻被派去送一個封印的木盒——盒子裡的命令，是燒掉喚靈師的村子。和槍騎士布琳、失去家園的喚靈少女奈菈、文湖的見習修女蜜兒、老賢者高文、沙漠的武僧塔爾、港口的機巧師朵琳一起，在紅色的「燼月」甦醒之前，彌補自己犯下的錯。戰鬥是側視的即時制：每個人的時間條依速度累積，選指令時可以讓時間暫停（等待模式）或不暫停（即時模式），魔法需要詠唱時間。每位夥伴的戰法都不一樣：海爾的灰刃會削減自己的生命、布琳跳到空中再刺下、奈菈召喚精靈、高文努力回想忘掉的魔法、塔爾蓄力、朵琳做機關。分前後排，世界地圖上有隨機遇敵，後半可以駕駛飛空艇。人物與怪物來自 Ctske、Erbarlow 等人的 NES 風格開放素材，音樂是 AVGVSTA 的 8 位元 JRPG 原聲。", en: "Hale, captain of the Ashguard of Varn, has been seizing the Lenses that guard the land on his King's orders. He begins to doubt, and is sent away with a sealed box whose order is to burn a village of callers. With Brin the lancer, Nyra the young caller who lost her home, Miel the acolyte of Wenmere, Gowan the old sage, Tal the desert monk and Dorrin the port's engineer, he sets out to undo what he has done before the red moon, the Ember, wakes. Battles are side-view and active-time: every gauge fills by speed, the game can wait while you choose (Wait mode) or not (Active mode), and spells take time to cast. Every friend fights differently: Hale's Ashedge costs his own life, Brin leaps into the sky and strikes down, Nyra calls spirits, Gowan tries to remember forgotten spells, Tal focuses, Dorrin builds gadgets. There are front and back rows, random encounters on the world map, and an airship later on. The people and monsters come from NES-style open art by Ctske, Erbarlow and others; the music is AVGVSTA's 8-bit JRPG soundtrack." },
+    controls: { zh: "方向鍵／WASD 移動；Z / Enter 決定、對話；X 取消（在地圖上按住可跑步，戰鬥中按住可逃跑）；C / Tab 開選單；戰鬥中選指令時按 ← 換排、→ 防禦；M 開關音樂。支援手把與手機觸控。", en: "Arrows / WASD move; Z / Enter confirms and talks; X cancels (hold it to run on the map, or to flee a battle); C / Tab opens the menu; in battle press Left to change rows or Right to guard; M toggles music. Gamepad and touch work." }
+  },
+  {
     id: 'bellhours',
     url: '/bell-between-hours/',
     thumb: 'thumbs/bellhours.jpg',
