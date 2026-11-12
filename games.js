@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'dawnmark',
+    url: '/dawnmark/',
+    thumb: 'thumbs/dawnmark.jpg',
+    color: '#d07848',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-11',
+    title:    { zh: "晨星之印", en: "The Dawnmark" },
+    tagline:  { zh: "原創的 16 位元角色扮演遊戲：手上帶著星星的少年，點亮四盞燈、拯救天織塔。正面視角的回合制戰鬥、燃心連攜技、技能盤。中英雙語。", en: "An original 16-bit RPG: a boy with a star on his hand lights four lanterns to save the tower at the heart of the world. Front-view turn-based battles, link arts and skill boards. Chinese and English." },
+    about:    { zh: "十六年前，一顆星星落在亮瀑村的山上，托賓爺爺在星坑裡撿到一個手上帶著發光印記的嬰兒。十六歲生日那天，洛恩和青梅竹馬的小雀一起登上望星岩，印記醒了過來。他帶著信去見國王，卻被大祭司莫洛宣告為「崩解之子」，關進了地下牢獄。和隔壁牢房的盜賊佩兒一起逃出來之後，他遇見了河光神殿的神官米蕾拉、愛做菜的武僧歐多、失去記憶的魔女瑟菈，還有奉命追捕他們的騎士布藍諾。點亮水、火、地、霜四盞燈，登上天織塔——在塔頂等著他們的，是真相，以及世界陷入黑暗的那一天。後半段的旅程，是在黑暗的世界裡把散落各地的夥伴一個一個找回來。戰鬥是傳統的正面視角回合制，依速度輪流行動：受傷的夥伴有時會「燃心」，燃心的夥伴可以一起使出連攜技；洛恩以外的夥伴可以聽從命令，也可以交給作戰方針自動戰鬥。每個人都有自己的技能盤，用升級得到的技能點數學會新特技。城鎮裡有旅店、商店和教會，在教會祈禱就能記錄冒險；全滅了會在最後祈禱的教會醒來，金幣少一半。還有地上的閃光、「歸途」咒文、船和天龍。人物與肖像是 Charles Gabriel 的作品，怪物來自 Redshrike、JosephSeraph 等人的 FF6 風格戰鬥圖，地圖是 ArMM1998 的圖塊，音樂是 Juhani Junkala 的 JRPG 原聲。", en: "Sixteen years ago a star fell on the mountain above Brightfall, and old Tobin found a baby in the crater with a shining mark on its hand. On his sixteenth birthday Rowan climbs Lookout Crag with his childhood friend Wren, and the mark wakes. He takes a letter to the King, but High Seer Morrow names him the Child of Ruin and throws him in the dungeon. Escaping with Pell, the thief in the next cell, he meets Mirela, priestess of a drowned temple; Odo, a monk who would rather cook; Sera, a witch with no memory; and Brannoc, the knight sent to hunt them. They light the lanterns of water, fire, earth and frost and climb the Skyloom, where the truth waits, and the world goes dark. The second half is about finding each other again. Battles are front-view and turn-based, in order of speed: a friend who takes a beating may get fired up, and fired-up friends can join in link arts; friends other than Rowan can follow orders or fight by their own tactics. Everyone has a skill board to spend the points from each level on. Towns have inns, shops and churches; pray at a church to save, and if the party falls you wake there with half your gold. There are glints on the ground, the Homeward spell, a boat and a sky drake. Characters and portraits by Charles Gabriel, FF6-style monsters by Redshrike, JosephSeraph and others, tiles by ArMM1998, music by Juhani Junkala." },
+    controls: { zh: "方向鍵／WASD 移動；Z / Enter 決定、對話、調查；X 取消（在地圖上按住可跑步）；C / Tab 開選單；M 開關音樂。戰鬥中用方向鍵選指令和目標。支援手把與手機觸控。", en: "Arrows / WASD move; Z / Enter confirms, talks and searches; X cancels (hold it to run); C / Tab opens the menu; M toggles music. In battle use the arrows to pick commands and targets. Gamepad and touch work." }
+  },
+  {
     id: 'ashenvow',
     url: '/ashen-vow/',
     thumb: 'thumbs/ashenvow.jpg',
