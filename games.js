@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'starfist',
+    url: '/star-fist/',
+    thumb: 'thumbs/starfist.jpg',
+    color: '#ffd040',
+    genres: ['rpg', 'story', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-12',
+    title:    { zh: "星拳傳說", en: "Legend of the Star Fist" },
+    tagline:  { zh: "原創的 16 位元卡牌格鬥角色扮演遊戲：出牌、對拳、光束對決，燃起金色的星火！中英雙語。", en: "An original 16-bit card-battle martial-arts RPG: play your card, trade blows, win the beam clash and burn with golden star-fire! Chinese and English." },
+    about:    { zh: "山中隱士養大的少年凱，是體內燃燒著「星火」的星裔最後的傳人。當沃拉克大帝的鐵彗軍團來到地球收割生命，凱和棍術家琳、石膚巨人太郎、風之舞者米菈，以及倒戈的軍團菁英傑德一起迎戰。在星圖棋盤上出移動牌前進，牌上的星數就是步數。戰鬥時雙方同時出一張戰鬥牌：星多的先攻，數字決定威力和能不能閃避；攻擊方可以選連打、氣功彈或必殺技，防守方可以防禦、閃避，或用光束頂回去，再連打 Z 鍵決勝負。每個人都有顯示出來的戰鬥力，凱在最後還會覺醒「金焰」。六章故事加上通關後的星拳大會。角色、怪物、特效和音樂來自 CC0 的 Ninja Adventure 素材包，故事和角色都是原創。", en: "Kai, raised by a mountain hermit, is one of the last Starborn, fighters who burn with star-fire. When Emperor Vorrak's Iron Comet Legion comes to harvest the planet's life, he fights back with Lin the staff fighter, Taro the stone-skinned giant, Mira the wind dancer and Zed, a Legion elite who changes sides. Walk star-chart boards with movement cards. In battle both sides play a card at once: more stars strikes first, and the number is both power and dodge. Attack with rushes, ki blasts or specials; guard, dodge, or counter a beam and mash Z to win the clash. Everyone's power level is on show, and in the end Kai awakens the Golden Flame. Six chapters plus a post-game tournament. Characters, monsters, effects and music from the CC0 Ninja Adventure pack; the story and cast are original." },
+    controls: { zh: "方向鍵／WASD 移動與選擇；Z／Enter 確定（光束對決時連打）；X／Esc 取消或開選單；M 開關音樂。支援手把與手機觸控按鈕。", en: "Arrows / WASD move and choose; Z / Enter confirms (mash it in beam clashes); X / Esc cancels or opens the menu; M toggles music. Gamepad and on-screen touch buttons work." }
+  },
+  {
     id: 'dawnmark',
     url: '/dawnmark/',
     thumb: 'thumbs/dawnmark.jpg',
