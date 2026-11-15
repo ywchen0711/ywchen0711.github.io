@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'lowfen',
+    url: '/lowfen/',
+    thumb: 'thumbs/lowfen.jpg',
+    color: '#a8241c',
+    genres: ['horror', 'story', 'action'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-15',
+    title:    { zh: '沉沼鎮', en: 'LOWFEN' },
+    tagline:  { zh: '原創 2.5D 橫向捲軸動作恐怖遊戲。地底的火還在燒，有人還在敲。中英雙語。', en: 'An original 2.5D side-scrolling action horror game. The fire under the town still burns, and someone is still knocking. Chinese and English.' },
+    about:    { zh: '2013 年 11 月，驗屍調查員諾拉·海爾收到失蹤三天的弟弟留言：「別派人來，他們還在敲。我得放他們出來。」來電號碼是 1987 年就拆掉的礦坑電話。她開車進入因地底煤層大火而撤空的沉沼鎮。警報響起時，小鎮會變成燃燒的九號井。用撬胎棒、消防斧和幾發子彈對抗敲擊者、議員和看門狗，讀文件解謎，拼出 41 名礦工被活埋的真相。七章、三種結局。實拍材質與模型、音效都是 CC0／CC-BY 素材，故事完全原創。', en: 'November 2013. Coroner\'s investigator Nora Hale gets a voicemail from her brother, missing for three days: "Don\'t send anyone. They\'re still knocking. I have to let them out." The call came from a mine phone torn out in 1987. She drives into Lowfen, a town emptied by a coal-seam fire still burning below. When the siren sounds, the town becomes burning Shaft 9. Fight Knockers, Councilmen and guard dogs with a tyre iron, a fire axe and a few bullets, read documents to solve puzzles, and uncover why 41 miners were sealed in alive. Seven chapters, three endings. Photo textures, models and sounds are CC0/CC-BY; the story is original.' },
+    controls: { zh: 'A/D 移動 · Shift 跑 · S 蹲 · E 調查 · J 攻擊 · 按住 L／右鍵瞄準 · K／空白鍵 閃避 · F 手電筒 · H 治療 · Esc 選單 · M 地圖。支援手把與手機觸控。', en: 'A/D move · Shift run · S crouch · E interact · J attack · hold L / right mouse to aim · K / Space dodge · F flashlight · H heal · Esc menu · M map. Gamepad and touch work.' }
+  },
+  {
     id: 'starfist',
     url: '/star-fist/',
     thumb: 'thumbs/starfist.jpg',
