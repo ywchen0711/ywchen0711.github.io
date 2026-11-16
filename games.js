@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'longmen-case',
+    url: '/longmen-case/',
+    thumb: 'thumbs/longmen-case.jpg',
+    color: '#c9a14a',
+    genres: ['story', 'puzzle'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-16',
+    title:    { zh: '龍門懸案錄・聽雨樓密室', en: 'The Longmen Casebook' },
+    tagline:  { zh: 'HD-2D 武俠推理動畫小說，全語音。暴雨封橋，聽雨樓裡有人死在反鎖的房間。', en: 'A fully voiced HD-2D wuxia detective animated novel. The bridge is down, and a man lies dead in a locked room at Tingyu House.' },
+    about:    { zh: '選盟大會前七天，奕叡、奕碩護送盟主令刀，在暴雨夜被困聽雨樓。掌管盟庫的錢萬里說天亮要揭發挪走三十萬兩的人，半夜卻死在反鎖的房裡，身上是龍門刀傷。兄弟成了頭號嫌犯，要在天亮前找出兇手。序章先介紹龍門江湖的現狀，之後七回劇情，收集線索、三次推理，層層反轉。第一季〈龍門血案〉的前傳。', en: 'Seven days before the alliance election, Yi Rui and Yi Shuo are stranded at Tingyu House on a stormy night. The treasurer who swore to name the thief of 300,000 taels at dawn is found dead in a bolted room, cut by a Longmen blade, and the brothers are the first suspects. Collect clues, make three deductions and find the killer before dawn. Opens with the state of the martial world. A prequel to season one.' },
+    controls: { zh: '點擊／空白鍵／Enter 下一句 · 自動、快進、回顧、線索簿、章節按鈕 · 支援手把與手機觸控。', en: 'Click / Space / Enter for the next line · Auto, Skip, Backlog, Casebook and Chapters buttons · Gamepad and touch work.' }
+  },
+  {
     id: 'lowfen',
     url: '/lowfen/',
     thumb: 'thumbs/lowfen.jpg',
