@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'jiangdong-saga',
+    url: '/jiangdong-saga/',
+    thumb: 'thumbs/jiangdong-saga.jpg',
+    color: '#b8322a',
+    genres: ['rpg', 'strategy', 'story'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-16',
+    title:    { zh: '江東霸業傳', en: 'Saga of Jiangdong' },
+    tagline:  { zh: '原創架空三國軍團 RPG。以孫權為主角，五百名武將、策略、陣形和紙娃娃。中英雙語。', en: 'An original alternate-history Three Kingdoms army RPG starring Sun Quan, with 500 generals, tactics, formations and paper-doll gear. Chinese and English.' },
+    about:    { zh: '黑蓮教一夜害死孫堅與孫策，年輕的孫權被江東老臣看輕，只能帶著幾個忠心的人逃出建業。他在海邊救起漂流而來的 Jeff、Erin、Josh、Jasper，從此一起奪回江東、平定天下。256×192 格的大地圖、66 座城鎮關卡洞窟，邊走邊練功。兵力就是血量，32 種策略共用策略值，10 種陣形，30 種技能。500 名武將可以在酒館招募或俘虜後勸降，裝備會顯示在角色身上。十章架空劇情。', en: 'The Black Lotus sect murders Sun Jian and Sun Ce in a single night. Young Sun Quan, doubted by the old officers, flees Jianye with a few loyal men, rescues four shipwrecked travellers named Jeff, Erin, Josh and Jasper, and sets out to win back Jiangdong and the realm. A 256x192-tile world with 66 places to explore and train in. Troops are hit points; 32 tactics share one pool; 10 formations; 30 skills. Hire 500 generals in taverns or persuade captives, and see their gear on them. Ten chapters of alternate history.' },
+    controls: { zh: '方向鍵／WASD 移動 · Z／Enter／空白鍵 確定 · X／Esc 取消 · C／Tab 選單 · Q 全圖 · 按住 F 戰鬥加速。支援手把與手機觸控。', en: 'Arrows / WASD move · Z / Enter / Space confirm · X / Esc cancel · C / Tab menu · Q full map · hold F fast battle. Gamepad and touch work.' }
+  },
+  {
     id: 'longmen-case',
     url: '/longmen-case/',
     thumb: 'thumbs/longmen-case.jpg',
