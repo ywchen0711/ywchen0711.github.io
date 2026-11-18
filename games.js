@@ -48,7 +48,7 @@ window.GAMES = [
     players: '1',
     added: '2026-11-17',
     title:    { zh: '音樂館', en: 'Music Gallery' },
-    tagline:  { zh: '本站 47 款遊戲的 479 首配樂，依場景命名，標明出自哪款遊戲。', en: '479 tracks from 47 of our games, each named for its scene and labelled with its game.' },
+    tagline:  { zh: '本站 48 款遊戲的 487 首配樂，依場景命名，標明出自哪款遊戲。', en: '487 tracks from 48 of our games, each named for its scene and labelled with its game.' },
     about:    { zh: '把大廳裡所有遊戲的背景音樂放在一起。每首曲子依照它在遊戲裡出現的場景取了中英文名字，並寫出是哪款遊戲、在哪裡播放，可以直接點進去玩那款遊戲。程式即時合成的配樂都錄成了音檔；用開放授權素材的曲子，原曲名、作者和授權都標在旁邊。可以按遊戲瀏覽，或在全部曲目裡搜尋、依場景和氣氛篩選，有收藏、隨機、重播，iPhone 鎖定畫面也能控制。', en: 'All the background music from the games in this hub in one place. Every track has a Chinese and English name taken from the scene where it plays, with the game and the scene shown and a link to play that game. Music the games compose in code was recorded to audio; tracks from openly licensed packs show the original title, artist and licence beside them. Browse by game, or search all tracks and filter by scene and mood, with favourites, shuffle, repeat and lock-screen controls on iPhone.' },
     controls: { zh: '點選播放 · 空白鍵 播放／暫停 · ←→ 快轉倒轉 · Shift+←→ 上一首／下一首 · ↑↓ 音量', en: 'Click to play · Space play/pause · ←→ seek · Shift+←→ previous/next · ↑↓ volume' }
   },
