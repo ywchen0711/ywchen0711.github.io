@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'primeval-shore',
+    url: '/primeval-shore/',
+    thumb: 'thumbs/primeval-shore.jpg',
+    color: '#5a7a2a',
+    genres: ['action', 'sim'],
+    devices: ['keyboard', 'mouse', 'gamepad', 'touch'],
+    players: '1-2',
+    added: '2026-11-18',
+    title:    { zh: '遠古之岸', en: 'Primeval Shore' },
+    tagline:  { zh: 'HD-2D 恐龍求生：從幼雛長成霸主，在灰蕨島上覓食、喝水、與其他恐龍搏鬥。', en: 'HD-2D dinosaur survival: grow from hatchling to adult, eat, drink and fight other dinosaurs on Ashfern Isle.' },
+    about:    { zh: '從八種恐龍中選一隻（暴龍、異特龍、棘龍、恐爪龍、三角龍、劍龍、副櫛龍、迷惑龍），在有火山、湖泊、河口、沼澤和叢林的灰蕨島上求生。要顧飢餓、口渴、體力和傷勢，慢慢從幼雛長成成年；島上約六十五隻電腦恐龍成群生活、狩獵、搶食、互相廝殺。戰鬥看預兆、閃躲、體型和包抄，所有恐龍用同一套規則。也有競技場，可以打電腦或兩人同機對戰。恐龍與植物來自 Quaternius 和 Kenney 的 CC0 模型，轉成像素圖放進 3D 世界，有景深、光影、日夜和天氣。', en: 'Pick one of eight dinosaurs (Tyrannosaurus, Allosaurus, Spinosaurus, Deinonychus, Triceratops, Stegosaurus, Parasaurolophus, Apatosaurus) and survive on Ashfern Isle, with its volcano, lake, delta, swamp and jungle. Manage hunger, thirst, stamina and wounds as you grow from hatchling to adult while some sixty-five AI dinosaurs herd, hunt, scavenge and fight. Combat is about telegraphs, dodging, size and flanking, with the same rules for every animal. An arena lets you fight the computer or a friend on one device. CC0 models from Quaternius and Kenney are baked into pixel sprites in a 3D world with depth of field, lighting, day and night and weather.' },
+    controls: { zh: 'WASD 移動 · Shift 奔跑 · 滑鼠左鍵 咬 · 右鍵 重擊 · J/K/L 咬/重擊/絕技 · 空白鍵 閃避 · E 進食 · F 嗅覺 · 觸控：左搖桿＋右側按鈕', en: 'WASD move · Shift sprint · Left click bite · Right click heavy · J/K/L bite/heavy/special · Space dodge · E eat · F scent · Touch: left stick + right buttons' }
+  },
+  {
     id: 'tennis-coach',
     url: '/tennis-coach/',
     thumb: 'thumbs/tennis-coach.jpg',
