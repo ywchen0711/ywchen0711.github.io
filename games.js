@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'tennis-coach',
+    url: '/tennis-coach/',
+    thumb: 'thumbs/tennis-coach.jpg',
+    color: '#1f7a4a',
+    genres: ['sports', 'learning'],
+    devices: ['touch', 'mouse'],
+    players: '1',
+    added: '2026-11-18',
+    title:    { zh: '揮拍教練', en: 'Swing Coach' },
+    tagline:  { zh: '上傳手機拍的網球影片，任何角度都能分析揮拍並給你具體建議。', en: 'Upload a phone video of your tennis swing from any angle and get it analysed with concrete coaching.' },
+    about:    { zh: '選一段用手機拍的網球影片，App 會在你的裝置上辨識全身關節（影片不會上傳），自動找出每一拍並判斷是正手、反手、發球還是截擊。它用 3D 關節角度分析轉肩、髖肩分離、屈膝蹬地、擊球點、手臂伸展、動力鏈順序、平衡和收拍，並標出從這個角度量不準的數據。每一拍列出最該改善的兩三點，附上口訣和練習方法，也有骨架疊圖、慢動作、逐格檢視、曲線圖、兩拍比較和可分享的摘要圖。', en: 'Pick a tennis clip shot on your phone. The app tracks your whole body on your own device (the video is never uploaded), finds every swing and tells forehand, backhand, serve and volley apart. Using 3D joint angles it looks at unit turn, hip-shoulder separation, knee bend and leg drive, contact point, extension, kinetic-chain order, balance and finish, and flags numbers that are unreliable from your camera angle. Each swing gets its top two or three fixes with a cue and a drill, plus skeleton overlay, slow motion, frame stepping, charts, swing comparison and a shareable summary.' },
+    controls: { zh: '點選影片上傳 · 拖動時間軸逐格檢視 · 點選揮拍與分頁查看建議', en: 'Tap to upload a video · Drag the timeline to step frames · Tap swings and tabs for coaching' }
+  },
+  {
     id: 'music-gallery',
     url: '/music-gallery/',
     thumb: 'thumbs/music-gallery.jpg',
