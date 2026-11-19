@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'character-gallery',
+    url: '/character-gallery/',
+    thumb: 'thumbs/character-gallery.jpg',
+    color: '#8a5cd0',
+    genres: ['art'],
+    devices: ['mouse', 'touch'],
+    players: '1',
+    added: '2026-11-18',
+    title:    { zh: '人物圖庫', en: 'Character Gallery' },
+    tagline:  { zh: '原創像素人物：16 位元三國風頭像，加上 Q 版像素全身與動畫。', en: 'Original pixel characters: 16-bit Three Kingdoms style portraits with chibi full-body sprites and animations.' },
+    about:    { zh: '親手一格一格畫的原創像素人物圖庫。每個角色有一張 16 位元寫實風格的胸像頭像，和一個 Q 版像素全身形象，附待機、行走和招式動畫。可以放大檢視、看人物簡介，並下載原尺寸、4 倍放大與動畫表，給其他遊戲使用。第一位是關羽。', en: 'A library of original, hand-placed pixel characters. Each has a realistic 16-bit bust portrait and a chibi full-body sprite with idle, walk and signature-move animations. Zoom in, read a short bio, and download the native and 4x images and sprite sheets for use in other games. The first character is Guan Yu.' },
+    controls: { zh: '點選人物看詳細 · 切換動畫 · 下載圖檔', en: 'Tap a character for details · Switch animations · Download images' }
+  },
+  {
     id: 'primeval-shore',
     url: '/primeval-shore/',
     thumb: 'thumbs/primeval-shore.jpg',
