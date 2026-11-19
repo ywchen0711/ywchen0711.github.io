@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'longmen-quest',
+    url: '/longmen-quest/',
+    thumb: 'thumbs/longmen-quest.jpg',
+    color: '#2a4a9a',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'gamepad', 'touch'],
+    players: '1',
+    added: '2026-11-19',
+    title:    { zh: '龍門刀客傳', en: 'Longmen Quest' },
+    tagline:  { zh: '紅白機風的武俠 RPG：奕叡獨闖江湖救回弟弟奕碩，地圖是 HD-2D。', en: 'A Famicom-style wuxia RPG: Yi Rui sets out alone to rescue his brother Yi Shuo, across HD-2D maps.' },
+    about:    { zh: '龍門武林的外傳。黑風寨綁走了奕碩，奕叡一人一刀踏上江湖：八座城鎮、七座迷宮，一對一正面回合制戰鬥，用內力施展武功，靠飛索、渡船、燈籠和封印打開新的道路。白先生在聽雨樓替你記錄冒險，柳寒煙、苦禪、冷笑天各有交手與相助。人物與敵人全是 8 位元紅白機像素圖，地圖是有景深與光影的 HD-2D 立體世界，配樂是原創晶片音樂。', en: 'A side story of the Longmen jianghu. Bandits of Black Wind Fort take Yi Shuo, and Yi Rui sets out alone with his saber: eight towns, seven dungeons, one-on-one front-view turn battles, martial arts powered by inner strength, and new roads opened by a flying rope, a ferry, a lantern and three seals. Mr Bai records your journey at the Listening Rain Pavilion, while Liu Hanyan, Kuchan and Leng Xiaotian help or cross blades with you. Characters and foes are 8-bit Famicom pixel art in an HD-2D world with depth of field and lighting, with an original chiptune score.' },
+    controls: { zh: '方向鍵/WASD 移動 · Z/Enter 確定 · X/Esc 取消與選單 · 觸控：十字鍵＋A/B', en: 'Arrows/WASD move · Z/Enter confirm · X/Esc cancel and menu · Touch: d-pad + A/B' }
+  },
+  {
     id: 'character-gallery',
     url: '/character-gallery/',
     thumb: 'thumbs/character-gallery.jpg',
@@ -62,7 +76,7 @@ window.GAMES = [
     players: '1',
     added: '2026-11-17',
     title:    { zh: '音樂館', en: 'Music Gallery' },
-    tagline:  { zh: '本站 48 款遊戲的 487 首配樂，依場景命名，標明出自哪款遊戲。', en: '487 tracks from 48 of our games, each named for its scene and labelled with its game.' },
+    tagline:  { zh: '本站 49 款遊戲的 497 首配樂，依場景命名，標明出自哪款遊戲。', en: '497 tracks from 49 of our games, each named for its scene and labelled with its game.' },
     about:    { zh: '把大廳裡所有遊戲的背景音樂放在一起。每首曲子依照它在遊戲裡出現的場景取了中英文名字，並寫出是哪款遊戲、在哪裡播放，可以直接點進去玩那款遊戲。程式即時合成的配樂都錄成了音檔；用開放授權素材的曲子，原曲名、作者和授權都標在旁邊。可以按遊戲瀏覽，或在全部曲目裡搜尋、依場景和氣氛篩選，有收藏、隨機、重播，iPhone 鎖定畫面也能控制。', en: 'All the background music from the games in this hub in one place. Every track has a Chinese and English name taken from the scene where it plays, with the game and the scene shown and a link to play that game. Music the games compose in code was recorded to audio; tracks from openly licensed packs show the original title, artist and licence beside them. Browse by game, or search all tracks and filter by scene and mood, with favourites, shuffle, repeat and lock-screen controls on iPhone.' },
     controls: { zh: '點選播放 · 空白鍵 播放／暫停 · ←→ 快轉倒轉 · Shift+←→ 上一首／下一首 · ↑↓ 音量', en: 'Click to play · Space play/pause · ←→ seek · Shift+←→ previous/next · ↑↓ volume' }
   },
