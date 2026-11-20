@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'longmen-quest-2',
+    url: '/longmen-quest-2/',
+    thumb: 'thumbs/longmen-quest-2.jpg',
+    color: '#8a2a2a',
+    genres: ['rpg', 'story'],
+    devices: ['keyboard', 'gamepad', 'touch'],
+    players: '1',
+    added: '2026-11-20',
+    title:    { zh: '龍門刀客傳 貳・萬妖鈴', en: 'Longmen Quest II' },
+    tagline:  { zh: '紅白機風武俠 RPG 續作：四人隊伍、一群有怪癖的新人物，打倒的魔物還會要求加入你。', en: 'The Famicom-style wuxia RPG sequel: a party of four, a crowd of quirky new faces, and beaten monsters that ask to join you.' },
+    about:    { zh: '屠千秋倒下半年後，一口怪鈴響起，天下野獸發狂。奕叡帶著弟弟奕碩再次出發，四章劇情走遍水鄉、南疆和萬妖峰：11 座城鎮、9 座迷宮，還有船可以開。新人物個個有噬頭：算命永遠算錯的胡半仙、連自己鞋子都賣的賣八方、躲在酒缸裡的大塊頭武大膽、只講對聯的文對仗、不知道自己已經死了的蘇小婉、每戰必記敗場的宿敵楚天闊等。打倒的魔物有機會爬起來要求加入，66 種可以收服，會升級學招，多的放在百獸山寨。四人同場回合制戰鬥、紙娃娃換裝、7 個裝備部位、怪物掉落物，整個江湖一樣是一本立體書。', en: 'Half a year after Tu Qianqiu fell, a strange bell drives the beasts of the land mad. Yi Rui sets out again with his little brother Yi Shuo, across four chapters through the water country, the southlands and the Peak of Ten Thousand Beasts: 11 towns, 9 dungeons and a ship to sail. The new faces all have a hook: a fortune-teller who is always wrong, a peddler who sells even his own shoes, a giant coward who hides in wine jars, a poet who speaks only in couplets, a ghost who does not know she is dead, a rival who keeps a book of his defeats and more. Beaten monsters may get up and ask to join: 66 kinds can be recruited, they level up and learn arts, and the rest wait at the Hundred Beasts Camp. Party battles of four, a paper doll, seven gear slots and monster drops, all in a pop-up storybook.' },
+    controls: { zh: '方向鍵/WASD 移動 · Z/Enter 確定 · X/Esc 取消與選單 · 觸控：十字鍵＋A/B', en: 'Arrows/WASD move · Z/Enter confirm · X/Esc cancel and menu · Touch: d-pad + A/B' }
+  },
+  {
     id: 'longmen-quest',
     url: '/longmen-quest/',
     thumb: 'thumbs/longmen-quest.jpg',
