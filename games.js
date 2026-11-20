@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'sects-of-longmen',
+    url: '/sects-of-longmen/',
+    thumb: 'thumbs/sects-of-longmen.jpg',
+    color: '#8a3a2a',
+    genres: ['strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-20',
+    title:    {"zh": "龍門江湖志", "en": "Sects of Longmen"},
+    tagline:  {"zh": "以龍門江湖為舞台的開宗立派六角格策略遊戲", "en": "A hex 4X strategy game of the Longmen jianghu"},
+    about:    {"zh": "原創回合制 4X 策略：十一個龍門門派（奕叡、柳寒煙、苦禪、冷笑天、屠千秋……）各有絕學、獨門弟子與建築。開山立派、研習武學之樹與江湖規矩、招募龍門俠客、派使者結交村寨、在武林大會投票，以武林盟主、武學宗師、俠名遠播或眾望所歸稱霸江湖。種子地圖三種大小、電腦對手 1–7 派、五種難度、存檔與自動存檔，中英雙語。", "en": "An original turn-based 4X strategy game: eleven Longmen sects (Yi Rui, Liu Hanyan, Kuchan, Leng Xiaotian, Tu Qianqiu...) each with an ability, a unique unit and building. Found strongholds, study the martial arts and the jianghu rules, recruit Longmen heroes, send envoys to villages, vote at the Wulin Assembly, and win by conquest, mastery, renown or the Assembly. Seeded maps in three sizes, 1-7 computer sects, five difficulties, saves and autosave, Chinese and English."},
+    controls: {"zh": "滑鼠／觸控：拖曳平移、雙指或滾輪縮放，點部隊再點兩下目的地移動；鍵盤：方向鍵平移、Enter 下一步、N 下一單位、F 駐守、B 建城", "en": "Mouse/touch: drag to pan, pinch or wheel to zoom, tap a unit then tap a destination twice; keys: arrows pan, Enter next step, N next unit, F fortify, B found city"}
+  },
+  {
     id: 'longmen-quest-2',
     url: '/longmen-quest-2/',
     thumb: 'thumbs/longmen-quest-2.jpg',
