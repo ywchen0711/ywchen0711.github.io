@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'longmen-ruckus',
+    url: '/longmen-ruckus/',
+    thumb: 'thumbs/longmen-ruckus.jpg',
+    color: '#c8602a',
+    genres: ['action', 'puzzle'],
+    devices: ['keyboard', 'gamepad', 'touch'],
+    players: '1-4',
+    added: '2026-11-20',
+    title:    {"zh": "龍門鬧江湖", "en": "Longmen Ruckus"},
+    tagline:  {"zh": "龍門武林的搞笑派對大富翁，四人連線同樂", "en": "A slapstick wuxia party board game for four, online"},
+    about:    {"zh": "原創武林派對遊戲：龍門十二位角色輪流擲骰，跟白先生買《武林秘笈》，遇上胡半仙算命、賈八方推銷、黑風寨打劫；每回合一場小遊戲（15 種：屋瓦雨、包子大胃王、真假白先生、划龍舟……）。三張地圖，可開房間用代碼連線，也能單人對電腦。", "en": "An original wuxia party game: twelve Longmen heroes roll and race to buy Secret Manuals from Mr Bai, dodging Hu Banxian's fortunes, Jia Bafang's heirlooms and bandit ambushes, with a minigame every round (15 of them: roof-tile rain, bun-eating, find the real Mr Bai, dragon boats...). Three boards; create a room and share the code to play online, or play solo vs bots."},
+    controls: {"zh": "鍵盤方向鍵＋空白鍵／手把／觸控（小遊戲：左半邊搖桿、右半邊 A 鍵）", "en": "Arrows + Space, gamepad, or touch (minigames: left half stick, right half A)"}
+  },
+  {
     id: 'sects-of-longmen',
     url: '/sects-of-longmen/',
     thumb: 'thumbs/sects-of-longmen.jpg',
