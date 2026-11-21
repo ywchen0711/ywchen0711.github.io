@@ -11,6 +11,20 @@
  */
 window.GAMES = [
   {
+    id: 'longmen-tactics',
+    url: '/longmen-tactics/',
+    thumb: 'thumbs/longmen-tactics.jpg',
+    color: '#8a2f2a',
+    genres: ['rpg', 'strategy'],
+    devices: ['keyboard', 'touch'],
+    players: '1',
+    added: '2026-11-20',
+    title:    {"zh": "龍門戰記", "en": "Longmen Tactics"},
+    tagline:  {"zh": "龍門雙奕外傳・八派戰旗：武俠戰棋 RPG", "en": "A wuxia tactics RPG with the Longmen brothers and the eight sect banners"},
+    about:    {"zh": "原創武俠戰棋 RPG。十年一度的戰旗大會前夕，黑旗會四處搶奪八大門派的戰旗，想舉起八面旗奪下武林盟主之位。奕叡和奕碩背著龍門刀莊的鯉魚旗上路，和柳寒煙、苦禪、冷笑天、鐵無私、武大膽、文對仗、阿蠻等江湖人物並肩作戰。高低差等角地圖、身法決定的出手順序、蓄氣內功與輕功躍擊、背後出手、點穴、偷竊與收服野獸、三十五種武學職業、序章加五章三十三場劇情戰、二十場茶館委託和四座隱藏迷宮。人物來自人物圖庫的 8-bit 紅白機畫風，配樂是原創曲以真實樂器取樣演奏。", "en": "An original wuxia tactics RPG. On the eve of the Banner Assembly the Black Banner Society is seizing the eight great houses' banners to raise all eight and take the Alliance seat. Yi Rui and Yi Shuo set out with the Longmen carp banner and fight beside Liu Hanyan, Kuchan, Leng Xiaotian, Tie Wusi, Wu Dadan, Wen Duizhang, A-Man and more. Isometric maps with height, speed-based turn order, charged internal arts and qinggong leaps, back attacks, pressure points, stealing and beast taming, 35 martial jobs, a prologue and five chapters with 33 story battles, 20 teahouse requests and four hidden labyrinths. 8-bit Famicom characters from the Character Gallery; an original score played with real instrument samples."},
+    controls: {"zh": "點地圖或用方向鍵選格子，Z/Enter 確定，X/Esc 取消；拖曳移動視角，右鍵拖曳或 Q/E 旋轉，滾輪或兩指縮放。戰鬥中可開「自動」讓全隊照方針自己打。手機與 iPad 直接觸控。", "en": "Tap the map or use the arrow keys to pick tiles, Z/Enter to confirm, X/Esc to go back; drag to pan, right-drag or Q/E to turn, wheel or pinch to zoom. Turn on Auto in battle and the company fights by its orders. Touch works on phones and iPads."}
+  },
+  {
     id: 'longmen-ruckus',
     url: '/longmen-ruckus/',
     thumb: 'thumbs/longmen-ruckus.jpg',
